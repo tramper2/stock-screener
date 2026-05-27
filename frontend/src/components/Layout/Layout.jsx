@@ -49,9 +49,9 @@ function TickerSearch() {
       value={tickerInput}
       onChange={(e) => setTickerInput(e.target.value)}
       onKeyDown={handleTickerSubmit}
-      placeholder="TICKER"
+      placeholder="종목코드"
       size="small"
-      inputProps={{ 'aria-label': 'Go to ticker' }}
+      inputProps={{ 'aria-label': '종목 바로가기' }}
       sx={{
         px: 1.5,
         py: 0.25,
@@ -82,13 +82,13 @@ function Layout({ children }) {
   const assistantAvailable = features.chatbot && (!auth?.required || auth?.authenticated);
 
   const navItems = [
-    { path: '/', label: 'Daily' },
-    { path: '/scan', label: 'Scan' },
-    { path: '/breadth', label: 'Breadth' },
-    { path: '/groups', label: 'Groups' },
-    { path: '/validation', label: 'Backtest' },
-    ...(features.themes ? [{ path: '/themes', label: 'Themes' }] : []),
-    ...(features.chatbot ? [{ path: '/chatbot', label: 'Assistant' }] : []),
+    { path: '/', label: '데일리' },
+    { path: '/scan', label: '조건 검색' },
+    { path: '/breadth', label: '시장 심도' },
+    { path: '/groups', label: '업종/테마' },
+    { path: '/validation', label: '백테스트' },
+    ...(features.themes ? [{ path: '/themes', label: '테마 탐색' }] : []),
+    ...(features.chatbot ? [{ path: '/chatbot', label: 'AI 비서' }] : []),
   ];
 
   const [profileMenuAnchor, setProfileMenuAnchor] = useState(null);
@@ -106,7 +106,7 @@ function Layout({ children }) {
         <Toolbar variant="dense" sx={{ minHeight: 48 }}>
           <ShowChartIcon sx={{ mr: 1, fontSize: 20 }} />
           <Typography variant="subtitle1" component="div" sx={{ fontWeight: 600 }}>
-            STOCK SCANNER
+            주식 스크리너
           </Typography>
           <RuntimeActivityStatusButton />
           <Box sx={{ flexGrow: 1 }} />
@@ -142,8 +142,8 @@ function Layout({ children }) {
             sx={{ ml: 1 }}
             onClick={(event) => setProfileMenuAnchor(event.currentTarget)}
             color="inherit"
-            title={`Profile: ${activeProfileLabel}`}
-            aria-label="Select strategy profile"
+            title={`프로필: ${activeProfileLabel}`}
+            aria-label="전략 프로필 선택"
             aria-haspopup="menu"
             aria-expanded={profileMenuOpen}
             size="small"
@@ -175,7 +175,7 @@ function Layout({ children }) {
               sx={{ ml: 0.5 }}
               onClick={() => setSettingsOpen(true)}
               color="inherit"
-              title="Scheduled Tasks"
+              title="예약된 작업"
               size="small"
             >
               <SettingsIcon fontSize="small" />
@@ -189,14 +189,14 @@ function Layout({ children }) {
               disabled={isLoggingOut}
               sx={{ ml: 1, fontSize: '12px' }}
             >
-              Sign out
+              로그아웃
             </Button>
           )}
           <IconButton
             sx={{ ml: 0.5 }}
             onClick={colorMode.toggleColorMode}
             color="inherit"
-            title={theme.palette.mode === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+            title={theme.palette.mode === 'dark' ? '라이트 모드로 전환' : '다크 모드로 전환'}
             size="small"
           >
             {theme.palette.mode === 'dark' ? <Brightness7Icon fontSize="small" /> : <Brightness4Icon fontSize="small" />}
@@ -216,7 +216,7 @@ function Layout({ children }) {
         <>
           <Fab
             color="secondary"
-            aria-label="Open assistant"
+            aria-label="AI 비서 열기"
             onClick={() => setAssistantOpen(true)}
             sx={{
               position: 'fixed',

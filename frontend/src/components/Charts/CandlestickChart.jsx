@@ -444,11 +444,11 @@ function CandlestickChart({
 
     // Create candlestick series
     const candlestickSeries = chart.addSeries(CandlestickSeries, {
-      upColor: '#2196f3',
-      downColor: '#E619CD',
+      upColor: '#d32f2f', // Red for 상승 (Gain)
+      downColor: '#1565c0', // Blue for 하락 (Loss)
       borderVisible: false,
-      wickUpColor: '#2196f3',
-      wickDownColor: '#E619CD',
+      wickUpColor: '#d32f2f',
+      wickDownColor: '#1565c0',
       priceScaleId: 'right',
     });
     candlestickSeries.priceScale().applyOptions({
@@ -746,7 +746,7 @@ function CandlestickChart({
           {legendData.changePercent !== null && (
             <span
               style={{
-                color: legendData.changePercent >= 0 ? '#4CF64D' : '#E619CD',
+                color: legendData.changePercent >= 0 ? '#d32f2f' : '#1565c0',
                 fontWeight: 500,
               }}
             >

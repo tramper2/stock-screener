@@ -18,7 +18,7 @@ function FundamentalFiltersSection({
 }) {
   return (
     <FilterSection
-      title="Fundamental"
+      title="기본적 분석 (Fundamental)"
       category="fundamental"
       activeCount={activeCount}
       defaultExpanded={defaultExpanded}
@@ -31,13 +31,13 @@ function FundamentalFiltersSection({
               color="text.secondary"
               sx={{ display: 'block', mb: 0.5, fontSize: '0.7rem' }}
             >
-              Symbol
+              종목 코드
             </Typography>
             <TextField
               size="small"
               value={filters.symbolSearch || ''}
               onChange={(event) => updateFilter('symbolSearch', event.target.value)}
-              placeholder="Search..."
+              placeholder="검색..."
               sx={{
                 width: '100%',
                 '& .MuiOutlinedInput-root': { height: 28 },
@@ -48,7 +48,7 @@ function FundamentalFiltersSection({
         </Grid>
         <Grid item xs={6} sm={3} md={1.5}>
           <CompactSelect
-            label="Mkt Cap (local)"
+            label="시가총액 (로컬)"
             value={filters.minMarketCap}
             options={MARKET_CAP_OPTIONS}
             onChange={(value) => updateFilter('minMarketCap', value)}
@@ -56,7 +56,7 @@ function FundamentalFiltersSection({
         </Grid>
         <Grid item xs={6} sm={3} md={1.5}>
           <CompactSelect
-            label="Dollar Vol (local)"
+            label="거래대금 (로컬)"
             value={filters.minVolume}
             options={VOLUME_OPTIONS}
             onChange={(value) => updateFilter('minVolume', value)}
@@ -64,7 +64,7 @@ function FundamentalFiltersSection({
         </Grid>
         <Grid item xs={6} sm={4} md={1.5}>
           <CompactRangeInput
-            label="Price"
+            label="주가"
             minValue={filters.price?.min}
             maxValue={filters.price?.max}
             onChange={(range) => updateRangeFilter('price', range)}
@@ -75,7 +75,7 @@ function FundamentalFiltersSection({
         </Grid>
         <Grid item xs={6} sm={4} md={1.5}>
           <CompactRangeInput
-            label="EPS Growth"
+            label="EPS 성장률"
             minValue={filters.epsGrowth?.min}
             maxValue={filters.epsGrowth?.max}
             onChange={(range) => updateRangeFilter('epsGrowth', range)}
@@ -86,7 +86,7 @@ function FundamentalFiltersSection({
         </Grid>
         <Grid item xs={6} sm={4} md={1.5}>
           <CompactRangeInput
-            label="Sales Growth"
+            label="매출 성장률"
             minValue={filters.salesGrowth?.min}
             maxValue={filters.salesGrowth?.max}
             onChange={(range) => updateRangeFilter('salesGrowth', range)}
@@ -97,7 +97,7 @@ function FundamentalFiltersSection({
         </Grid>
         <Grid item xs={6} sm={4} md={1.5}>
           <CompactRangeInput
-            label="EPS Rating"
+            label="EPS 등급"
             minValue={filters.epsRating?.min}
             maxValue={filters.epsRating?.max}
             onChange={(range) => updateRangeFilter('epsRating', range)}
@@ -109,7 +109,7 @@ function FundamentalFiltersSection({
         </Grid>
         <Grid item xs={12} sm={6} md={2.5}>
           <CompactMultiSelect
-            label="IBD Industry"
+            label="IBD 산업군"
             values={filters.ibdIndustries?.values || []}
             options={filterOptions.ibdIndustries || []}
             onChange={(values) => updateFilter('ibdIndustries', { ...filters.ibdIndustries, values })}
@@ -120,7 +120,7 @@ function FundamentalFiltersSection({
         </Grid>
         <Grid item xs={12} sm={6} md={2.5}>
           <CompactMultiSelect
-            label="GICS Sector"
+            label="GICS 섹터"
             values={filters.gicsSectors?.values || []}
             options={filterOptions.gicsSectors || []}
             onChange={(values) => updateFilter('gicsSectors', { ...filters.gicsSectors, values })}
@@ -143,12 +143,12 @@ function FundamentalFiltersSection({
         color="text.secondary"
         sx={{ display: 'block', mb: 1, fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: 0.5 }}
       >
-        Cross-Market (USD-normalised)
+        교차 시장 조건 (USD 환산 기준)
       </Typography>
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6} md={3}>
           <CompactMultiSelect
-            label="Markets"
+            label="대상 시장"
             values={filters.markets || []}
             options={MARKET_OPTIONS}
             onChange={(values) => updateFilter('markets', values)}
@@ -156,7 +156,7 @@ function FundamentalFiltersSection({
         </Grid>
         <Grid item xs={6} sm={4} md={2}>
           <CompactRangeInput
-            label="Mkt Cap (USD)"
+            label="시가총액 (USD)"
             minValue={filters.marketCapUsd?.min}
             maxValue={filters.marketCapUsd?.max}
             onChange={(range) => updateRangeFilter('marketCapUsd', range)}
@@ -167,7 +167,7 @@ function FundamentalFiltersSection({
         </Grid>
         <Grid item xs={6} sm={4} md={2}>
           <CompactRangeInput
-            label="ADV (USD)"
+            label="평균거래대금 (USD)"
             minValue={filters.advUsd?.min}
             maxValue={filters.advUsd?.max}
             onChange={(range) => updateRangeFilter('advUsd', range)}

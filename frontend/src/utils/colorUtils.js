@@ -15,11 +15,11 @@ export const getStageColor = (stage) => {
     case 1:
       return '#9e9e9e'; // Gray - Basing
     case 2:
-      return '#4caf50'; // Green - Advancing
+      return '#d32f2f'; // Red - Advancing
     case 3:
       return '#ff9800'; // Orange - Topping
     case 4:
-      return '#f44336'; // Red - Declining
+      return '#1565c0'; // Blue - Declining
     default:
       return '#9e9e9e';
   }
@@ -62,10 +62,10 @@ export const getGrowthColor = (value) => {
  */
 export const getGrowthColorHex = (value) => {
   if (value == null) return '#9e9e9e';
-  if (value >= 20) return '#4caf50'; // Green
-  if (value >= 0) return '#8bc34a'; // Light Green
+  if (value >= 20) return '#d32f2f'; // Red
+  if (value >= 0) return '#ef5350'; // Light Red
   if (value >= -10) return '#ff9800'; // Orange
-  return '#f44336'; // Red
+  return '#1565c0'; // Blue
 };
 
 /**
@@ -87,9 +87,9 @@ export const getEpsRatingColor = (value) => {
  */
 export const getEpsRatingColorHex = (value) => {
   if (value == null) return '#9e9e9e';
-  if (value >= 80) return '#4caf50'; // Strong - green
+  if (value >= 80) return '#d32f2f'; // Strong - Red
   if (value >= 50) return '#000000'; // Neutral - inherit/black
-  return '#f44336'; // Weak - red
+  return '#1565c0'; // Weak - Blue
 };
 
 /**

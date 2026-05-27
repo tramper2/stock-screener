@@ -35,8 +35,8 @@ import {
   YAxis,
 } from 'recharts';
 
-const UP_COLOR = '#4caf50';
-const DOWN_COLOR = '#f44336';
+const UP_COLOR = '#d32f2f';
+const DOWN_COLOR = '#1565c0';
 const FLAT_COLOR = '#9e9e9e';
 const NO_GROUP_LABEL = 'No Group';
 
@@ -260,9 +260,9 @@ function GroupRow({ row, maxAbsNet, trendData }) {
   const netIntensity = maxAbsNet > 0 ? Math.min(Math.abs(row.net) / maxAbsNet, 1) : 0;
   const netBgColor =
     row.net > 0
-      ? `rgba(76, 175, 80, ${(netIntensity * 0.32).toFixed(3)})`
+      ? `rgba(211, 47, 47, ${(netIntensity * 0.32).toFixed(3)})`
       : row.net < 0
-        ? `rgba(244, 67, 54, ${(netIntensity * 0.32).toFixed(3)})`
+        ? `rgba(21, 101, 192, ${(netIntensity * 0.32).toFixed(3)})`
         : 'transparent';
 
   return (
@@ -438,7 +438,7 @@ function BreadthGroupAttribution({ attribution }) {
   if (!attribution || attribution.available === false) {
     return (
       <Alert severity="info" sx={{ fontSize: '12px' }}>
-        {attribution?.reason || 'Group attribution is not available for this market yet.'}
+        {attribution?.reason || '이 시장에 대한 업종별 기여도는 아직 지원되지 않습니다.'}
       </Alert>
     );
   }
@@ -446,7 +446,7 @@ function BreadthGroupAttribution({ attribution }) {
   if (!selectedDay) {
     return (
       <Alert severity="info" sx={{ fontSize: '12px' }}>
-        No 4%+ movers were attributed for the lookback window.
+        조회 기간 동안 4% 이상 등락한 종목이 없습니다.
       </Alert>
     );
   }
@@ -544,14 +544,12 @@ function BreadthGroupAttribution({ attribution }) {
             </TableContainer>
           </Paper>
           <Typography variant="caption" color="text.secondary" sx={{ mt: 1, display: 'block' }}>
-            Click a group to expand its 4%+ movers. Stocks without an IBD industry group are
-            bucketed under &quot;No Group&quot;.
+            업종을 클릭하면 4% 이상 등락한 종목을 볼 수 있습니다. IBD 업종이 없는 종목은 "No Group"으로 분류됩니다.
           </Typography>
         </>
       ) : (
         <Alert severity="info" sx={{ fontSize: '12px' }}>
-          No 4%+ movers were attributed for {selectedDay.date}. Pick another session above to see
-          the groups that drove its breadth.
+          {selectedDay.date} 기준 4% 이상 등락한 종목이 없습니다. 위의 다른 세션을 선택해 보세요.
         </Alert>
       )}
     </Box>

@@ -126,9 +126,9 @@ export const formatPatternName = (name) => {
  */
 export const getScoreColor = (score) => {
   if (score == null) return undefined;
-  if (score >= 70) return '#4caf50';
-  if (score >= 40) return '#ff9800';
-  return '#f44336';
+  if (score >= 70) return '#d32f2f'; // Red for high scores
+  if (score >= 40) return '#ff9800'; // Orange
+  return '#1565c0'; // Blue for low scores
 };
 
 // Per-market currency-symbol map. Matches the conventions used in the rest

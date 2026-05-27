@@ -71,32 +71,32 @@ describe('FilterPanel', () => {
   describe('SE filter controls render', () => {
     it('renders SE Score range input', () => {
       renderWithProviders(<FilterPanel {...makeProps()} />);
-      expect(screen.getByText('SE Score')).toBeInTheDocument();
+      expect(screen.getByText('셋업엔진 점수')).toBeInTheDocument();
     });
 
     it('renders Pvt Dist range input', () => {
       renderWithProviders(<FilterPanel {...makeProps()} />);
-      expect(screen.getByText('Pvt Dist')).toBeInTheDocument();
+      expect(screen.getByText('피봇 거리')).toBeInTheDocument();
     });
 
     it('renders Squeeze range input', () => {
       renderWithProviders(<FilterPanel {...makeProps()} />);
-      expect(screen.getByText('Squeeze')).toBeInTheDocument();
+      expect(screen.getByText('스퀴즈')).toBeInTheDocument();
     });
 
     it('renders Vol/50d range input', () => {
       renderWithProviders(<FilterPanel {...makeProps()} />);
-      expect(screen.getByText('Vol/50d')).toBeInTheDocument();
+      expect(screen.getByText('거래량/50일평균')).toBeInTheDocument();
     });
 
     it('renders SE Ready checkbox', () => {
       renderWithProviders(<FilterPanel {...makeProps()} />);
-      expect(screen.getByText('SE Ready')).toBeInTheDocument();
+      expect(screen.getByText('셋업 준비완료')).toBeInTheDocument();
     });
 
     it('renders RS Hi checkbox', () => {
       renderWithProviders(<FilterPanel {...makeProps()} />);
-      expect(screen.getByText('RS Hi')).toBeInTheDocument();
+      expect(screen.getByText('RS 신고가')).toBeInTheDocument();
     });
   });
 
@@ -111,7 +111,7 @@ describe('FilterPanel', () => {
       const user = userEvent.setup();
       // SE Score is a minOnly range input — find its single spinbutton
       // by locating the label first, then the input within the same grid item
-      const seScoreLabel = screen.getByText('SE Score');
+      const seScoreLabel = screen.getByText('셋업엔진 점수');
       const seScoreContainer = seScoreLabel.closest('[class*="MuiGrid-item"]');
       const input = within(seScoreContainer).getByRole('spinbutton');
 
@@ -131,7 +131,7 @@ describe('FilterPanel', () => {
       );
 
       const user = userEvent.setup();
-      const pvtLabel = screen.getByText('Pvt Dist');
+      const pvtLabel = screen.getByText('피봇 거리');
       const pvtContainer = pvtLabel.closest('[class*="MuiGrid-item"]');
       const inputs = within(pvtContainer).getAllByRole('spinbutton');
       // Pvt Dist has both min and max inputs
@@ -156,7 +156,7 @@ describe('FilterPanel', () => {
       );
 
       const user = userEvent.setup();
-      const seReadyLabel = screen.getByText('SE Ready');
+      const seReadyLabel = screen.getByText('셋업 준비완료');
       const seReadyContainer = seReadyLabel.closest('[class*="MuiGrid-item"]');
       const yesBtn = within(seReadyContainer).getByText('Yes');
 
@@ -173,7 +173,7 @@ describe('FilterPanel', () => {
       );
 
       const user = userEvent.setup();
-      const rsHiLabel = screen.getByText('RS Hi');
+      const rsHiLabel = screen.getByText('RS 신고가');
       const rsHiContainer = rsHiLabel.closest('[class*="MuiGrid-item"]');
       const noBtn = within(rsHiContainer).getByText('No');
 
@@ -191,7 +191,7 @@ describe('FilterPanel', () => {
       );
 
       const user = userEvent.setup();
-      const seReadyLabel = screen.getByText('SE Ready');
+      const seReadyLabel = screen.getByText('셋업 준비완료');
       const seReadyContainer = seReadyLabel.closest('[class*="MuiGrid-item"]');
       const yesBtn = within(seReadyContainer).getByText('Yes');
 
@@ -212,19 +212,19 @@ describe('FilterPanel', () => {
 
       const user = userEvent.setup();
 
-      const marketCapContainer = screen.getByText('Mkt Cap (local)').closest('[class*="MuiGrid-item"]');
+      const marketCapContainer = screen.getByText('시가총액 (로컬)').closest('[class*="MuiGrid-item"]');
       const marketCapSelect = within(marketCapContainer).getByRole('combobox');
       await user.click(marketCapSelect);
-      await user.click(await screen.findByRole('option', { name: '>$1B' }));
+      await user.click(await screen.findByRole('option', { name: '10억 달러 초과' }));
 
       expect(onFilterChange).toHaveBeenCalledWith(
         expect.objectContaining({ minMarketCap: 1000000000 })
       );
 
-      const volumeContainer = screen.getByText('Dollar Vol (local)').closest('[class*="MuiGrid-item"]');
+      const volumeContainer = screen.getByText('거래대금 (로컬)').closest('[class*="MuiGrid-item"]');
       const volumeSelect = within(volumeContainer).getByRole('combobox');
       await user.click(volumeSelect);
-      await user.click(await screen.findByRole('option', { name: '>$100M' }));
+      await user.click(await screen.findByRole('option', { name: '1억 달러 ($100M) 초과' }));
 
       expect(onFilterChange).toHaveBeenLastCalledWith(
         expect.objectContaining({ minVolume: 100000000 })
@@ -282,9 +282,9 @@ describe('FilterPanel', () => {
   describe('structural', () => {
     it('renders all 3 section headers', () => {
       renderWithProviders(<FilterPanel {...makeProps()} />);
-      expect(screen.getByText('Fundamental')).toBeInTheDocument();
-      expect(screen.getByText('Technical')).toBeInTheDocument();
-      expect(screen.getByText('Rating / Score')).toBeInTheDocument();
+      expect(screen.getByText('기본적 분석 (Fundamental)')).toBeInTheDocument();
+      expect(screen.getByText('기술적 분석 (Technical)')).toBeInTheDocument();
+      expect(screen.getByText('평가 및 스코어 (Rating / Score)')).toBeInTheDocument();
     });
 
     it('calls onReset when Reset button is clicked', async () => {

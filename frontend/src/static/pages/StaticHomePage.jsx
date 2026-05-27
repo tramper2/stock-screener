@@ -120,7 +120,7 @@ function StaticHomePage() {
   if (manifestQuery.isError || homeQuery.isError || scanRowsQuery.isError) {
     return (
       <Alert severity="error">
-        Failed to load the daily snapshot.
+        데일리 스냅샷을 불러오지 못했습니다.
       </Alert>
     );
   }
@@ -151,14 +151,14 @@ function StaticHomePage() {
         }}
       >
         <Typography variant="h5" sx={{ fontWeight: 700, letterSpacing: '-0.5px' }}>
-          {flag ? `${flag}  ` : ''}{marketDisplay} Snapshot
+          {flag ? `${flag}  ` : ''}{marketDisplay} 현황
         </Typography>
         <Typography
           variant="caption"
           color="text.secondary"
           sx={{ fontFamily: 'monospace', fontSize: '11px' }}
         >
-          {`Snapshot ${freshness.scan_as_of_date || '-'} · Breadth ${freshness.breadth_latest_date || '-'} · Groups ${freshness.groups_latest_date || '-'}`}
+          {`스냅샷 ${freshness.scan_as_of_date || '-'} · 심도 ${freshness.breadth_latest_date || '-'} · 업종/테마 ${freshness.groups_latest_date || '-'}`}
         </Typography>
       </Box>
 
@@ -247,16 +247,16 @@ function StaticHomePage() {
         >
           <Box>
             <Typography variant="subtitle1" sx={{ fontWeight: 600, fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.5px', mb: 0.5 }}>
-              Top Scan Candidates
+              상위 조건 검색 후보
             </Typography>
             <Typography variant="caption" color="text.disabled" sx={{ display: 'block', fontSize: '10px' }}>
-              Dollar volume &gt; $100M. Click a row for chart details.
+              거래대금 조건 충족 종목. 클릭 시 차트 상세를 확인하세요.
             </Typography>
           </Box>
           <TextField
             select
             size="small"
-            label="Mkt Cap"
+            label="시가총액"
             value={marketCapMin}
             onChange={(event) => {
               const nextValue = event.target.value;
@@ -264,27 +264,36 @@ function StaticHomePage() {
             }}
             sx={{ minWidth: 140 }}
           >
-            <MenuItem value="">All</MenuItem>
-            {MARKET_CAP_OPTIONS.map((option) => (
-              <MenuItem key={option.value} value={option.value}>
-                {option.label}
-              </MenuItem>
-            ))}
+            <MenuItem value="">전체 시총</MenuItem>
+            {MARKET_CAP_OPTIONS.map((option) => {
+              let labelKo = option.label;
+              if (option.label === '>$10B') labelKo = '100억 달러 이상';
+              if (option.label === '>$1B') labelKo = '10억 달러 이상';
+              if (option.label === '>$500M') labelKo = '5억 달러 이상';
+              if (option.label === '>$250M') labelKo = '2.5억 달러 이상';
+              if (option.label === '>$100M') labelKo = '1억 달러 이상';
+              if (option.label === '<$100M') labelKo = '1억 달러 미만';
+              return (
+                <MenuItem key={option.value} value={option.value}>
+                  {labelKo}
+                </MenuItem>
+              );
+            })}
           </TextField>
         </Box>
         <TableContainer>
           <Table size="small">
             <TableHead>
               <TableRow>
-                <TableCell align="center">Symbol</TableCell>
-                <TableCell align="center">Score</TableCell>
-                <TableCell align="center">Price</TableCell>
-                <TableCell align="center">MCap</TableCell>
-                <TableCell align="center">Rating</TableCell>
-                <TableCell align="center">Price Trend (30d)</TableCell>
-                <TableCell align="center">RS Trend (30d)</TableCell>
-                <TableCell align="center">IBD Group</TableCell>
-                <TableCell align="center">Grp Rank</TableCell>
+                <TableCell align="center">종목 코드</TableCell>
+                <TableCell align="center">종합 점수</TableCell>
+                <TableCell align="center">현재가</TableCell>
+                <TableCell align="center">시가총액</TableCell>
+                <TableCell align="center">평가</TableCell>
+                <TableCell align="center">주가 트렌드 (30일)</TableCell>
+                <TableCell align="center">상대강도(RS) 트렌드</TableCell>
+                <TableCell align="center">산업군</TableCell>
+                <TableCell align="center">업종 순위</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -356,7 +365,7 @@ function StaticHomePage() {
               {topResults.length === 0 ? (
                 <TableRow>
                   <TableCell align="center" colSpan={9}>
-                    No scan candidates match the current filters.
+                    현재 필터 조건을 만족하는 종목이 없습니다.
                   </TableCell>
                 </TableRow>
               ) : null}
@@ -367,17 +376,17 @@ function StaticHomePage() {
 
       <Paper elevation={0} sx={{ p: 1.5, border: '1px solid', borderColor: 'divider' }}>
         <Typography variant="subtitle1" sx={{ fontWeight: 600, fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.5px', mb: 0.5 }}>
-          Top 10 Groups
+          상위 10개 업종/테마
         </Typography>
         <TableContainer>
           <Table size="small">
             <TableHead>
               <TableRow>
-                <TableCell align="center">Rank</TableCell>
-                <TableCell>Group</TableCell>
-                <TableCell align="right">1W</TableCell>
-                <TableCell align="right">1M</TableCell>
-                <TableCell>Top Stock</TableCell>
+                <TableCell align="center">순위</TableCell>
+                <TableCell>업종</TableCell>
+                <TableCell align="right">1주</TableCell>
+                <TableCell align="right">1달</TableCell>
+                <TableCell>주도 종목</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>

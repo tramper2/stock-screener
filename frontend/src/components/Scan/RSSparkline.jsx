@@ -49,13 +49,13 @@ function RSSparkline({ data, trend, width = 60, height = 20 }) {
 
   // Get trend text and percentage for tooltip
   const tooltipText = useMemo(() => {
-    if (!chartData || chartData.length === 0) return 'No RS data';
-    const trendText = trend === 1 ? 'Improving' : trend === -1 ? 'Declining' : 'Flat';
+    if (!chartData || chartData.length === 0) return '상대강도(RS) 데이터 없음';
+    const trendText = trend === 1 ? '개선됨' : trend === -1 ? '약화됨' : '보합';
     const firstVal = chartData[0]?.value || 1;
     const lastVal = chartData[chartData.length - 1]?.value || 1;
     const change = ((lastVal - firstVal) / firstVal) * 100;
     const sign = change >= 0 ? '+' : '';
-    return `RS ${trendText} (${sign}${change.toFixed(1)}% over 30d)`;
+    return `상대강도(RS) ${trendText} (30일간 ${sign}${change.toFixed(1)}%)`;
   }, [trend, chartData]);
 
   // No data - show placeholder
@@ -97,14 +97,14 @@ function RSSparkline({ data, trend, width = 60, height = 20 }) {
             >
               {chartData.map((entry, index) => {
                 // Color coding matching Google Sheets:
-                // - Blue: highest value (highcolor)
-                // - Red: lowest value (lowcolor)
-                // - Light green: all other bars (color)
-                let fillColor = '#90EE90'; // lightgreen (default)
+                // - Red: highest value (highcolor - Korean standard)
+                // - Blue: lowest value (lowcolor - Korean standard)
+                // - Light gray: all other bars (color)
+                let fillColor = '#cfd8dc'; // light slate gray (default)
                 if (index === maxIndex) {
-                  fillColor = '#1F97F4'; // blue for highest
+                  fillColor = '#d32f2f'; // red for highest
                 } else if (index === minIndex) {
-                  fillColor = '#f44336'; // red for lowest
+                  fillColor = '#1565c0'; // blue for lowest
                 }
                 return (
                   <Cell

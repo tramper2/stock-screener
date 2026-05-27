@@ -65,12 +65,12 @@ const getDesignTokens = (mode) => ({
       main: '#dc004e',
     },
     success: {
-      main: '#2e7d32',
-      light: '#4caf50',
+      main: '#d32f2f',
+      light: '#ef5350',
     },
     error: {
-      main: '#d32f2f',
-      light: '#f44336',
+      main: '#1565c0',
+      light: '#42a5f5',
     },
     background: {
       default: mode === 'light' ? '#f5f5f5' : '#0c0c11',

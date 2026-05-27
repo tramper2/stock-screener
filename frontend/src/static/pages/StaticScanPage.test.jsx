@@ -167,7 +167,7 @@ describe('StaticScanPage', () => {
 
     renderPage();
 
-    expect(await screen.findByText(/Loading full scan dataset: [01] \/ 2 rows/i)).toBeInTheDocument();
+    expect(await screen.findByText(/전체 스캔 데이터셋 로딩 중: [01] \/ 2 종목/i)).toBeInTheDocument();
     await waitFor(() => {
       expect(screen.getByTestId('results-table-rows')).toHaveTextContent('NVDA');
     });
@@ -184,7 +184,7 @@ describe('StaticScanPage', () => {
     });
 
     await waitFor(() => {
-      expect(screen.queryByText(/Loading full scan dataset/i)).not.toBeInTheDocument();
+      expect(screen.queryByText(/전체 스캔 데이터셋 로딩 중/i)).not.toBeInTheDocument();
       expect(screen.getByTestId('filter-panel')).toBeInTheDocument();
       expect(screen.getByTestId('results-table-total')).toHaveTextContent('2');
       expect(screen.getByTestId('results-table-actions')).toHaveTextContent('actions-visible');
@@ -543,7 +543,7 @@ describe('StaticScanPage', () => {
     renderPage();
     const user = userEvent.setup();
 
-    expect(await screen.findByRole('heading', { name: 'Daily Scan' })).toBeInTheDocument();
+    expect(await screen.findByRole('heading', { name: '일일 조건 검색' })).toBeInTheDocument();
     await waitFor(() => {
       expect(screen.getByTestId('results-table-actions')).toHaveTextContent('actions-visible');
     });
@@ -625,7 +625,7 @@ describe('StaticScanPage', () => {
     renderPage();
     const user = userEvent.setup();
 
-    expect(await screen.findByRole('heading', { name: 'Daily Scan' })).toBeInTheDocument();
+    expect(await screen.findByRole('heading', { name: '일일 조건 검색' })).toBeInTheDocument();
     await user.click(screen.getByRole('button', { name: 'resort' }));
     await user.click(screen.getByRole('button', { name: 'open-chart' }));
 
@@ -752,8 +752,8 @@ describe('StaticScanPage', () => {
       await Promise.resolve();
     });
 
-    expect(await screen.findByText(/Background hydration failed/i)).toBeInTheDocument();
+    expect(await screen.findByText(/백그라운드 데이터 수집에 실패했습니다/i)).toBeInTheDocument();
     expect(screen.getByTestId('results-table-rows')).toHaveTextContent('NVDA,MSFT,AAPL');
-    expect(screen.getByText(/143 charts/i)).toBeInTheDocument();
+    expect(screen.getByText(/143개 차트 제공/i)).toBeInTheDocument();
   });
 });

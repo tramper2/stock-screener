@@ -23,10 +23,10 @@ import { getStaticSupportedMarkets, resolveStaticMarketEntry, useStaticManifest 
 import { marketFlag } from './marketFlags';
 
 const NAV_ITEMS = [
-  { path: '/', label: 'Daily' },
-  { path: '/scan', label: 'Scan' },
-  { path: '/breadth', label: 'Breadth' },
-  { path: '/groups', label: 'Groups' },
+  { path: '/', label: '데일리' },
+  { path: '/scan', label: '조건 검색' },
+  { path: '/breadth', label: '시장 심도' },
+  { path: '/groups', label: '업종/테마' },
 ];
 
 function StaticLayout({ children }) {
@@ -44,10 +44,10 @@ function StaticLayout({ children }) {
         <Toolbar variant="dense" sx={{ minHeight: 48 }}>
           <ShowChartIcon sx={{ mr: 1, fontSize: 20 }} />
           <Typography variant="subtitle1" component="div" sx={{ fontWeight: 600 }}>
-            STOCK SCANNER DAILY
+            주식 스크리너 데일리
           </Typography>
           <Chip
-            label="Read-only"
+            label="읽기 전용"
             size="small"
             color="info"
             sx={{ ml: 1.5, height: 22, fontSize: '11px' }}
@@ -69,7 +69,7 @@ function StaticLayout({ children }) {
                     color: 'inherit',
                   },
                 }}
-                inputProps={{ 'aria-label': 'Static market selector' }}
+                inputProps={{ 'aria-label': '시장 선택' }}
               >
                 {supportedMarkets.map((market) => {
                   const label = manifestQuery.data?.markets?.[market]?.display_name || market;
@@ -114,7 +114,7 @@ function StaticLayout({ children }) {
             sx={{ ml: 0.5 }}
             onClick={colorMode.toggleColorMode}
             color="inherit"
-            title={theme.palette.mode === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+            title={theme.palette.mode === 'dark' ? '라이트 모드로 전환' : '다크 모드로 전환'}
             size="small"
           >
             {theme.palette.mode === 'dark' ? <Brightness7Icon fontSize="small" /> : <Brightness4Icon fontSize="small" />}

@@ -88,15 +88,15 @@ function StaticThemesPage() {
   }
 
   if (manifestQuery.isError || themesIndexQuery.isError) {
-    return <Alert severity="error">Failed to load themes data.</Alert>;
+    return <Alert severity="error">테마 데이터를 불러오지 못했습니다.</Alert>;
   }
 
   if (!themesIndexQuery.data?.available) {
-    return <Alert severity="info">Themes are unavailable in this static build.</Alert>;
+    return <Alert severity="info">이 정적 빌드에서는 테마 정보를 사용할 수 없습니다.</Alert>;
   }
 
   if (!activeVariantMeta?.available) {
-    return <Alert severity="warning">No exported theme views are available in this static build.</Alert>;
+    return <Alert severity="warning">이 정적 빌드에서는 테마 뷰 정보를 내보내지 않았습니다.</Alert>;
   }
 
   if (variantQuery.isLoading) {
@@ -108,7 +108,7 @@ function StaticThemesPage() {
   }
 
   if (variantQuery.isError) {
-    return <Alert severity="error">Failed to load the selected theme view.</Alert>;
+    return <Alert severity="error">선택한 테마 뷰를 불러오지 못했습니다.</Alert>;
   }
 
   const payload = variantQuery.data?.payload || {};
@@ -122,11 +122,11 @@ function StaticThemesPage() {
 
   return (
     <Box>
-      <Typography variant="h4" gutterBottom>
-        Themes
+      <Typography variant="h4" gutterBottom sx={{ fontWeight: 700 }}>
+        테마 탐색 (Themes)
       </Typography>
       <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }}>
-        Published {variantQuery.data?.published_at || variantQuery.data?.generated_at}. Theme operations are read-only in the static site.
+        발행일시: {variantQuery.data?.published_at || variantQuery.data?.generated_at}. 정적 사이트에서는 테마 조회만 가능합니다.
       </Typography>
 
       <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap', mb: 3 }}>
@@ -136,8 +136,8 @@ function StaticThemesPage() {
           onChange={(_event, value) => value && setPipeline(value)}
           size="small"
         >
-          <ToggleButton value="technical">Technical</ToggleButton>
-          <ToggleButton value="fundamental">Fundamental</ToggleButton>
+          <ToggleButton value="technical">기술적 분석</ToggleButton>
+          <ToggleButton value="fundamental">기본적 분석</ToggleButton>
         </ToggleButtonGroup>
         <ToggleButtonGroup
           value={themeView}
@@ -145,41 +145,41 @@ function StaticThemesPage() {
           onChange={(_event, value) => value && setThemeView(value)}
           size="small"
         >
-          <ToggleButton value="grouped">Grouped</ToggleButton>
-          <ToggleButton value="flat">Flat</ToggleButton>
+          <ToggleButton value="grouped">그룹화</ToggleButton>
+          <ToggleButton value="flat">단일 목록</ToggleButton>
         </ToggleButtonGroup>
       </Box>
 
       {isFallbackActive && fallbackLabel && (
         <Alert severity="warning" sx={{ mb: 3 }}>
-          The selected theme view is unavailable in this export. Showing {fallbackLabel} instead.
+          선택한 테마 뷰가 이번 내보내기에 없습니다. 대신 {fallbackLabel}을(를) 표시합니다.
         </Alert>
       )}
 
       <Grid container spacing={2} sx={{ mb: 3 }}>
         <Grid item xs={12} sm={4}>
-          <SummaryMetric label="Emerging Themes" value={payload.emerging?.count ?? 0} />
+          <SummaryMetric label="신흥 테마" value={payload.emerging?.count ?? 0} />
         </Grid>
         <Grid item xs={12} sm={4}>
-          <SummaryMetric label="Pending Merge Suggestions" value={payload.pending_merge_count ?? 0} />
+          <SummaryMetric label="대기 중인 머지 제안" value={payload.pending_merge_count ?? 0} />
         </Grid>
         <Grid item xs={12} sm={4}>
-          <SummaryMetric label="Retryable Failed Items" value={payload.failed_items_count?.failed_count ?? 0} />
+          <SummaryMetric label="재시도 가능한 실패 건수" value={payload.failed_items_count?.failed_count ?? 0} />
         </Grid>
       </Grid>
 
       {emerging.length > 0 && (
         <Paper sx={{ p: 2, mb: 3 }}>
-          <Typography variant="h6" gutterBottom>
-            Emerging Themes
+          <Typography variant="h6" gutterBottom sx={{ fontWeight: 600 }}>
+            신흥 테마 (Emerging Themes)
           </Typography>
           <TableContainer>
             <Table size="small">
               <TableHead>
                 <TableRow>
-                  <TableCell>Theme</TableCell>
-                  <TableCell align="right">Mentions 7D</TableCell>
-                  <TableCell align="right">Velocity</TableCell>
+                  <TableCell>테마</TableCell>
+                  <TableCell align="right">7일 언급 횟수</TableCell>
+                  <TableCell align="right">속도 (Velocity)</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
@@ -197,18 +197,18 @@ function StaticThemesPage() {
       )}
 
       <Paper sx={{ p: 2 }}>
-        <Typography variant="h6" gutterBottom>
-          {activeThemeView === 'grouped' ? 'Grouped Rankings' : 'Flat Rankings'}
+        <Typography variant="h6" gutterBottom sx={{ fontWeight: 600 }}>
+          {activeThemeView === 'grouped' ? '그룹화 순위' : '단일 순위 목록'}
         </Typography>
         <TableContainer>
           <Table size="small">
             <TableHead>
               <TableRow>
-                <TableCell align="right">Rank</TableCell>
-                <TableCell>Theme</TableCell>
-                <TableCell align="right">Momentum</TableCell>
-                <TableCell align="right">Mentions 7D</TableCell>
-                <TableCell align="right">Constituents</TableCell>
+                <TableCell align="right">순위</TableCell>
+                <TableCell>테마</TableCell>
+                <TableCell align="right">모멘텀</TableCell>
+                <TableCell align="right">7일 언급 횟수</TableCell>
+                <TableCell align="right">구성 종목 수</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>

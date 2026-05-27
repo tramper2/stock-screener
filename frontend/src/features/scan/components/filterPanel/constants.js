@@ -1,30 +1,30 @@
 import { UNIVERSE_GEOGRAPHIC_MARKETS } from '../../constants';
 
 export const STAGE_OPTIONS = [
-  { value: 1, label: 'S1 - Basing' },
-  { value: 2, label: 'S2 - Advancing' },
-  { value: 3, label: 'S3 - Topping' },
-  { value: 4, label: 'S4 - Declining' },
+  { value: 1, label: '1단계 - 바닥다지기 (Basing)' },
+  { value: 2, label: '2단계 - 상승기 (Advancing)' },
+  { value: 3, label: '3단계 - 천장형성 (Topping)' },
+  { value: 4, label: '4단계 - 하락기 (Declining)' },
 ];
 
 export const VOLUME_OPTIONS = [
-  { value: 10000000, label: '>$10M' },
-  { value: 50000000, label: '>$50M' },
-  { value: 100000000, label: '>$100M' },
-  { value: 500000000, label: '>$500M' },
-  { value: 1000000000, label: '>$1B' },
-  { value: 5000000000, label: '>$5B' },
-  { value: 10000000000, label: '>$10B' },
+  { value: 10000000, label: '1천만 달러 ($10M) 초과' },
+  { value: 50000000, label: '5천만 달러 ($50M) 초과' },
+  { value: 100000000, label: '1억 달러 ($100M) 초과' },
+  { value: 500000000, label: '5억 달러 ($500M) 초과' },
+  { value: 1000000000, label: '10억 달러 ($1B) 초과' },
+  { value: 5000000000, label: '50억 달러 ($5B) 초과' },
+  { value: 10000000000, label: '100억 달러 ($10B) 초과' },
 ];
 
 export const MARKET_CAP_OPTIONS = [
-  { value: 100000000, label: '>$100M' },
-  { value: 200000000, label: '>$200M' },
-  { value: 500000000, label: '>$500M' },
-  { value: 1000000000, label: '>$1B' },
-  { value: 2000000000, label: '>$2B' },
-  { value: 5000000000, label: '>$5B' },
-  { value: 10000000000, label: '>$10B' },
+  { value: 100000000, label: '1억 달러 초과' },
+  { value: 200000000, label: '2억 달러 초과' },
+  { value: 500000000, label: '5억 달러 초과' },
+  { value: 1000000000, label: '10억 달러 초과' },
+  { value: 2000000000, label: '20억 달러 초과' },
+  { value: 5000000000, label: '50억 달러 초과' },
+  { value: 10000000000, label: '100억 달러 초과' },
 ];
 
 export const FUNDAMENTAL_KEYS = [

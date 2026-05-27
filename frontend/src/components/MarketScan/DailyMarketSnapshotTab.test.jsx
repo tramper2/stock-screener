@@ -140,7 +140,7 @@ describe('DailyMarketSnapshotTab', () => {
 
     const user = userEvent.setup();
     await user.click(screen.getByRole('combobox', { name: 'Mkt Cap' }));
-    await user.click(await screen.findByRole('option', { name: '>$1B' }));
+    await user.click(await screen.findByRole('option', { name: '10억 달러 초과' }));
 
     await waitFor(() => {
       expect(getScanResults).toHaveBeenLastCalledWith(

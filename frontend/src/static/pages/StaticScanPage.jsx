@@ -249,16 +249,16 @@ function StaticScanPage() {
   }
 
   if (manifestQuery.isError || scanManifestQuery.isError) {
-    return <Alert severity="error">Failed to load the static scan dataset.</Alert>;
+    return <Alert severity="error">정적 스캔 데이터셋을 불러오지 못했습니다.</Alert>;
   }
 
   return (
     <Box>
       <Typography variant="h5" sx={{ fontWeight: 700, letterSpacing: '-0.5px', mb: 0.5 }}>
-        Daily Scan
+        일일 조건 검색
       </Typography>
       <Typography variant="body2" color="text.secondary" sx={{ mb: 2, fontSize: '12px' }}>
-        Run {scanManifestQuery.data.run_id} as of {scanManifestQuery.data.as_of_date}.
+        실행 번호: {scanManifestQuery.data.run_id} (기준일자: {scanManifestQuery.data.as_of_date})
       </Typography>
 
       <Paper elevation={0} sx={{ p: 1.5, mb: 1.5, border: '1px solid', borderColor: 'divider' }}>
@@ -267,9 +267,9 @@ function StaticScanPage() {
             {(hydrationComplete ? filteredRows.length : hydrationState.loadedRows).toLocaleString()}
           </Typography>
           <Typography variant="caption" color="text.disabled" sx={{ fontSize: '10px' }}>
-            of {scanManifestQuery.data.rows_total.toLocaleString()} rows
+            / 전체 {scanManifestQuery.data.rows_total.toLocaleString()}개 종목
             {scanManifestQuery.data.charts?.available
-              ? ` · ${(scanManifestQuery.data.charts.symbols_total ?? scanManifestQuery.data.charts.limit).toLocaleString()} charts`
+              ? ` · ${(scanManifestQuery.data.charts.symbols_total ?? scanManifestQuery.data.charts.limit).toLocaleString()}개 차트 제공`
               : ''}
           </Typography>
         </Box>
@@ -286,20 +286,20 @@ function StaticScanPage() {
 
       {!hydrationComplete && (
         <Alert severity="info" sx={{ mb: 2 }}>
-          Loading full scan dataset: {hydrationState.loadedRows.toLocaleString()} /{' '}
-          {scanManifestQuery.data.rows_total.toLocaleString()} rows. Filtering and sorting unlock after hydration completes.
+          전체 스캔 데이터셋 로딩 중: {hydrationState.loadedRows.toLocaleString()} /{' '}
+          {scanManifestQuery.data.rows_total.toLocaleString()} 종목. 데이터 수집이 완료되면 필터링과 정렬이 활성화됩니다.
         </Alert>
       )}
 
       {hydrationState.status === 'error' && (
         <Alert severity="warning" sx={{ mb: 2 }}>
-          Background hydration failed. Showing the exported first page only.
+          백그라운드 데이터 수집에 실패했습니다. 내보낸 첫 페이지 데이터만 표시합니다.
         </Alert>
       )}
 
       {chartIndexQuery.isError && scanManifestQuery.data.charts?.path ? (
         <Alert severity="warning" sx={{ mb: 2 }}>
-          Static chart payloads failed to load. Scan results remain available without chart modals.
+          정적 차트 데이터를 로딩하지 못했습니다. 차트 팝업 없이 스캔 결과 테이블만 조회 가능합니다.
         </Alert>
       ) : null}
 

@@ -1,235 +1,219 @@
-# Stock Screener 🇺🇸 🇨🇳 🇭🇰 🇯🇵 🇰🇷 🇹🇼 🇮🇳 🇩🇪 🇨🇦 🇸🇬
+# 주식 스크리너 🇺🇸 🇨🇳 🇭🇰 🇯🇵 🇰🇷 🇹🇼 🇮🇳 🇩🇪 🇨🇦 🇸🇬
 
-A stock screening platform with multi-methodology scans across **US, Hong Kong, India, Japan, Korea, Taiwan, mainland China A-share, Germany, Canada, and Singapore** markets, AI-assisted research, theme discovery from social and news feeds, and real-time market breadth analysis. The supported deployment path is a single-tenant server stack built around Docker, PostgreSQL, Redis, and nginx.
+**미국, 홍콩, 인도, 일본, 한국, 대만, 중국 A주, 독일, 캐나다, 싱가포르** 주식 시장에 걸친 멀티 방법론 종목 발굴(스캔), AI 보조 리서치, 소셜 및 뉴스 피드를 통한 테마 탐색, 실시간 시장 심도(마켓 브레드) 분석을 제공하는 종합 주식 스크리닝 플랫폼입니다. Docker, PostgreSQL, Redis, nginx를 기반으로 하는 단일 테넌트 서버 스택 배포를 지원합니다.
 
-### Scan Workflow Demo
+### 조건 검색(스캔) 워크플로우 데모
 
 ![Stock Scanner Demo](docs/gifs/scan-workflow.gif)
 
 ---
 
-### Static Site Page Tour
+### 정적 데모 사이트 둘러보기
 
 ![Static site page tour — Daily, Scan, Breadth, Groups](docs/gifs/static-site-tour.gif)
 
-Static demo: [https://xang1234.github.io/stock-screener/](https://xang1234.github.io/stock-screener/)
+정적 데모 페이지: [https://xang1234.github.io/stock-screener/](https://xang1234.github.io/stock-screener/)
 
-The static page is for demo purposes only. It is a read-only daily snapshot with reduced functionality compared with the full application, which includes live workflows such as chatbot, themes pipeline, watchlists, and the full interactive backend.
+*정적 페이지는 데모 전용입니다. 챗봇, 테마 파이프라인, 관심종목(워치리스트) 관리 및 인터랙티브 백엔드가 포함된 정식 버전에 비해 기능이 제한된 일일 스냅샷(읽기 전용) 형태로 제공됩니다.*
 
-## Highlights
+## 주요 기능 (Highlights)
 
-### Multi-Market Coverage
+### 다중 시장 지원 (Multi-Market Coverage)
 
-Scan and track ten markets:
+다음 10개 시장을 스캔하고 모니터링할 수 있습니다:
 
-- 🇺🇸 **United States** — NYSE, NASDAQ, AMEX, S&P 500
-- 🇭🇰 **Hong Kong** — HSI
-- 🇮🇳 **India** — NSE, BSE
-- 🇯🇵 **Japan** — Nikkei 225
-- 🇰🇷 **Korea** — KOSPI, KOSDAQ
-- 🇹🇼 **Taiwan** — TAIEX
-- 🇨🇳 **Mainland China A-shares** — SSE, SZSE, BJSE
-- 🇩🇪 **Germany** — XETRA, DAX
-- 🇨🇦 **Canada** — TSX, TSXV
-- 🇸🇬 **Singapore** — SGX
+- 🇺🇸 **미국** — NYSE, NASDAQ, AMEX, S&P 500
+- 🇭🇰 **홍콩** — HSI (항셍 지수)
+- 🇮🇳 **인도** — NSE, BSE
+- 🇯🇵 **일본** — Nikkei 225
+- 🇰🇷 **한국** — KOSPI, KOSDAQ
+- 🇹🇼 **대만** — TAIEX
+- 🇨🇳 **중국 본토 A주** — SSE, SZSE, BJSE
+- 🇩🇪 **독일** — XETRA, DAX
+- 🇨🇦 **캐나다** — TSX, TSXV
+- 🇸🇬 **싱가포르** — SGX
 
-Each market runs on its own exchange calendar (XNYS / XHKG / XNSE / XTKS / XKRX / XTAI / XSHG / XETR / XTSE / XSES) with independent Celery refresh queues and locks, so US, Asia, and Europe can hydrate in parallel without stepping on each other. Switch markets from the scan control bar; mixed-universe results are tagged with per-row colored badges.
+각 시장은 자체 거래소 캘린더(XNYS / XHKG / XNSE / XTKS / XKRX / XTAI / XSHG / XETR / XTSE / XSES)와 독립적인 Celery 큐 및 락을 기반으로 동작하여, 미국, 아시아, 유럽 시장의 데이터 업데이트가 서로 간섭 없이 병렬로 수행됩니다. 조건 검색 창에서 시장을 자유롭게 전환할 수 있으며, 여러 시장이 섞인 결과 테이블에서는 종목 코드 옆에 국가별 색상 배지가 표시됩니다.
 
 ![Market selector](docs/screenshots/market-selector.jpg)
-*Market picker in the scan control bar — pick US, HK, IN, JP, KR, TW, CN, DE, CA, or SG and scope to an exchange or index*
+*조건 검색 바의 시장 선택기 — 미국, 홍콩, 인도, 일본, 한국, 대만, 중국, 독일, 캐나다, 싱가포르 중 선택 및 거래소/지수별 필터링*
 
 ![Market badges](docs/screenshots/market-badges.png)
-*Color-coded per-market badges in the Symbol column — US (blue), HK (green), JP (yellow); Taiwan, India, Korea, China, Germany, and Canada follow the same pattern*
+*종목코드 열의 국가별 배지 — 미국(파랑), 홍콩(초록), 일본(노랑). 한국, 대만, 인도, 중국, 독일, 캐나다 등도 고유 색상 배지가 적용됩니다.*
 
-Deep-dive: **[ASIA v2 ADRs & runbooks](docs/asia/README.md)**
+자세히 보기: **[아시아 v2 ADR 및 운영 가이드 (영문)](docs/asia/README.md)**
 
-### Multi-Strategy Screening
+### 멀티 전략 조건 검색 (Multi-Strategy Screening)
 
-Run Minervini, CANSLIM, IPO, Volume Breakthrough, Setup Engine, and Custom scans simultaneously with composite scoring across 80+ configurable filters. Save filter presets and export results to CSV.
+미네르비니(Minervini), 캔슬림(CANSLIM), IPO, 거래량 돌파, 셋업 엔진(Setup Engine), 커스텀 조건 스캔을 동시에 수행하고 80개 이상의 조건 필터를 종합한 복합 점수(Composite Score)를 매깁니다. 필터 설정을 프리셋으로 저장하고 스캔 결과를 CSV 파일로 내보낼 수 있습니다.
 
 ![Scan Results](docs/screenshots/scan-results.png)
-*Results table with composite scores, RS sparklines, multi-screener ratings, and per-row classification columns — GICS Sector, IBD Industry, market themes, and group rank*
+*복합 점수, 상대강도(RS) 스파크라인, 멀티 스크리너 평가, GICS 섹터, IBD 산업군, 시장 테마, 산업군 내 순위가 포함된 스캔 결과 화면*
 
-### Market Breadth Dashboard
+### 시장 심도 (Market Breadth) 대시보드
 
-StockBee-style advance/decline analysis with SPY overlay, daily movers (stocks up/down 4%+), and multi-period trend visualization across quarterly, monthly, and 34-day windows.
+SPY 지수 차트가 오버레이된 StockBee 스타일의 등락 종목 수(Advance/Decline) 분석, 일일 주가 급등락 종목(4% 이상 변동), 분기/월/34일 거래일 기준의 다기간 트렌드 시각화를 지원합니다.
 
 ![Market Breadth](docs/screenshots/breadth-chart.png)
-*Breadth chart with SPY price overlay and daily movers*
+*SPY 지수 차트가 결합된 마켓 브레드(시장 심도) 차트와 주가 급등락 종목 현황*
 
-### IBD Industry Group Rankings
+### IBD 업종/산업군 순위 (IBD Industry Group Rankings)
 
-197 industry groups ranked by relative strength with top movers identification (1W/1M/3M/6M), historical rank charts, and constituent stock analysis.
+상대강도(RS)를 기준으로 197개 산업군의 순위를 매기고 상승/하락 주도 업종(1주/1달/3달/6달) 정보, 업종 순위 역사 차트, 해당 업종 내 구성 종목 분석을 제공합니다.
 
 ![Group Rankings](docs/screenshots/group-rankings.png)
-*Industry group rankings with movers panel*
+*산업군 순위 리스트 및 변동 정보 패널*
 
-### Watchlists with Sparklines
+### 스파크라인 지원 관심종목 (Watchlists with Sparklines)
 
-Visual performance tracking with RS and price sparklines (30-day trends), price change bars across 7 time periods, drag-and-drop organization with folders, and full-screen chart navigation.
+최근 30일간의 RS 및 주가 변동 스파크라인, 7개 기간별 주가 변동률 바, 드래그 앤 드롭 폴더 정리, 전체 화면 차트 탐색 기능 등을 통해 포트폴리오를 시각적으로 추적합니다.
 
 ![Watchlist Table](docs/screenshots/watchlist-table.png)
-*Watchlist with sparklines and price change visualization*
+*스파크라인과 기간별 주가 변동률이 시각화된 관심종목 관리 화면*
 
-### AI Research Chatbot
+### AI 리서치 챗봇 (AI Research Chatbot)
 
-Groq-powered research chat with optional Tavily/Serper web search, persistent conversation history, and tool-augmented investigation.
+Groq 기반의 연구용 채팅 비서로, Tavily/Serper 웹 검색을 결합하여 실시간 정보 탐색이 가능하며 대화 기록 보존 및 도구 확장 기능을 제공합니다.
 
 ![Chatbot](docs/screenshots/chatbot.png)
-*AI chatbot with conversation sidebar and research tools*
+*대화 기록 사이드바 및 연구용 웹 검색 도구가 결합된 AI 챗봇 화면*
 
-### Theme Discovery Pipeline
+### 테마 탐색 파이프라인 (Theme Discovery Pipeline)
 
-AI-powered market theme identification from RSS, Twitter/X, and news feeds. Tracks trending vs. emerging themes, monitors constituent stocks, and alerts on momentum shifts.
+RSS, Twitter/X, 뉴스 피드로부터 AI를 활용해 시장 테마를 추출하고 분류합니다. 트렌딩 테마 및 신흥(Emerging) 테마를 감시하고 테마별 구성 종목 모니터링과 모멘텀 전환 감지를 지원합니다.
 
 ![Themes](docs/screenshots/themes.png)
-*Theme discovery with rankings and emerging themes panel*
+*테마 순위 및 신흥 테마 모니터링 패널*
 
-## Get Started
+## 시작하기
 
-### Docker (Recommended for Servers)
+### Docker 설치 (서버 배포 시 권장)
 
 ```bash
 cp .env.docker.example .env.docker
-# Edit .env.docker:
+# .env.docker 파일 편집:
 #   BACKEND_IMAGE=ghcr.io/<owner>/stockscreenclaude-backend
 #   FRONTEND_IMAGE=ghcr.io/<owner>/stockscreenclaude-frontend
 #   APP_IMAGE_TAG=v1.1.2
-#   SERVER_AUTH_PASSWORD=choose-a-long-random-password
+#   SERVER_AUTH_PASSWORD=비밀번호설정
 #   GROQ_API_KEY=...
 docker-compose -f docker-compose.yml -f docker-compose.prod.yml -f docker-compose.release.yml pull
 ENABLED_MARKETS=US,HK,CN scripts/docker-compose-enabled-markets.sh -f docker-compose.yml -f docker-compose.prod.yml -f docker-compose.release.yml up -d --no-build
-# Open http://localhost
+# 브라우저에서 http://localhost 접속
 ```
 
-This path deploys the tagged `v1.1.2` GHCR images instead of building locally. After the stack is up, the UI opens to a first-run bootstrap screen — see [First-Run Bootstrap](#first-run-bootstrap) for the staged pipeline and market selection.
+이 방식은 로컬에서 빌드하는 대신 배포된 `v1.1.2` 이미지(GHCR)를 다운로드하여 실행합니다. 스택이 시작되면 최초 실행용 초기화 화면(Bootstrap)이 나타나며, 시장 설정 및 기초 데이터 수집 단계를 거치게 됩니다. 자세한 내용은 [최초 실행 초기화 단계](#최초-실행-초기화-단계)를 참고하세요.
 
-For local development or contributor laptops, use the default local compose stack instead:
+로컬 개발 환경이나 테스트 용도로 구축하는 경우 아래 로컬 컴포즈 명령을 사용하십시오:
 
 ```bash
 cp .env.docker.example .env
-# Edit .env: set SERVER_AUTH_PASSWORD and add at least one LLM API key (e.g., GROQ_API_KEY)
+# .env 파일 편집: SERVER_AUTH_PASSWORD 설정 및 최소 하나의 LLM API 키(예: GROQ_API_KEY) 입력
 scripts/docker-compose-enabled-markets.sh up
 ```
 
-Full guide with homelab, VPS, and GHCR deployment options: **[Docker Deployment](docs/INSTALL_DOCKER.md)**
+상세 가이드 (홈랩, VPS, GHCR 배포): **[Docker 배포 가이드 (영문)](docs/INSTALL_DOCKER.md)**
 
-### Starting Only Enabled Market Workers
+### 활성화할 시장(Market)의 Worker만 실행하기
 
-The default Compose file defines worker services for every supported market, but market-specific workers are behind Compose profiles. Use the helper script to start only the workers for the markets in `ENABLED_MARKETS`:
-
-```bash
-ENABLED_MARKETS=US,HK,CN scripts/docker-compose-enabled-markets.sh up -d
-```
-
-For `ENABLED_MARKETS=US,HK,CN`, Docker starts US/HK/CN market job and user scan workers. IN/JP/KR/TW worker containers are not created. The global data-fetch worker listens only to `data_fetch_shared,data_fetch_us,data_fetch_hk,data_fetch_cn`.
-
-The first-run bootstrap wizard still persists runtime choices in Postgres. Keep the wizard's enabled markets within the deployment `ENABLED_MARKETS` set. To add a market later, update `ENABLED_MARKETS` and recreate the stack:
+기본 컴포즈 파일에는 모든 지원 국가의 worker 서비스가 정의되어 있지만, 국가별 worker는 Compose 프로필 단위로 관리됩니다. `ENABLED_MARKETS`에 나열된 국가의 worker만 가볍게 실행하려면 도우미 스크립트를 사용합니다:
 
 ```bash
-ENABLED_MARKETS=US,HK,CN,TW scripts/docker-compose-enabled-markets.sh up -d
+ENABLED_MARKETS=US,HK,CN,KR scripts/docker-compose-enabled-markets.sh up -d
 ```
 
-### From Source (Contributors)
+`ENABLED_MARKETS=US,HK,CN,KR`로 실행하면 미국/홍콩/중국/한국 시장 및 사용자 스캔 worker만 실행되고, 인도/일본/대만 등 다른 국가용 컨테이너는 생성되지 않습니다. 공유 데이터 수집 worker도 `data_fetch_shared,data_fetch_us,data_fetch_hk,data_fetch_cn,data_fetch_kr` 채널만 감시하게 됩니다.
 
-See the **[Development Guide](docs/DEVELOPMENT.md)** for full backend + frontend + Celery setup.
+최초 실행 초기화 마법사(Bootstrap)에서 활성화할 시장 목록은 Docker로 배포할 때 설정한 `ENABLED_MARKETS` 범위 내로 맞추는 것이 좋습니다. 나중에 국가를 추가하려면 `ENABLED_MARKETS` 환경 변수를 수정하고 재시작하면 됩니다:
 
-## First-Run Bootstrap
+```bash
+ENABLED_MARKETS=US,HK,CN,KR,TW scripts/docker-compose-enabled-markets.sh up -d
+```
 
-On first launch the app boots into a setup screen — no pre-seeded database required. Pick a **primary market** (the one that opens first) and any additional **enabled markets** to hydrate in the background, then click **Start bootstrap**.
+### 소스코드에서 직접 실행 (개발 참여자용)
 
-> **Bootstrap performance note:** selecting multiple enabled markets starts separate universe, price, fundamentals, breadth, group-rank, and scan work for each market. This can noticeably slow first load and ongoing data updates on smaller hosts or when upstream market-data providers throttle requests. For the fastest first run, start with one primary market and enable additional markets after the workspace is ready.
+개발 환경 설정, Celery 설정 및 백엔드/프론트엔드 연동에 대한 전체 안내는 **[개발자 가이드 (영문)](docs/DEVELOPMENT.md)**를 참고하십시오.
+
+## 최초 실행 초기화 단계 (First-Run Bootstrap)
+
+앱을 처음 켜면 데이터베이스 초기 설정 스크린으로 진입합니다. 데이터베이스 백업 파일이나 시드 데이터가 없어도 무방합니다. 기본으로 보여줄 **주 시장(Primary Market)**과 백그라운드에서 데이터를 수집할 **활성화할 시장(Enabled Markets)**을 선택한 뒤 **Start bootstrap** 버튼을 누릅니다.
+
+> **데이터 초기화 성능 노트:** 한 번에 너무 많은 국가를 선택하면 종목 유니버스, 가격, 재무제표, 시장 심도, 업종 순위 등의 연산이 동시에 구동되어 소형 서버나 PC에서 처리가 많이 지연될 수 있습니다. 쾌적한 첫 실행을 위해 먼저 주 시장(Primary Market) 하나만 선택하여 데이터 수집을 완료한 뒤 순차적으로 추가하는 것을 권장합니다.
 
 <img src="docs/screenshots/bootstrap-setup.jpg" alt="Bootstrap setup" width="500" />
+*최초 기동 시 노출되는 주 시장 설정 및 활성 시장 체크박스*
 
-*Primary-market dropdown and enabled-markets checkboxes on first launch*
+오케스트레이터는 지정한 주 시장에 대해 다음과 같은 Celery 파이프라인 단계를 실행합니다:
 
-The orchestrator runs a staged Celery pipeline for the primary market:
-
-1. **Universe refresh** — seeds the market's symbol list (S&P 500 / Russell / NDX for US via `refresh_stock_universe`; official exchange feeds for HK / IN / JP / KR / TW / CN via `refresh_official_market_universe`).
-2. **Benchmark + price refresh** — 5y OHLCV cached in Redis with PostgreSQL fallback.
-3. **Fundamentals refresh** — quarterly and annual financials.
-4. **Breadth calculation** — StockBee-style advance/decline with gap-fill.
-5. **Group rankings** — IBD-style relative strength across 197 industry groups.
-6. **Feature snapshot** (US only) — daily feature rollup used by the Setup Engine.
-7. **Initial autoscan** — seeds a first scan with the default profile so you land on populated results.
+1. **유니버스 동기화 (Universe refresh)** — 주식 목록 데이터 구성 (미국은 S&P 500/Russell/NDX, 아시아 국가는 각 거래소 공식 피드 동기화).
+2. **벤치마크 및 시세 업데이트 (Price refresh)** — 5년치 시세를 Redis 캐시 및 PostgreSQL에 수집.
+3. **재무 분석 데이터 업데이트 (Fundamentals refresh)** — 분기 및 연간 재무제표 수집.
+4. **시장 심도 연산 (Breadth calculation)** — 등락 종목 수 계산 및 갭 보정.
+5. **업종 순위 매기기 (Group rankings)** — 197개 IBD 스타일 산업군의 상대강도 순위 연산.
+6. **특징값 스냅샷 (Feature snapshot)** — 셋업 엔진에 활용될 일일 분석 스냅샷 생성 (미국 한정).
+7. **초기 스캔 실행 (Initial autoscan)** — 기본 스크리너 프로필로 첫 종목 스캔 결과를 자동 생성하여 대시보드에 즉시 채워지게 합니다.
 
 <img src="docs/screenshots/bootstrap-progress.jpg" alt="Bootstrap progress" width="500" />
+*파이프라인이 진행되는 동안 표시되는 단계별 진행률 및 국가별 큐 상태*
 
-*Per-stage progress with per-market queue status while the pipeline is running*
+주 시장(Primary Market)이 `ready` 상태가 되면 바로 대시보드 화면으로 진입할 수 있습니다. 나머지 부 시장들은 전용 큐(`data_fetch_{us,hk,kr...}`)를 통해 백그라운드에서 계속 수집을 이어나갑니다. 데이터가 수집 중인 시장에 대해 스크리너 검색을 요청하면 HTTP 409 `market_refresh_active` 오류를 반환하며, 화면에는 실패 대신 로딩 안내가 표시됩니다.
 
-The workspace opens as soon as the primary market reaches `ready`. Secondary markets keep hydrating in the background on their own queues (`data_fetch_{us,hk,in,jp,kr,tw,cn}`) so you can start scanning immediately. Scans against a market that's still refreshing return HTTP 409 `market_refresh_active` — the UI surfaces this as a wait indicator rather than a failure.
+설정 상태는 `AppSetting` 데이터베이스 내 `runtime.primary_market`, `runtime.enabled_markets`, `runtime.bootstrap_state`(`not_started` → `running` → `ready`)로 관리됩니다. 초기 설정 마법사를 다시 띄우고 싶다면 `runtime.bootstrap_state` 값을 `not_started`로 변경하면 됩니다.
 
-State is persisted in `AppSetting` under `runtime.primary_market`, `runtime.enabled_markets`, and `runtime.bootstrap_state` (`not_started` → `running` → `ready`). To re-run the wizard, reset `runtime.bootstrap_state` to `not_started`.
+## 설정 (Configuration)
 
-## Configuration
+AI 챗봇 기능에는 최소 하나 이상의 LLM API 키가 필요합니다. 조건 검색(스크리너) 및 다른 모든 기능들은 API 키 없이도 완벽하게 동작합니다.
 
-The AI chatbot requires at least one LLM provider API key. Scanning and all other features work without any keys.
+| 제공사 | 환경 변수 | 무료 티어 지원 | 비고 |
+2: |----------|---------|-----------|-------|
+3: | Groq | `GROQ_API_KEY` | 지원함 | 챗봇 및 리서치 기본값 |
+4: | Gemini | `GEMINI_API_KEY` | 지원함 | 테마 분석 보조/폴백 |
+5: | Minimax | `MINIMAX_API_KEY` | 없음 | 테마 분석/머지 메인 제공사 |
+6: | Z.AI | `ZAI_API_KEY` | 없음 | 선택적 대체 제공사 |
 
-| Provider | Env Var | Free Tier | Notes |
-|----------|---------|-----------|-------|
-| Groq | `GROQ_API_KEY` | Yes | Supported default for chatbot and research |
-| Gemini | `GEMINI_API_KEY` | Yes | Supported extraction fallback |
-| Minimax | `MINIMAX_API_KEY` | No | Supported primary theme-extraction provider |
-| Z.AI | `ZAI_API_KEY` | No | Optional alternate provider |
+추가로 웹 검색 도구인 `TAVILY_API_KEY`나 `SERPER_API_KEY`를 설정하면 AI 챗봇이 최신 시장 뉴스를 검색할 수 있는 연구 모드가 활성화됩니다.
 
-Optional web search keys (`TAVILY_API_KEY`, `SERPER_API_KEY`) enable the chatbot's research mode.
+상세 참고: **[환경 변수 설정 가이드 (영문)](docs/ENVIRONMENT.md)**
 
-Full reference: **[Environment Variables](docs/ENVIRONMENT.md)**
+## 어플리케이션 페이지 구성
 
-## Application Pages
-
-| Route | Page | Description |
+| 경로 | 페이지 | 설명 |
 |-------|------|-------------|
-| `/` | Routine | Market dashboard with Key Markets, Themes, Watchlists, Stockbee tabs |
-| `/scan` | Bulk Scanner | Multi-market scanning (US / HK / IN / JP / KR / TW / CN / DE / CA / SG) with 80+ filters, per-market badges, and CSV export |
-| `/breadth` | Market Breadth | StockBee-style breadth indicators and trends |
-| `/groups` | Group Rankings | IBD industry group rankings with movers |
-| `/themes` | Themes | AI-powered theme discovery with trending/emerging detection |
-| `/chatbot` | Chatbot | Multi-provider AI research assistant with web search |
-| `/stock/:symbol` | Stock Detail | Individual stock analysis with charts and fundamentals |
+| `/` | 일일 요약 (Routine) | 주요 시장 지수, 테마 탐색, 워치리스트, Stockbee 지표 등이 포함된 시장 대시보드 |
+| `/scan` | 대량 스크리너 | 10개 시장 통합 검색, 80개 이상의 미세 필터 제공, 스캔 결과 CSV 다운로드 |
+| `/breadth` | 시장 심도 | StockBee 스타일의 마켓 브레드 흐름 및 장기 추세 차트 |
+| `/groups` | 업종별 순위 | 197개 IBD 업종별 순위 변동 추적 및 관련 강세 주도 종목 검색 |
+| `/themes` | 시장 테마 | 뉴스와 SNS 피드 분석을 통한 AI 기반 시장 테마 분석 및 생애주기 추적 |
+| `/chatbot` | 투자 비서 챗봇 | 다중 LLM 제공사 지원 및 실시간 웹 검색 기능이 내장된 인공지능 주식 비서 |
+| `/stock/:symbol` | 종목 상세 | 개별 주식 차트, 투자 지표, 미네르비니/캔슬림 조건 충족 현황 정보 조회 |
 
-## Key Capabilities
+## 주요 기능 요약
 
-- **10 supported markets** — US, Hong Kong, India, Japan, Korea, Taiwan, mainland China, Germany, Canada, Singapore — with per-market exchange calendars, independent refresh queues, and scan-time freshness guards
-- **First-run bootstrap wizard** with live staged progress and background hydration of secondary markets
-- **6 screening methodologies** with composite scoring (Minervini, CANSLIM, IPO, Volume Breakthrough, Setup Engine, Custom)
-- **80+ configurable filters** with saved presets across fundamental, technical, and rating categories
-- **AI chatbot** with Groq-first routing, web search research mode, and persistent conversations
-- **Theme discovery** from RSS, Twitter/X, and news sources with AI clustering and lifecycle tracking
-- **Market breadth** dashboard with StockBee-style indicators and historical trends
-- **197 IBD industry groups** ranked by relative strength with movers and constituent analysis
-- **Watchlists** with RS/price sparklines, multi-period change bars, and drag-and-drop organization
-- **MCP integration** for AI copilot workflows with 12 tools via stdio and Streamable HTTP ([details](docs/MCP_INTEGRATION.md))
-- **TradingView-style charts** with candlestick OHLC and technical overlays
-- **CSV export** for scan results
-- **Dark and light mode** UI
-- **Docker deployment** with PostgreSQL, auto-HTTPS, and GHCR image releases
+- **10개 시장 완벽 지원** — 국가별 거래소 달력 적용, 독립 큐 제어 및 가격 데이터 신선도 자동 감지
+- **최초 실행용 마법사** — 친절한 단계별 진행률 안내 및 부차 국가 백그라운드 지연 수집 지원
+- **6개 조건 검색 방법론** — 미네르비니, 캔슬림, IPO, 거래량 돌파, 셋업 엔진, 커스텀 조건 제공
+- **80개 이상의 세부 필터** — 재무, 기술적 지표, 등급 점수 조건에 따른 프리셋 저장 기능
+- **AI 리서치 챗봇** — Groq 우선 라우팅, 실시간 검색 결합, 대화방 목록 영구 저장
+- **테마 발굴 파이프라인** — AI 클러스터링 기반 뉴스 피드/트위터의 테마화 및 관련 종목 자동 바인딩
+- **시장 심도 대시보드** — Stockbee 스타일 지표 시각화 및 추세 분석
+- **197개 IBD 산업군 순위** — 모멘텀 상하위 순위, 업종 내 종목들의 등락률 현황
+- **관심종목(워치리스트)** — 스파크라인 트렌드, 기간별 등락 차트 제공, 폴더 정리 및 차트 연속 보기 지원
+- **MCP 통합** — AI 코파일럿 도구 연동 기능 (12개 CLI/HTTP 도구 지원, [자세히 보기](docs/MCP_INTEGRATION.md))
+- **TradingView 스타일 차트** — 봉 차트(양음봉) 및 이동평균선(MA) 오버레이 제공
+- **CSV 내보내기** — 조건 검색 결과 다운로드 지원
+- **다크/라이트 모드** 기본 지원
+- **Docker 배포 패키지** — PostgreSQL, 자동 Let's Encrypt HTTPS 발급, GHCR 이미지 릴리즈
 
-## Documentation
+## 기술 스택
 
-| Guide | Audience |
-|-------|----------|
-| [Docker Deployment](docs/INSTALL_DOCKER.md) | Server, homelab, VPS users |
-| [Development Guide](docs/DEVELOPMENT.md) | Contributors, developers |
-| [Architecture](docs/ARCHITECTURE.md) | Understanding the system design |
-| [Environment Variables](docs/ENVIRONMENT.md) | Configuration reference |
-| [MCP Integration](docs/MCP_INTEGRATION.md) | AI copilot workflows |
-| [Backend API & Architecture](backend/README.md) | Backend developers |
-| [Frontend Components](frontend/README.md) | Frontend developers |
-| [Contributing](CONTRIBUTING.md) | Getting started as a contributor |
-| [ASIA v2 (HK/JP/TW) ADRs & Runbooks](docs/asia/README.md) | Multi-market operators, auditors |
+**백엔드:** FastAPI, SQLAlchemy, Alembic, Celery, Redis, PostgreSQL
+**프론트엔드:** React 18, Vite, Material-UI, TanStack Query / Table, Recharts
+**데이터 소스:** yfinance, Finviz, Alpha Vantage, SEC EDGAR, X API (선택사항)
 
-## Tech Stack
+## 면책 조항 (Disclaimer)
 
-**Backend:** FastAPI, SQLAlchemy, Alembic, Celery, Redis, PostgreSQL
-**Frontend:** React 18, Vite, Material-UI, TanStack Query / Table, Recharts
-**Data:** yfinance, Finviz, Alpha Vantage, SEC EDGAR, official X API (optional)
+본 소프트웨어는 교육 및 리서치 전용 목적으로 제작되었습니다. 제공되는 데이터와 정보는 투자 권유나 금융 조언이 아닙니다. 실제 투자 결정을 내리기 전에는 항상 본인이 직접 조사를 수행하고 공인 금융 전문가와 상담하시기 바랍니다.
 
-## Disclaimer
+## 라이선스
 
-This software is for educational and research purposes only. It is not financial advice. Always do your own research and consult with a licensed financial advisor before making investment decisions.
-
-## License
-
-Released under the [Apache License 2.0](LICENSE).
+이 프로젝트는 [Apache License 2.0](LICENSE) 라이선스 하에 배포됩니다.

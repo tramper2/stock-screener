@@ -154,7 +154,7 @@ function BreadthChart({
           }}
         >
           <Typography variant="subtitle1" sx={{ fontWeight: 600, fontSize: fillContainer ? '14px' : '16px' }}>
-            Market Breadth (4%+ Movers){hasBenchmarkOverlay ? ` with ${benchmarkLabel} Overlay` : ''}
+            시장 심도 (4%+ 등락 종목){hasBenchmarkOverlay ? ` (${benchmarkLabel} 비교)` : ''}
           </Typography>
           <ToggleButtonGroup
             value={timeRange}
@@ -222,25 +222,25 @@ function BreadthChart({
             <Tooltip content={<CustomTooltip benchmarkLabel={benchmarkLabel} />} />
             <Legend />
 
-            {/* Stocks Up 4%+ - Green Area */}
+            {/* Stocks Up 4%+ - Red Area */}
             <Area
               yAxisId="left"
               type="monotone"
               dataKey="stocksUp"
-              name="Up 4%+"
-              fill="rgba(76, 175, 80, 0.3)"
-              stroke="#4caf50"
+              name="상승 4%+"
+              fill="rgba(211, 47, 47, 0.3)"
+              stroke="#d32f2f"
               strokeWidth={1.5}
             />
 
-            {/* Stocks Down 4%+ - Red Area */}
+            {/* Stocks Down 4%+ - Blue Area */}
             <Area
               yAxisId="left"
               type="monotone"
               dataKey="stocksDown"
-              name="Down 4%+"
-              fill="rgba(244, 67, 54, 0.3)"
-              stroke="#f44336"
+              name="하락 4%+"
+              fill="rgba(21, 101, 192, 0.3)"
+              stroke="#1565c0"
               strokeWidth={1.5}
             />
 
@@ -271,12 +271,12 @@ function BreadthChart({
           }}
         >
           <Typography variant="caption" color="text.secondary">
-            <span style={{ color: '#4caf50', fontWeight: 600 }}>Green:</span>{' '}
-            Stocks up 4%+ (daily count)
+            <span style={{ color: '#d32f2f', fontWeight: 600 }}>빨간색:</span>{' '}
+            상승 종목 4%+ (일일 개수)
           </Typography>
           <Typography variant="caption" color="text.secondary">
-            <span style={{ color: '#f44336', fontWeight: 600 }}>Red:</span>{' '}
-            Stocks down 4%+ (daily count)
+            <span style={{ color: '#1565c0', fontWeight: 600 }}>파란색:</span>{' '}
+            하락 종목 4%+ (일일 개수)
           </Typography>
           {hasBenchmarkOverlay && (
             <Typography variant="caption" color="text.secondary">

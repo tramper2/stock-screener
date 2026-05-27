@@ -90,10 +90,10 @@ describe('StaticGroupsPage', () => {
   it('renders 1W movers and the 1W rank-change column', async () => {
     renderPage();
 
-    expect(await screen.findByRole('heading', { name: 'US Group Rankings' })).toBeInTheDocument();
-    expect(screen.getByText('Top Gainers (1W)')).toBeInTheDocument();
-    expect(screen.getByText('Top Losers (1W)')).toBeInTheDocument();
-    expect(screen.getByRole('columnheader', { name: '1W' })).toBeInTheDocument();
+    expect(await screen.findByRole('heading', { name: 'US 업종/테마 순위 (Group Rankings)' })).toBeInTheDocument();
+    expect(screen.getByText('가장 많이 오른 업종 (1W)')).toBeInTheDocument();
+    expect(screen.getByText('가장 많이 내린 업종 (1W)')).toBeInTheDocument();
+    expect(screen.getByRole('columnheader', { name: '1주' })).toBeInTheDocument();
     expect(screen.getAllByText('Semiconductors').length).toBeGreaterThan(0);
     expect(screen.getByText('+3')).toBeInTheDocument();
   });

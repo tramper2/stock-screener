@@ -4,12 +4,12 @@
  * Renders a horizontal bar showing relative price change.
  * Mimics Google Sheets SPARKLINE bar chart formula:
  * - Center of bar = 0%
- * - Green bar extends RIGHT for positive values
- * - Red bar extends LEFT for negative values
+ * - Red bar extends RIGHT for positive values
+ * - Blue bar extends LEFT for negative values
  * - Scale based on min/max across all stocks in theme
  *
  * Displays:
- * - Percentage text (colored green/red)
+ * - Percentage text (colored red/blue)
  * - Relative bar below the text
  */
 import { useMemo } from 'react';
@@ -41,23 +41,23 @@ function PriceChangeBar({ value, min, max, width = 60, height = 24 }) {
     const centerPercent = (absMin / totalRange) * 100;
 
     if (value >= 0) {
-      // Green bar extends right from center
+      // Red bar extends right from center
       const barPercent = (value / totalRange) * 100;
       return {
         barLeft: centerPercent,
         barWidth: barPercent,
         centerPercent,
-        color: '#4caf50', // green
+        color: '#d32f2f', // red
       };
     } else {
-      // Red bar extends left from center
+      // Blue bar extends left from center
       const absValue = Math.abs(value);
       const barPercent = (absValue / totalRange) * 100;
       return {
         barLeft: centerPercent - barPercent,
         barWidth: barPercent,
         centerPercent,
-        color: '#f44336', // red
+        color: '#1565c0', // blue
       };
     }
   }, [value, min, max]);
@@ -71,7 +71,7 @@ function PriceChangeBar({ value, min, max, width = 60, height = 24 }) {
 
   const textColor = useMemo(() => {
     if (value === null || value === undefined) return 'text.disabled';
-    return value >= 0 ? '#4caf50' : '#f44336';
+    return value >= 0 ? '#d32f2f' : '#1565c0';
   }, [value]);
 
   return (
@@ -113,7 +113,7 @@ function PriceChangeBar({ value, min, max, width = 60, height = 24 }) {
         }}
       >
         {value !== null && value !== undefined && (
-          /* The colored bar - only red or green, no other colors */
+          /* The colored bar - only red or blue, no other colors */
           <Box
             sx={{
               position: 'absolute',
@@ -143,7 +143,7 @@ export function PriceChangeText({ value, showSign = true }) {
     );
   }
 
-  const color = value >= 0 ? '#4caf50' : '#f44336';
+  const color = value >= 0 ? '#d32f2f' : '#1565c0';
   const sign = value >= 0 && showSign ? '+' : '';
 
   return (

@@ -322,11 +322,11 @@ describe('App static mode', () => {
   });
 
   it.each([
-    ['#/', 'United States Snapshot'],
-    ['#/scan', 'Daily Scan'],
-    ['#/breadth', 'United States Breadth'],
-    ['#/groups', 'United States Group Rankings'],
-    ['#/themes', 'United States Snapshot'],
+    ['#/', 'United States 현황'],
+    ['#/scan', '일일 조건 검색'],
+    ['#/breadth', 'United States 시장 심도'],
+    ['#/groups', 'United States 업종/테마 순위'],
+    ['#/themes', 'United States 현황'],
   ])('renders the static hash route %s without any /api requests', async (hash, heading) => {
     await renderStaticAppAtHash(hash);
 
@@ -336,7 +336,7 @@ describe('App static mode', () => {
       return hasText(element) && Array.from(element.children).every((child) => !hasText(child));
     };
     expect(await screen.findByText(headingMatcher, {}, { timeout: 10000 })).toBeInTheDocument();
-    expect(screen.getAllByText('Read-only').length).toBeGreaterThan(0);
+    expect(screen.getAllByText('읽기 전용').length).toBeGreaterThan(0);
     expect(screen.queryByText('Sign out')).not.toBeInTheDocument();
 
     await waitFor(() => {
@@ -351,7 +351,7 @@ describe('App static mode', () => {
   it('keeps scan controls read-only in the static route', async () => {
     await renderStaticAppAtHash('#/scan');
 
-    expect(await screen.findByRole('heading', { name: 'Daily Scan' })).toBeInTheDocument();
+    expect(await screen.findByRole('heading', { name: '일일 조건 검색' })).toBeInTheDocument();
     await waitFor(() => {
       expect(screen.getByTestId('static-filter-panel')).toHaveTextContent('presets-disabled');
       expect(screen.getByTestId('static-results-table')).toHaveTextContent('actions-visible:2');
@@ -361,7 +361,7 @@ describe('App static mode', () => {
   it('offers 1M and 3M ranges on the breadth page in the static route', async () => {
     await renderStaticAppAtHash('#/breadth');
 
-    expect(await screen.findByRole('heading', { name: 'United States Breadth' })).toBeInTheDocument();
+    expect(await screen.findByRole('heading', { name: 'United States 시장 심도 (Breadth)' })).toBeInTheDocument();
     expect(screen.getByTestId('breadth-chart-ranges')).toHaveTextContent('1M');
     expect(screen.getByTestId('breadth-chart-ranges')).toHaveTextContent('3M');
   }, 10000);
@@ -369,7 +369,7 @@ describe('App static mode', () => {
   it('honors the market query parameter and loads market-scoped breadth assets', async () => {
     await renderStaticAppAtHash('#/breadth?market=HK');
 
-    expect(await screen.findByRole('heading', { name: 'Hong Kong Breadth' })).toBeInTheDocument();
+    expect(await screen.findByRole('heading', { name: 'Hong Kong 시장 심도 (Breadth)' })).toBeInTheDocument();
     expect(window.location.hash).toContain('#/breadth');
     expect(window.location.hash).toContain('market=HK');
     expect(window.localStorage.getItem('static-site:selected-market')).toBe('HK');
@@ -383,7 +383,7 @@ describe('App static mode', () => {
 
     await renderStaticAppAtHash('#/groups');
 
-    expect(await screen.findByRole('heading', { name: 'Hong Kong Group Rankings' })).toBeInTheDocument();
-    expect(screen.getByRole('combobox', { name: 'Static market selector' })).toHaveTextContent('Hong Kong');
+    expect(await screen.findByRole('heading', { name: 'Hong Kong 업종/테마 순위 (Group Rankings)' })).toBeInTheDocument();
+    expect(screen.getByRole('combobox', { name: '시장 선택' })).toHaveTextContent('Hong Kong');
   }, 10000);
 });

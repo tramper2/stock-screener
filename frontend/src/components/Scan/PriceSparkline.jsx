@@ -47,8 +47,8 @@ function PriceSparkline({
     // Determine color based on trend
     // trend: 1 = up, -1 = down, 0 = flat
     const isUp = trend === 1;
-    const color = isUp ? '#4caf50' : '#f44336';
-    const fillColor = isUp ? 'rgba(76, 175, 80, 0.3)' : 'rgba(244, 67, 54, 0.3)';
+    const color = isUp ? '#d32f2f' : '#1565c0';
+    const fillColor = isUp ? 'rgba(211, 47, 47, 0.3)' : 'rgba(21, 101, 192, 0.3)';
 
     return {
       chartData,
@@ -80,10 +80,10 @@ function PriceSparkline({
     }
 
     // Add 30-day trend description
-    const trendText = trend === 1 ? 'Up' : trend === -1 ? 'Down' : 'Flat';
+    const trendText = trend === 1 ? '상승' : trend === -1 ? '하락' : '보합';
     if (data && data.length > 0) {
       const overallChange = ((data[data.length - 1] - data[0]) / data[0]) * 100;
-      parts.push(`30d: ${overallChange >= 0 ? '+' : ''}${overallChange.toFixed(1)}% (${trendText})`);
+      parts.push(`30일 변동: ${overallChange >= 0 ? '+' : ''}${overallChange.toFixed(1)}% (${trendText})`);
     }
 
     return parts.join(' | ') || 'No data';

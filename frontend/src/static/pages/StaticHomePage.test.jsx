@@ -237,16 +237,15 @@ describe('StaticHomePage', () => {
     renderWithProviders(<StaticHomePage />);
 
     expect(await screen.findByText('0700.HK')).toBeInTheDocument();
-    expect(screen.getByText('MCap')).toBeInTheDocument();
+    expect(screen.getByRole('columnheader', { name: '시가총액' })).toBeInTheDocument();
     expect(screen.getByText('$500.0M')).toBeInTheDocument();
     expect(screen.queryByText('HK$3.9T')).not.toBeInTheDocument();
     expect(fetchStaticJson).toHaveBeenCalledWith('markets/us/scan/manifest.json');
     expect(fetchStaticJson).toHaveBeenCalledWith('markets/us/scan/chunks/chunk-0001.json');
     expect(screen.queryByText('SUMMARYONLY')).not.toBeInTheDocument();
-
     const user = userEvent.setup();
-    await user.click(screen.getByRole('combobox', { name: 'Mkt Cap' }));
-    await user.click(await screen.findByRole('option', { name: '>$1B' }));
+    await user.click(screen.getByRole('combobox', { name: '시가총액' }));
+    await user.click(await screen.findByRole('option', { name: '10억 달러 초과' }));
 
     await waitFor(() => {
       expect(screen.queryByText('0700.HK')).not.toBeInTheDocument();

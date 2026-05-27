@@ -31,9 +31,9 @@ function MoversCard({ title, rows }) {
         <Table size="small">
           <TableHead>
             <TableRow>
-              <TableCell>Group</TableCell>
-              <TableCell align="right">Rank</TableCell>
-              <TableCell align="right">Change</TableCell>
+              <TableCell>업종</TableCell>
+              <TableCell align="right">순위</TableCell>
+              <TableCell align="right">변동</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -78,11 +78,11 @@ function StaticGroupsPage() {
   }
 
   if (manifestQuery.isError || groupsQuery.isError) {
-    return <Alert severity="error">Failed to load group rankings.</Alert>;
+    return <Alert severity="error">업종/테마 순위를 불러오지 못했습니다.</Alert>;
   }
 
   if (!groupsQuery.data?.available) {
-    return <Alert severity="info">{groupsQuery.data?.message || 'No group rankings are available.'}</Alert>;
+    return <Alert severity="info">{groupsQuery.data?.message || '사용 가능한 업종/테마 순위가 없습니다.'}</Alert>;
   }
 
   const payload = groupsQuery.data.payload || {};
@@ -94,38 +94,38 @@ function StaticGroupsPage() {
   return (
     <Box>
       <Typography variant="h5" sx={{ fontWeight: 700, letterSpacing: '-0.5px', mb: 0.5 }}>
-        {marketEntry.display_name} Group Rankings
+        {marketEntry.display_name} 업종/테마 순위 (Group Rankings)
       </Typography>
       <Typography variant="body2" color="text.secondary" sx={{ mb: 2, fontSize: '12px' }}>
-        Latest ranking date: {payload.rankings?.date || '-'}.
+        최신 순위 업데이트 일자: {payload.rankings?.date || '-'}
       </Typography>
 
       <Grid container spacing={1.5} sx={{ mb: 2 }}>
         <Grid item xs={12} md={6}>
-          <MoversCard title={`Top Gainers (${moversPeriod.toUpperCase()})`} rows={movers.gainers} />
+          <MoversCard title={`가장 많이 오른 업종 (${moversPeriod.toUpperCase()})`} rows={movers.gainers} />
         </Grid>
         <Grid item xs={12} md={6}>
-          <MoversCard title={`Top Losers (${moversPeriod.toUpperCase()})`} rows={movers.losers} />
+          <MoversCard title={`가장 많이 내린 업종 (${moversPeriod.toUpperCase()})`} rows={movers.losers} />
         </Grid>
       </Grid>
 
       <Paper elevation={0} sx={{ p: 1.5, border: '1px solid', borderColor: 'divider' }}>
         <Typography variant="subtitle1" sx={{ fontWeight: 600, fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.5px', mb: 0.5 }}>
-          Current Rankings
+          현재 업종 순위
         </Typography>
         <TableContainer>
           <Table size="small">
             <TableHead>
               <TableRow>
-                <TableCell align="center">Rank</TableCell>
-                <TableCell>Group</TableCell>
-                <TableCell align="center">Avg RS</TableCell>
-                <TableCell align="center">Stocks</TableCell>
-                <TableCell align="right">1W</TableCell>
-                <TableCell align="right">1M</TableCell>
-                <TableCell align="right">3M</TableCell>
-                <TableCell align="right">6M</TableCell>
-                <TableCell>Top Stock</TableCell>
+                <TableCell align="center">순위</TableCell>
+                <TableCell>업종</TableCell>
+                <TableCell align="center">평균 RS</TableCell>
+                <TableCell align="center">종목 수</TableCell>
+                <TableCell align="right">1주</TableCell>
+                <TableCell align="right">1달</TableCell>
+                <TableCell align="right">3달</TableCell>
+                <TableCell align="right">6달</TableCell>
+                <TableCell>주도 종목</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>

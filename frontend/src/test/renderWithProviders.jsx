@@ -8,8 +8,8 @@ const darkTheme = createTheme({
     mode: 'dark',
     primary: { main: '#1976d2' },
     secondary: { main: '#dc004e' },
-    success: { main: '#2e7d32', light: '#4caf50' },
-    error: { main: '#d32f2f', light: '#f44336' },
+    success: { main: '#d32f2f', light: '#ef5350' },
+    error: { main: '#1565c0', light: '#42a5f5' },
     background: { default: '#121212', paper: '#1e1e1e' },
   },
 });

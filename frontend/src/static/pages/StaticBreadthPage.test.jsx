@@ -151,7 +151,7 @@ describe('StaticBreadthPage', () => {
 
     renderPage('/breadth?market=HK');
 
-    expect(await screen.findByRole('heading', { name: 'Hong Kong Breadth' })).toBeInTheDocument();
+    expect(await screen.findByRole('heading', { name: 'Hong Kong 시장 심도 (Breadth)' })).toBeInTheDocument();
     expect(screen.getByTestId('breadth-chart')).toHaveTextContent('^HSI:1');
   });
 
@@ -256,9 +256,9 @@ describe('StaticBreadthPage', () => {
 
     renderPage();
 
-    expect(await screen.findByRole('heading', { name: 'United States Breadth' })).toBeInTheDocument();
+    expect(await screen.findByRole('heading', { name: 'United States 시장 심도 (Breadth)' })).toBeInTheDocument();
 
-    fireEvent.click(screen.getByRole('tab', { name: /by group/i }));
+    fireEvent.click(screen.getByRole('tab', { name: /업종별 기여도/i }));
 
     expect(await screen.findByText('Computer Software-Database')).toBeInTheDocument();
     expect(screen.getByText('No Group')).toBeInTheDocument();
@@ -345,8 +345,8 @@ describe('StaticBreadthPage', () => {
 
     renderPage('/breadth?market=HK');
 
-    expect(await screen.findByRole('heading', { name: 'Hong Kong Breadth' })).toBeInTheDocument();
-    fireEvent.click(screen.getByRole('tab', { name: /by group/i }));
+    expect(await screen.findByRole('heading', { name: 'Hong Kong 시장 심도 (Breadth)' })).toBeInTheDocument();
+    fireEvent.click(screen.getByRole('tab', { name: /업종별 기여도/i }));
     expect(
       await screen.findByText('Group attribution is not yet supported for market HK.')
     ).toBeInTheDocument();
@@ -430,11 +430,11 @@ describe('StaticBreadthPage', () => {
 
     renderPage();
 
-    expect(await screen.findByRole('heading', { name: 'United States Breadth' })).toBeInTheDocument();
-    fireEvent.click(screen.getByRole('tab', { name: /by group/i }));
+    expect(await screen.findByRole('heading', { name: 'United States 시장 심도 (Breadth)' })).toBeInTheDocument();
+    fireEvent.click(screen.getByRole('tab', { name: /업종별 기여도/i }));
 
     // The empty-session message is shown but the date picker remains usable.
-    expect(await screen.findByText(/No 4%\+ movers were attributed for 2026-05-15/i)).toBeInTheDocument();
+    expect(await screen.findByText(/2026-05-15 기준 4% 이상 등락한 종목이 없습니다/i)).toBeInTheDocument();
     const sessionCombobox = screen.getByRole('combobox', { name: /session/i });
     fireEvent.mouseDown(sessionCombobox);
     fireEvent.click(await screen.findByRole('option', { name: '2026-05-14' }));

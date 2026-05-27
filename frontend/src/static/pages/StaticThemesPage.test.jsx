@@ -94,15 +94,15 @@ describe('StaticThemesPage', () => {
     renderPage();
 
     await waitFor(() => {
-      expect(screen.getByText('Themes')).toBeInTheDocument();
+      expect(screen.getByText('테마 탐색 (Themes)')).toBeInTheDocument();
     });
 
-    expect(screen.getByRole('button', { name: 'Technical' })).toBeInTheDocument();
-    expect(screen.getByRole('button', { name: 'Grouped' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: '기술적 분석' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: '그룹화' })).toBeInTheDocument();
     expect(
-      screen.getByText('The selected theme view is unavailable in this export. Showing Technical / Flat instead.')
+      screen.getByText('선택한 테마 뷰가 이번 내보내기에 없습니다. 대신 Technical / Flat을(를) 표시합니다.')
     ).toBeInTheDocument();
-    expect(screen.getByText('Flat Rankings')).toBeInTheDocument();
+    expect(screen.getByText('단일 순위 목록')).toBeInTheDocument();
     expect(screen.getAllByText('AI Infrastructure').length).toBeGreaterThan(0);
   });
 });
