@@ -277,7 +277,7 @@ bash frontend/scripts/capture-static-site-tour.sh
 ```
 
 What it does:
-1. `frontend/scripts/capture-static-site-tour.mjs` drives a headless Chromium with Playwright's `recordVideo` API against `https://xang1234.github.io/stock-screener/`. The storyboard walks Daily → Scan (preset filter chips + space-bar stock detail walk) → Breadth → Groups (constituent stocks + Charts tab) → market switch to Japan and Canada.
+1. `frontend/scripts/capture-static-site-tour.mjs` drives a headless Chromium with Playwright's `recordVideo` API against `https://tramper2.github.io/stock-screener/`. The storyboard walks Daily → Scan (preset filter chips + space-bar stock detail walk) → Breadth → Groups (constituent stocks + Charts tab) → market switch to Japan and Canada.
 2. `ffmpeg` extracts frames at 10 fps with Lanczos scaling.
 3. `gifski` palette-quantizes to `docs/gifs/static-site-tour.gif` at width 1000, quality 70 (tuned to keep the long storyboard near the 5 MB budget).
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Capture a hero GIF tour of the static site at https://xang1234.github.io/stock-screener/.
+# Capture a hero GIF tour of the static site at https://tramper2.github.io/stock-screener/.
 # Pipeline: Playwright (record WebM) → ffmpeg (extract frames) → gifski (palette + quantize).
 #
 # Requirements (already installed on this machine):

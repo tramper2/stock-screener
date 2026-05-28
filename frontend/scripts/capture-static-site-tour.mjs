@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..', '..');
 const OUT_DIR = path.join(REPO_ROOT, '.tmp', 'hero-capture');
-const SITE_URL = process.env.SITE_URL || 'https://xang1234.github.io/stock-screener';
+const SITE_URL = process.env.SITE_URL || 'https://tramper2.github.io/stock-screener';
 const VIEWPORT = { width: 1440, height: 900 };
 
 if (!existsSync(OUT_DIR)) mkdirSync(OUT_DIR, { recursive: true });

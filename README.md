@@ -8,13 +8,13 @@
 
 ---
 
-### 정적 데모 사이트 둘러보기
+### 목업 데모 사이트 둘러보기
 
 ![Static site page tour — Daily, Scan, Breadth, Groups](docs/gifs/static-site-tour.gif)
 
-정적 데모 페이지: [https://xang1234.github.io/stock-screener/](https://xang1234.github.io/stock-screener/)
+목업 데모 페이지: [https://tramper2.github.io/stock-screener/](https://tramper2.github.io/stock-screener/)
 
-*정적 페이지는 데모 전용입니다. 챗봇, 테마 파이프라인, 관심종목(워치리스트) 관리 및 인터랙티브 백엔드가 포함된 정식 버전에 비해 기능이 제한된 일일 스냅샷(읽기 전용) 형태로 제공됩니다.*
+*목업 페이지는 데모 전용입니다. 챗봇, 테마 파이프라인, 관심종목(워치리스트) 관리 및 인터랙티브 백엔드가 포함된 정식 버전에 비해 기능이 제한된 목업 데이터를 이용한 일일 스냅샷(읽기 전용) 형태로 제공됩니다.*
 
 ## 주요 기능 (Highlights)
 
