@@ -1,2104 +1,2249 @@
 {
   "available": true,
-  "published_at": "2026-05-27T23:59:53.813Z",
+  "published_at": "2026-05-28T00:06:56.503Z",
   "payload": {
     "current": {
-      "date": "2026-05-27",
-      "stocks_up_4pct": 48,
-      "stocks_down_4pct": 11,
-      "ratio_10day": 5.24
+      "date": "2026-05-28",
+      "stocks_up_4pct": 25,
+      "stocks_down_4pct": 26,
+      "ratio_10day": 1.15
     },
     "chart_data": [
       {
-        "date": "2025-12-11",
-        "stocks_up_4pct": 27,
-        "stocks_down_4pct": 11,
-        "ratio_5day": 2.45,
-        "ratio_10day": 2.95
-      },
-      {
-        "date": "2025-12-14",
-        "stocks_up_4pct": 46,
-        "stocks_down_4pct": 16,
-        "ratio_5day": 2.88,
-        "ratio_10day": 3.45
+        "date": "2025-12-12",
+        "stocks_up_4pct": 20,
+        "stocks_down_4pct": 25,
+        "ratio_5day": 0.8,
+        "ratio_10day": 0.96
       },
       {
         "date": "2025-12-15",
-        "stocks_up_4pct": 28,
-        "stocks_down_4pct": 14,
-        "ratio_5day": 2,
-        "ratio_10day": 2.4
+        "stocks_up_4pct": 35,
+        "stocks_down_4pct": 5,
+        "ratio_5day": 7,
+        "ratio_10day": 8.4
       },
       {
         "date": "2025-12-16",
-        "stocks_up_4pct": 19,
-        "stocks_down_4pct": 24,
-        "ratio_5day": 0.79,
-        "ratio_10day": 0.95
+        "stocks_up_4pct": 31,
+        "stocks_down_4pct": 12,
+        "ratio_5day": 2.58,
+        "ratio_10day": 3.1
       },
       {
         "date": "2025-12-17",
-        "stocks_up_4pct": 20,
-        "stocks_down_4pct": 9,
-        "ratio_5day": 2.22,
-        "ratio_10day": 2.67
+        "stocks_up_4pct": 32,
+        "stocks_down_4pct": 20,
+        "ratio_5day": 1.6,
+        "ratio_10day": 1.92
       },
       {
         "date": "2025-12-18",
-        "stocks_up_4pct": 28,
-        "stocks_down_4pct": 14,
-        "ratio_5day": 2,
-        "ratio_10day": 2.4
+        "stocks_up_4pct": 30,
+        "stocks_down_4pct": 21,
+        "ratio_5day": 1.43,
+        "ratio_10day": 1.71
       },
       {
-        "date": "2025-12-21",
-        "stocks_up_4pct": 46,
-        "stocks_down_4pct": 21,
-        "ratio_5day": 2.19,
-        "ratio_10day": 2.63
+        "date": "2025-12-19",
+        "stocks_up_4pct": 5,
+        "stocks_down_4pct": 22,
+        "ratio_5day": 0.23,
+        "ratio_10day": 0.27
       },
       {
         "date": "2025-12-22",
-        "stocks_up_4pct": 26,
-        "stocks_down_4pct": 15,
-        "ratio_5day": 1.73,
-        "ratio_10day": 2.08
+        "stocks_up_4pct": 14,
+        "stocks_down_4pct": 19,
+        "ratio_5day": 0.74,
+        "ratio_10day": 0.88
       },
       {
         "date": "2025-12-23",
-        "stocks_up_4pct": 33,
-        "stocks_down_4pct": 3,
-        "ratio_5day": 11,
-        "ratio_10day": 13.2
+        "stocks_up_4pct": 5,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 0.29,
+        "ratio_10day": 0.35
       },
       {
         "date": "2025-12-24",
-        "stocks_up_4pct": 15,
-        "stocks_down_4pct": 3,
-        "ratio_5day": 5,
-        "ratio_10day": 6
+        "stocks_up_4pct": 48,
+        "stocks_down_4pct": 12,
+        "ratio_5day": 4,
+        "ratio_10day": 4.8
       },
       {
         "date": "2025-12-25",
-        "stocks_up_4pct": 31,
-        "stocks_down_4pct": 7,
-        "ratio_5day": 4.43,
-        "ratio_10day": 5.31
+        "stocks_up_4pct": 38,
+        "stocks_down_4pct": 20,
+        "ratio_5day": 1.9,
+        "ratio_10day": 2.28
       },
       {
-        "date": "2025-12-28",
-        "stocks_up_4pct": 27,
-        "stocks_down_4pct": 10,
-        "ratio_5day": 2.7,
-        "ratio_10day": 3.24
+        "date": "2025-12-26",
+        "stocks_up_4pct": 8,
+        "stocks_down_4pct": 9,
+        "ratio_5day": 0.89,
+        "ratio_10day": 1.07
       },
       {
         "date": "2025-12-29",
-        "stocks_up_4pct": 27,
-        "stocks_down_4pct": 9,
-        "ratio_5day": 3,
-        "ratio_10day": 3.6
+        "stocks_up_4pct": 17,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 1,
+        "ratio_10day": 1.2
       },
       {
         "date": "2025-12-30",
-        "stocks_up_4pct": 38,
-        "stocks_down_4pct": 14,
-        "ratio_5day": 2.71,
-        "ratio_10day": 3.26
-      },
-      {
-        "date": "2025-12-31",
-        "stocks_up_4pct": 34,
-        "stocks_down_4pct": 24,
-        "ratio_5day": 1.42,
-        "ratio_10day": 1.7
-      },
-      {
-        "date": "2026-01-01",
-        "stocks_up_4pct": 5,
-        "stocks_down_4pct": 12,
-        "ratio_5day": 0.42,
-        "ratio_10day": 0.5
-      },
-      {
-        "date": "2026-01-04",
-        "stocks_up_4pct": 17,
-        "stocks_down_4pct": 3,
-        "ratio_5day": 5.67,
-        "ratio_10day": 6.8
-      },
-      {
-        "date": "2026-01-05",
-        "stocks_up_4pct": 32,
-        "stocks_down_4pct": 17,
-        "ratio_5day": 1.88,
-        "ratio_10day": 2.26
-      },
-      {
-        "date": "2026-01-06",
-        "stocks_up_4pct": 33,
-        "stocks_down_4pct": 15,
-        "ratio_5day": 2.2,
-        "ratio_10day": 2.64
-      },
-      {
-        "date": "2026-01-07",
-        "stocks_up_4pct": 18,
-        "stocks_down_4pct": 19,
+        "stocks_up_4pct": 20,
+        "stocks_down_4pct": 21,
         "ratio_5day": 0.95,
         "ratio_10day": 1.14
       },
       {
-        "date": "2026-01-08",
-        "stocks_up_4pct": 16,
-        "stocks_down_4pct": 7,
-        "ratio_5day": 2.29,
-        "ratio_10day": 2.74
+        "date": "2025-12-31",
+        "stocks_up_4pct": 29,
+        "stocks_down_4pct": 4,
+        "ratio_5day": 7.25,
+        "ratio_10day": 8.7
       },
       {
-        "date": "2026-01-11",
-        "stocks_up_4pct": 47,
-        "stocks_down_4pct": 26,
-        "ratio_5day": 1.81,
-        "ratio_10day": 2.17
+        "date": "2026-01-01",
+        "stocks_up_4pct": 32,
+        "stocks_down_4pct": 21,
+        "ratio_5day": 1.52,
+        "ratio_10day": 1.83
       },
       {
-        "date": "2026-01-12",
-        "stocks_up_4pct": 46,
+        "date": "2026-01-02",
+        "stocks_up_4pct": 17,
+        "stocks_down_4pct": 18,
+        "ratio_5day": 0.94,
+        "ratio_10day": 1.13
+      },
+      {
+        "date": "2026-01-05",
+        "stocks_up_4pct": 22,
         "stocks_down_4pct": 8,
-        "ratio_5day": 5.75,
-        "ratio_10day": 6.9
+        "ratio_5day": 2.75,
+        "ratio_10day": 3.3
       },
       {
-        "date": "2026-01-13",
-        "stocks_up_4pct": 30,
-        "stocks_down_4pct": 2,
+        "date": "2026-01-06",
+        "stocks_up_4pct": 45,
+        "stocks_down_4pct": 3,
         "ratio_5day": 15,
         "ratio_10day": 18
       },
       {
-        "date": "2026-01-14",
-        "stocks_up_4pct": 45,
-        "stocks_down_4pct": 26,
-        "ratio_5day": 1.73,
-        "ratio_10day": 2.08
+        "date": "2026-01-07",
+        "stocks_up_4pct": 35,
+        "stocks_down_4pct": 14,
+        "ratio_5day": 2.5,
+        "ratio_10day": 3
       },
       {
-        "date": "2026-01-15",
-        "stocks_up_4pct": 46,
-        "stocks_down_4pct": 5,
-        "ratio_5day": 9.2,
-        "ratio_10day": 11.04
-      },
-      {
-        "date": "2026-01-18",
-        "stocks_up_4pct": 17,
-        "stocks_down_4pct": 13,
-        "ratio_5day": 1.31,
-        "ratio_10day": 1.57
-      },
-      {
-        "date": "2026-01-19",
-        "stocks_up_4pct": 27,
-        "stocks_down_4pct": 12,
-        "ratio_5day": 2.25,
-        "ratio_10day": 2.7
-      },
-      {
-        "date": "2026-01-20",
-        "stocks_up_4pct": 19,
-        "stocks_down_4pct": 20,
-        "ratio_5day": 0.95,
-        "ratio_10day": 1.14
-      },
-      {
-        "date": "2026-01-21",
-        "stocks_up_4pct": 28,
-        "stocks_down_4pct": 19,
-        "ratio_5day": 1.47,
-        "ratio_10day": 1.77
-      },
-      {
-        "date": "2026-01-22",
-        "stocks_up_4pct": 24,
-        "stocks_down_4pct": 18,
-        "ratio_5day": 1.33,
-        "ratio_10day": 1.6
-      },
-      {
-        "date": "2026-01-25",
-        "stocks_up_4pct": 18,
-        "stocks_down_4pct": 22,
-        "ratio_5day": 0.82,
-        "ratio_10day": 0.98
-      },
-      {
-        "date": "2026-01-26",
-        "stocks_up_4pct": 27,
-        "stocks_down_4pct": 23,
-        "ratio_5day": 1.17,
-        "ratio_10day": 1.41
-      },
-      {
-        "date": "2026-01-27",
-        "stocks_up_4pct": 28,
-        "stocks_down_4pct": 25,
-        "ratio_5day": 1.12,
-        "ratio_10day": 1.34
-      },
-      {
-        "date": "2026-01-28",
-        "stocks_up_4pct": 26,
-        "stocks_down_4pct": 20,
-        "ratio_5day": 1.3,
-        "ratio_10day": 1.56
-      },
-      {
-        "date": "2026-01-29",
-        "stocks_up_4pct": 8,
-        "stocks_down_4pct": 16,
-        "ratio_5day": 0.5,
-        "ratio_10day": 0.6
-      },
-      {
-        "date": "2026-02-01",
-        "stocks_up_4pct": 10,
-        "stocks_down_4pct": 6,
-        "ratio_5day": 1.67,
-        "ratio_10day": 2
-      },
-      {
-        "date": "2026-02-02",
+        "date": "2026-01-08",
         "stocks_up_4pct": 47,
-        "stocks_down_4pct": 11,
-        "ratio_5day": 4.27,
-        "ratio_10day": 5.13
-      },
-      {
-        "date": "2026-02-03",
-        "stocks_up_4pct": 29,
-        "stocks_down_4pct": 8,
-        "ratio_5day": 3.63,
-        "ratio_10day": 4.35
-      },
-      {
-        "date": "2026-02-04",
-        "stocks_up_4pct": 29,
-        "stocks_down_4pct": 19,
-        "ratio_5day": 1.53,
-        "ratio_10day": 1.83
-      },
-      {
-        "date": "2026-02-05",
-        "stocks_up_4pct": 35,
-        "stocks_down_4pct": 2,
-        "ratio_5day": 17.5,
-        "ratio_10day": 21
-      },
-      {
-        "date": "2026-02-08",
-        "stocks_up_4pct": 27,
-        "stocks_down_4pct": 2,
-        "ratio_5day": 13.5,
-        "ratio_10day": 16.2
-      },
-      {
-        "date": "2026-02-09",
-        "stocks_up_4pct": 41,
-        "stocks_down_4pct": 19,
-        "ratio_5day": 2.16,
-        "ratio_10day": 2.59
-      },
-      {
-        "date": "2026-02-10",
-        "stocks_up_4pct": 25,
-        "stocks_down_4pct": 10,
-        "ratio_5day": 2.5,
-        "ratio_10day": 3
-      },
-      {
-        "date": "2026-02-11",
-        "stocks_up_4pct": 8,
-        "stocks_down_4pct": 21,
-        "ratio_5day": 0.38,
-        "ratio_10day": 0.46
-      },
-      {
-        "date": "2026-02-12",
-        "stocks_up_4pct": 42,
-        "stocks_down_4pct": 2,
-        "ratio_5day": 21,
-        "ratio_10day": 25.2
-      },
-      {
-        "date": "2026-02-15",
-        "stocks_up_4pct": 37,
-        "stocks_down_4pct": 22,
-        "ratio_5day": 1.68,
-        "ratio_10day": 2.02
-      },
-      {
-        "date": "2026-02-16",
-        "stocks_up_4pct": 42,
-        "stocks_down_4pct": 13,
-        "ratio_5day": 3.23,
-        "ratio_10day": 3.88
-      },
-      {
-        "date": "2026-02-17",
-        "stocks_up_4pct": 13,
-        "stocks_down_4pct": 11,
-        "ratio_5day": 1.18,
-        "ratio_10day": 1.42
-      },
-      {
-        "date": "2026-02-18",
-        "stocks_up_4pct": 35,
         "stocks_down_4pct": 24,
-        "ratio_5day": 1.46,
-        "ratio_10day": 1.75
+        "ratio_5day": 1.96,
+        "ratio_10day": 2.35
       },
       {
-        "date": "2026-02-19",
-        "stocks_up_4pct": 30,
-        "stocks_down_4pct": 12,
-        "ratio_5day": 2.5,
-        "ratio_10day": 3
-      },
-      {
-        "date": "2026-02-22",
-        "stocks_up_4pct": 33,
-        "stocks_down_4pct": 17,
-        "ratio_5day": 1.94,
-        "ratio_10day": 2.33
-      },
-      {
-        "date": "2026-02-23",
-        "stocks_up_4pct": 17,
-        "stocks_down_4pct": 25,
-        "ratio_5day": 0.68,
-        "ratio_10day": 0.82
-      },
-      {
-        "date": "2026-02-24",
-        "stocks_up_4pct": 17,
-        "stocks_down_4pct": 13,
-        "ratio_5day": 1.31,
-        "ratio_10day": 1.57
-      },
-      {
-        "date": "2026-02-25",
-        "stocks_up_4pct": 38,
-        "stocks_down_4pct": 23,
-        "ratio_5day": 1.65,
-        "ratio_10day": 1.98
-      },
-      {
-        "date": "2026-02-26",
-        "stocks_up_4pct": 11,
-        "stocks_down_4pct": 7,
-        "ratio_5day": 1.57,
-        "ratio_10day": 1.89
-      },
-      {
-        "date": "2026-03-01",
-        "stocks_up_4pct": 25,
-        "stocks_down_4pct": 22,
-        "ratio_5day": 1.14,
-        "ratio_10day": 1.36
-      },
-      {
-        "date": "2026-03-02",
-        "stocks_up_4pct": 37,
-        "stocks_down_4pct": 4,
-        "ratio_5day": 9.25,
-        "ratio_10day": 11.1
-      },
-      {
-        "date": "2026-03-03",
-        "stocks_up_4pct": 28,
-        "stocks_down_4pct": 11,
-        "ratio_5day": 2.55,
-        "ratio_10day": 3.05
-      },
-      {
-        "date": "2026-03-04",
-        "stocks_up_4pct": 25,
+        "date": "2026-01-09",
+        "stocks_up_4pct": 9,
         "stocks_down_4pct": 10,
-        "ratio_5day": 2.5,
-        "ratio_10day": 3
+        "ratio_5day": 0.9,
+        "ratio_10day": 1.08
       },
       {
-        "date": "2026-03-05",
-        "stocks_up_4pct": 20,
-        "stocks_down_4pct": 22,
-        "ratio_5day": 0.91,
-        "ratio_10day": 1.09
-      },
-      {
-        "date": "2026-03-08",
-        "stocks_up_4pct": 43,
-        "stocks_down_4pct": 2,
-        "ratio_5day": 21.5,
-        "ratio_10day": 25.8
-      },
-      {
-        "date": "2026-03-09",
-        "stocks_up_4pct": 36,
-        "stocks_down_4pct": 23,
-        "ratio_5day": 1.57,
-        "ratio_10day": 1.88
-      },
-      {
-        "date": "2026-03-10",
-        "stocks_up_4pct": 41,
-        "stocks_down_4pct": 16,
-        "ratio_5day": 2.56,
-        "ratio_10day": 3.07
-      },
-      {
-        "date": "2026-03-11",
-        "stocks_up_4pct": 14,
-        "stocks_down_4pct": 4,
-        "ratio_5day": 3.5,
-        "ratio_10day": 4.2
-      },
-      {
-        "date": "2026-03-12",
-        "stocks_up_4pct": 7,
-        "stocks_down_4pct": 19,
-        "ratio_5day": 0.37,
-        "ratio_10day": 0.44
-      },
-      {
-        "date": "2026-03-15",
-        "stocks_up_4pct": 33,
-        "stocks_down_4pct": 15,
-        "ratio_5day": 2.2,
-        "ratio_10day": 2.64
-      },
-      {
-        "date": "2026-03-16",
-        "stocks_up_4pct": 38,
-        "stocks_down_4pct": 17,
-        "ratio_5day": 2.24,
-        "ratio_10day": 2.68
-      },
-      {
-        "date": "2026-03-17",
-        "stocks_up_4pct": 7,
-        "stocks_down_4pct": 15,
-        "ratio_5day": 0.47,
-        "ratio_10day": 0.56
-      },
-      {
-        "date": "2026-03-18",
-        "stocks_up_4pct": 29,
-        "stocks_down_4pct": 10,
-        "ratio_5day": 2.9,
-        "ratio_10day": 3.48
-      },
-      {
-        "date": "2026-03-19",
-        "stocks_up_4pct": 42,
-        "stocks_down_4pct": 26,
-        "ratio_5day": 1.62,
-        "ratio_10day": 1.94
-      },
-      {
-        "date": "2026-03-22",
-        "stocks_up_4pct": 14,
-        "stocks_down_4pct": 15,
-        "ratio_5day": 0.93,
-        "ratio_10day": 1.12
-      },
-      {
-        "date": "2026-03-23",
-        "stocks_up_4pct": 10,
-        "stocks_down_4pct": 8,
-        "ratio_5day": 1.25,
-        "ratio_10day": 1.5
-      },
-      {
-        "date": "2026-03-24",
-        "stocks_up_4pct": 24,
-        "stocks_down_4pct": 11,
-        "ratio_5day": 2.18,
-        "ratio_10day": 2.62
-      },
-      {
-        "date": "2026-03-25",
-        "stocks_up_4pct": 17,
-        "stocks_down_4pct": 11,
-        "ratio_5day": 1.55,
-        "ratio_10day": 1.85
-      },
-      {
-        "date": "2026-03-26",
+        "date": "2026-01-12",
         "stocks_up_4pct": 39,
         "stocks_down_4pct": 15,
         "ratio_5day": 2.6,
         "ratio_10day": 3.12
       },
       {
-        "date": "2026-03-29",
-        "stocks_up_4pct": 36,
-        "stocks_down_4pct": 11,
-        "ratio_5day": 3.27,
-        "ratio_10day": 3.93
-      },
-      {
-        "date": "2026-03-30",
-        "stocks_up_4pct": 41,
-        "stocks_down_4pct": 4,
-        "ratio_5day": 10.25,
-        "ratio_10day": 12.3
-      },
-      {
-        "date": "2026-03-31",
-        "stocks_up_4pct": 14,
-        "stocks_down_4pct": 26,
-        "ratio_5day": 0.54,
-        "ratio_10day": 0.65
-      },
-      {
-        "date": "2026-04-01",
-        "stocks_up_4pct": 20,
-        "stocks_down_4pct": 9,
-        "ratio_5day": 2.22,
-        "ratio_10day": 2.67
-      },
-      {
-        "date": "2026-04-02",
-        "stocks_up_4pct": 22,
-        "stocks_down_4pct": 24,
-        "ratio_5day": 0.92,
-        "ratio_10day": 1.1
-      },
-      {
-        "date": "2026-04-05",
-        "stocks_up_4pct": 37,
-        "stocks_down_4pct": 15,
-        "ratio_5day": 2.47,
-        "ratio_10day": 2.96
-      },
-      {
-        "date": "2026-04-06",
-        "stocks_up_4pct": 45,
-        "stocks_down_4pct": 23,
-        "ratio_5day": 1.96,
-        "ratio_10day": 2.35
-      },
-      {
-        "date": "2026-04-07",
-        "stocks_up_4pct": 11,
+        "date": "2026-01-13",
+        "stocks_up_4pct": 8,
         "stocks_down_4pct": 3,
-        "ratio_5day": 3.67,
-        "ratio_10day": 4.4
+        "ratio_5day": 2.67,
+        "ratio_10day": 3.2
       },
       {
-        "date": "2026-04-08",
-        "stocks_up_4pct": 26,
-        "stocks_down_4pct": 14,
-        "ratio_5day": 1.86,
-        "ratio_10day": 2.23
+        "date": "2026-01-14",
+        "stocks_up_4pct": 9,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 0.53,
+        "ratio_10day": 0.64
       },
       {
-        "date": "2026-04-09",
-        "stocks_up_4pct": 45,
+        "date": "2026-01-15",
+        "stocks_up_4pct": 10,
+        "stocks_down_4pct": 19,
+        "ratio_5day": 0.53,
+        "ratio_10day": 0.63
+      },
+      {
+        "date": "2026-01-16",
+        "stocks_up_4pct": 7,
         "stocks_down_4pct": 10,
-        "ratio_5day": 4.5,
-        "ratio_10day": 5.4
+        "ratio_5day": 0.7,
+        "ratio_10day": 0.84
       },
       {
-        "date": "2026-04-12",
-        "stocks_up_4pct": 16,
-        "stocks_down_4pct": 14,
-        "ratio_5day": 1.14,
-        "ratio_10day": 1.37
+        "date": "2026-01-19",
+        "stocks_up_4pct": 21,
+        "stocks_down_4pct": 3,
+        "ratio_5day": 7,
+        "ratio_10day": 8.4
       },
       {
-        "date": "2026-04-13",
+        "date": "2026-01-20",
+        "stocks_up_4pct": 8,
+        "stocks_down_4pct": 22,
+        "ratio_5day": 0.36,
+        "ratio_10day": 0.44
+      },
+      {
+        "date": "2026-01-21",
         "stocks_up_4pct": 30,
-        "stocks_down_4pct": 14,
-        "ratio_5day": 2.14,
-        "ratio_10day": 2.57
+        "stocks_down_4pct": 23,
+        "ratio_5day": 1.3,
+        "ratio_10day": 1.57
       },
       {
-        "date": "2026-04-14",
-        "stocks_up_4pct": 35,
-        "stocks_down_4pct": 20,
+        "date": "2026-01-22",
+        "stocks_up_4pct": 49,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 2.88,
+        "ratio_10day": 3.46
+      },
+      {
+        "date": "2026-01-23",
+        "stocks_up_4pct": 48,
+        "stocks_down_4pct": 7,
+        "ratio_5day": 6.86,
+        "ratio_10day": 8.23
+      },
+      {
+        "date": "2026-01-26",
+        "stocks_up_4pct": 16,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 0.94,
+        "ratio_10day": 1.13
+      },
+      {
+        "date": "2026-01-27",
+        "stocks_up_4pct": 37,
+        "stocks_down_4pct": 25,
+        "ratio_5day": 1.48,
+        "ratio_10day": 1.78
+      },
+      {
+        "date": "2026-01-28",
+        "stocks_up_4pct": 7,
+        "stocks_down_4pct": 4,
         "ratio_5day": 1.75,
         "ratio_10day": 2.1
       },
       {
-        "date": "2026-04-15",
-        "stocks_up_4pct": 17,
-        "stocks_down_4pct": 8,
-        "ratio_5day": 2.13,
-        "ratio_10day": 2.55
+        "date": "2026-01-29",
+        "stocks_up_4pct": 6,
+        "stocks_down_4pct": 21,
+        "ratio_5day": 0.29,
+        "ratio_10day": 0.34
       },
       {
-        "date": "2026-04-16",
-        "stocks_up_4pct": 19,
-        "stocks_down_4pct": 4,
+        "date": "2026-01-30",
+        "stocks_up_4pct": 25,
+        "stocks_down_4pct": 3,
+        "ratio_5day": 8.33,
+        "ratio_10day": 10
+      },
+      {
+        "date": "2026-02-02",
+        "stocks_up_4pct": 11,
+        "stocks_down_4pct": 13,
+        "ratio_5day": 0.85,
+        "ratio_10day": 1.02
+      },
+      {
+        "date": "2026-02-03",
+        "stocks_up_4pct": 8,
+        "stocks_down_4pct": 20,
+        "ratio_5day": 0.4,
+        "ratio_10day": 0.48
+      },
+      {
+        "date": "2026-02-04",
+        "stocks_up_4pct": 7,
+        "stocks_down_4pct": 12,
+        "ratio_5day": 0.58,
+        "ratio_10day": 0.7
+      },
+      {
+        "date": "2026-02-05",
+        "stocks_up_4pct": 16,
+        "stocks_down_4pct": 10,
+        "ratio_5day": 1.6,
+        "ratio_10day": 1.92
+      },
+      {
+        "date": "2026-02-06",
+        "stocks_up_4pct": 30,
+        "stocks_down_4pct": 21,
+        "ratio_5day": 1.43,
+        "ratio_10day": 1.71
+      },
+      {
+        "date": "2026-02-09",
+        "stocks_up_4pct": 18,
+        "stocks_down_4pct": 6,
+        "ratio_5day": 3,
+        "ratio_10day": 3.6
+      },
+      {
+        "date": "2026-02-10",
+        "stocks_up_4pct": 6,
+        "stocks_down_4pct": 23,
+        "ratio_5day": 0.26,
+        "ratio_10day": 0.31
+      },
+      {
+        "date": "2026-02-11",
+        "stocks_up_4pct": 29,
+        "stocks_down_4pct": 5,
+        "ratio_5day": 5.8,
+        "ratio_10day": 6.96
+      },
+      {
+        "date": "2026-02-12",
+        "stocks_up_4pct": 38,
+        "stocks_down_4pct": 8,
         "ratio_5day": 4.75,
         "ratio_10day": 5.7
       },
       {
-        "date": "2026-04-19",
-        "stocks_up_4pct": 47,
-        "stocks_down_4pct": 23,
-        "ratio_5day": 2.04,
-        "ratio_10day": 2.45
-      },
-      {
-        "date": "2026-04-20",
-        "stocks_up_4pct": 19,
-        "stocks_down_4pct": 3,
-        "ratio_5day": 6.33,
-        "ratio_10day": 7.6
-      },
-      {
-        "date": "2026-04-21",
-        "stocks_up_4pct": 16,
-        "stocks_down_4pct": 12,
-        "ratio_5day": 1.33,
-        "ratio_10day": 1.6
-      },
-      {
-        "date": "2026-04-22",
-        "stocks_up_4pct": 28,
+        "date": "2026-02-13",
+        "stocks_up_4pct": 11,
         "stocks_down_4pct": 5,
-        "ratio_5day": 5.6,
-        "ratio_10day": 6.72
-      },
-      {
-        "date": "2026-04-23",
-        "stocks_up_4pct": 32,
-        "stocks_down_4pct": 22,
-        "ratio_5day": 1.45,
-        "ratio_10day": 1.75
-      },
-      {
-        "date": "2026-04-26",
-        "stocks_up_4pct": 34,
-        "stocks_down_4pct": 13,
-        "ratio_5day": 2.62,
-        "ratio_10day": 3.14
-      },
-      {
-        "date": "2026-04-27",
-        "stocks_up_4pct": 9,
-        "stocks_down_4pct": 20,
-        "ratio_5day": 0.45,
-        "ratio_10day": 0.54
-      },
-      {
-        "date": "2026-04-28",
-        "stocks_up_4pct": 30,
-        "stocks_down_4pct": 26,
-        "ratio_5day": 1.15,
-        "ratio_10day": 1.38
-      },
-      {
-        "date": "2026-04-29",
-        "stocks_up_4pct": 45,
-        "stocks_down_4pct": 8,
-        "ratio_5day": 5.63,
-        "ratio_10day": 6.75
-      },
-      {
-        "date": "2026-04-30",
-        "stocks_up_4pct": 17,
-        "stocks_down_4pct": 16,
-        "ratio_5day": 1.06,
-        "ratio_10day": 1.27
-      },
-      {
-        "date": "2026-05-03",
-        "stocks_up_4pct": 10,
-        "stocks_down_4pct": 2,
-        "ratio_5day": 5,
-        "ratio_10day": 6
-      },
-      {
-        "date": "2026-05-04",
-        "stocks_up_4pct": 37,
-        "stocks_down_4pct": 14,
-        "ratio_5day": 2.64,
-        "ratio_10day": 3.17
-      },
-      {
-        "date": "2026-05-05",
-        "stocks_up_4pct": 33,
-        "stocks_down_4pct": 15,
         "ratio_5day": 2.2,
         "ratio_10day": 2.64
       },
       {
-        "date": "2026-05-06",
-        "stocks_up_4pct": 13,
-        "stocks_down_4pct": 20,
-        "ratio_5day": 0.65,
-        "ratio_10day": 0.78
-      },
-      {
-        "date": "2026-05-07",
-        "stocks_up_4pct": 22,
-        "stocks_down_4pct": 6,
-        "ratio_5day": 3.67,
-        "ratio_10day": 4.4
-      },
-      {
-        "date": "2026-05-10",
-        "stocks_up_4pct": 42,
+        "date": "2026-02-16",
+        "stocks_up_4pct": 39,
         "stocks_down_4pct": 3,
-        "ratio_5day": 14,
-        "ratio_10day": 16.8
+        "ratio_5day": 13,
+        "ratio_10day": 15.6
       },
       {
-        "date": "2026-05-11",
-        "stocks_up_4pct": 22,
+        "date": "2026-02-17",
+        "stocks_up_4pct": 37,
+        "stocks_down_4pct": 16,
+        "ratio_5day": 2.31,
+        "ratio_10day": 2.77
+      },
+      {
+        "date": "2026-02-18",
+        "stocks_up_4pct": 30,
+        "stocks_down_4pct": 2,
+        "ratio_5day": 15,
+        "ratio_10day": 18
+      },
+      {
+        "date": "2026-02-19",
+        "stocks_up_4pct": 34,
+        "stocks_down_4pct": 8,
+        "ratio_5day": 4.25,
+        "ratio_10day": 5.1
+      },
+      {
+        "date": "2026-02-20",
+        "stocks_up_4pct": 30,
+        "stocks_down_4pct": 15,
+        "ratio_5day": 2,
+        "ratio_10day": 2.4
+      },
+      {
+        "date": "2026-02-23",
+        "stocks_up_4pct": 27,
         "stocks_down_4pct": 21,
-        "ratio_5day": 1.05,
-        "ratio_10day": 1.26
+        "ratio_5day": 1.29,
+        "ratio_10day": 1.54
       },
       {
-        "date": "2026-05-12",
-        "stocks_up_4pct": 28,
-        "stocks_down_4pct": 26,
-        "ratio_5day": 1.08,
-        "ratio_10day": 1.29
+        "date": "2026-02-24",
+        "stocks_up_4pct": 16,
+        "stocks_down_4pct": 24,
+        "ratio_5day": 0.67,
+        "ratio_10day": 0.8
       },
       {
-        "date": "2026-05-13",
-        "stocks_up_4pct": 24,
-        "stocks_down_4pct": 4,
+        "date": "2026-02-25",
+        "stocks_up_4pct": 23,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 1.35,
+        "ratio_10day": 1.62
+      },
+      {
+        "date": "2026-02-26",
+        "stocks_up_4pct": 39,
+        "stocks_down_4pct": 15,
+        "ratio_5day": 2.6,
+        "ratio_10day": 3.12
+      },
+      {
+        "date": "2026-02-27",
+        "stocks_up_4pct": 25,
+        "stocks_down_4pct": 19,
+        "ratio_5day": 1.32,
+        "ratio_10day": 1.58
+      },
+      {
+        "date": "2026-03-02",
+        "stocks_up_4pct": 22,
+        "stocks_down_4pct": 16,
+        "ratio_5day": 1.38,
+        "ratio_10day": 1.65
+      },
+      {
+        "date": "2026-03-03",
+        "stocks_up_4pct": 18,
+        "stocks_down_4pct": 8,
+        "ratio_5day": 2.25,
+        "ratio_10day": 2.7
+      },
+      {
+        "date": "2026-03-04",
+        "stocks_up_4pct": 19,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 1.12,
+        "ratio_10day": 1.34
+      },
+      {
+        "date": "2026-03-05",
+        "stocks_up_4pct": 40,
+        "stocks_down_4pct": 15,
+        "ratio_5day": 2.67,
+        "ratio_10day": 3.2
+      },
+      {
+        "date": "2026-03-06",
+        "stocks_up_4pct": 40,
+        "stocks_down_4pct": 10,
+        "ratio_5day": 4,
+        "ratio_10day": 4.8
+      },
+      {
+        "date": "2026-03-09",
+        "stocks_up_4pct": 42,
+        "stocks_down_4pct": 7,
         "ratio_5day": 6,
         "ratio_10day": 7.2
       },
       {
-        "date": "2026-05-14",
+        "date": "2026-03-10",
+        "stocks_up_4pct": 24,
+        "stocks_down_4pct": 18,
+        "ratio_5day": 1.33,
+        "ratio_10day": 1.6
+      },
+      {
+        "date": "2026-03-11",
+        "stocks_up_4pct": 7,
+        "stocks_down_4pct": 11,
+        "ratio_5day": 0.64,
+        "ratio_10day": 0.76
+      },
+      {
+        "date": "2026-03-12",
+        "stocks_up_4pct": 26,
+        "stocks_down_4pct": 3,
+        "ratio_5day": 8.67,
+        "ratio_10day": 10.4
+      },
+      {
+        "date": "2026-03-13",
+        "stocks_up_4pct": 47,
+        "stocks_down_4pct": 16,
+        "ratio_5day": 2.94,
+        "ratio_10day": 3.52
+      },
+      {
+        "date": "2026-03-16",
+        "stocks_up_4pct": 8,
+        "stocks_down_4pct": 6,
+        "ratio_5day": 1.33,
+        "ratio_10day": 1.6
+      },
+      {
+        "date": "2026-03-17",
+        "stocks_up_4pct": 38,
+        "stocks_down_4pct": 19,
+        "ratio_5day": 2,
+        "ratio_10day": 2.4
+      },
+      {
+        "date": "2026-03-18",
+        "stocks_up_4pct": 9,
+        "stocks_down_4pct": 14,
+        "ratio_5day": 0.64,
+        "ratio_10day": 0.77
+      },
+      {
+        "date": "2026-03-19",
+        "stocks_up_4pct": 12,
+        "stocks_down_4pct": 4,
+        "ratio_5day": 3,
+        "ratio_10day": 3.6
+      },
+      {
+        "date": "2026-03-20",
+        "stocks_up_4pct": 12,
+        "stocks_down_4pct": 14,
+        "ratio_5day": 0.86,
+        "ratio_10day": 1.03
+      },
+      {
+        "date": "2026-03-23",
+        "stocks_up_4pct": 12,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 0.71,
+        "ratio_10day": 0.85
+      },
+      {
+        "date": "2026-03-24",
+        "stocks_up_4pct": 26,
+        "stocks_down_4pct": 22,
+        "ratio_5day": 1.18,
+        "ratio_10day": 1.42
+      },
+      {
+        "date": "2026-03-25",
+        "stocks_up_4pct": 24,
+        "stocks_down_4pct": 19,
+        "ratio_5day": 1.26,
+        "ratio_10day": 1.52
+      },
+      {
+        "date": "2026-03-26",
+        "stocks_up_4pct": 43,
+        "stocks_down_4pct": 4,
+        "ratio_5day": 10.75,
+        "ratio_10day": 12.9
+      },
+      {
+        "date": "2026-03-27",
+        "stocks_up_4pct": 34,
+        "stocks_down_4pct": 3,
+        "ratio_5day": 11.33,
+        "ratio_10day": 13.6
+      },
+      {
+        "date": "2026-03-30",
+        "stocks_up_4pct": 32,
+        "stocks_down_4pct": 23,
+        "ratio_5day": 1.39,
+        "ratio_10day": 1.67
+      },
+      {
+        "date": "2026-03-31",
+        "stocks_up_4pct": 11,
+        "stocks_down_4pct": 19,
+        "ratio_5day": 0.58,
+        "ratio_10day": 0.69
+      },
+      {
+        "date": "2026-04-01",
+        "stocks_up_4pct": 29,
+        "stocks_down_4pct": 11,
+        "ratio_5day": 2.64,
+        "ratio_10day": 3.16
+      },
+      {
+        "date": "2026-04-02",
+        "stocks_up_4pct": 38,
+        "stocks_down_4pct": 2,
+        "ratio_5day": 19,
+        "ratio_10day": 22.8
+      },
+      {
+        "date": "2026-04-03",
+        "stocks_up_4pct": 23,
+        "stocks_down_4pct": 6,
+        "ratio_5day": 3.83,
+        "ratio_10day": 4.6
+      },
+      {
+        "date": "2026-04-06",
+        "stocks_up_4pct": 35,
+        "stocks_down_4pct": 25,
+        "ratio_5day": 1.4,
+        "ratio_10day": 1.68
+      },
+      {
+        "date": "2026-04-07",
+        "stocks_up_4pct": 39,
+        "stocks_down_4pct": 24,
+        "ratio_5day": 1.63,
+        "ratio_10day": 1.95
+      },
+      {
+        "date": "2026-04-08",
+        "stocks_up_4pct": 40,
+        "stocks_down_4pct": 4,
+        "ratio_5day": 10,
+        "ratio_10day": 12
+      },
+      {
+        "date": "2026-04-09",
+        "stocks_up_4pct": 27,
+        "stocks_down_4pct": 20,
+        "ratio_5day": 1.35,
+        "ratio_10day": 1.62
+      },
+      {
+        "date": "2026-04-10",
+        "stocks_up_4pct": 30,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 1.76,
+        "ratio_10day": 2.12
+      },
+      {
+        "date": "2026-04-13",
+        "stocks_up_4pct": 10,
+        "stocks_down_4pct": 18,
+        "ratio_5day": 0.56,
+        "ratio_10day": 0.67
+      },
+      {
+        "date": "2026-04-14",
+        "stocks_up_4pct": 29,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 1.71,
+        "ratio_10day": 2.05
+      },
+      {
+        "date": "2026-04-15",
+        "stocks_up_4pct": 5,
+        "stocks_down_4pct": 10,
+        "ratio_5day": 0.5,
+        "ratio_10day": 0.6
+      },
+      {
+        "date": "2026-04-16",
+        "stocks_up_4pct": 25,
+        "stocks_down_4pct": 13,
+        "ratio_5day": 1.92,
+        "ratio_10day": 2.31
+      },
+      {
+        "date": "2026-04-17",
+        "stocks_up_4pct": 46,
+        "stocks_down_4pct": 4,
+        "ratio_5day": 11.5,
+        "ratio_10day": 13.8
+      },
+      {
+        "date": "2026-04-20",
+        "stocks_up_4pct": 36,
+        "stocks_down_4pct": 22,
+        "ratio_5day": 1.64,
+        "ratio_10day": 1.96
+      },
+      {
+        "date": "2026-04-21",
+        "stocks_up_4pct": 21,
+        "stocks_down_4pct": 11,
+        "ratio_5day": 1.91,
+        "ratio_10day": 2.29
+      },
+      {
+        "date": "2026-04-22",
+        "stocks_up_4pct": 31,
+        "stocks_down_4pct": 4,
+        "ratio_5day": 7.75,
+        "ratio_10day": 9.3
+      },
+      {
+        "date": "2026-04-23",
+        "stocks_up_4pct": 8,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 0.47,
+        "ratio_10day": 0.56
+      },
+      {
+        "date": "2026-04-24",
+        "stocks_up_4pct": 15,
+        "stocks_down_4pct": 4,
+        "ratio_5day": 3.75,
+        "ratio_10day": 4.5
+      },
+      {
+        "date": "2026-04-27",
+        "stocks_up_4pct": 37,
+        "stocks_down_4pct": 10,
+        "ratio_5day": 3.7,
+        "ratio_10day": 4.44
+      },
+      {
+        "date": "2026-04-28",
+        "stocks_up_4pct": 29,
+        "stocks_down_4pct": 18,
+        "ratio_5day": 1.61,
+        "ratio_10day": 1.93
+      },
+      {
+        "date": "2026-04-29",
+        "stocks_up_4pct": 48,
+        "stocks_down_4pct": 18,
+        "ratio_5day": 2.67,
+        "ratio_10day": 3.2
+      },
+      {
+        "date": "2026-04-30",
+        "stocks_up_4pct": 47,
+        "stocks_down_4pct": 5,
+        "ratio_5day": 9.4,
+        "ratio_10day": 11.28
+      },
+      {
+        "date": "2026-05-01",
         "stocks_up_4pct": 49,
         "stocks_down_4pct": 18,
         "ratio_5day": 2.72,
         "ratio_10day": 3.27
       },
       {
-        "date": "2026-05-17",
+        "date": "2026-05-04",
+        "stocks_up_4pct": 28,
+        "stocks_down_4pct": 12,
+        "ratio_5day": 2.33,
+        "ratio_10day": 2.8
+      },
+      {
+        "date": "2026-05-05",
+        "stocks_up_4pct": 30,
+        "stocks_down_4pct": 24,
+        "ratio_5day": 1.25,
+        "ratio_10day": 1.5
+      },
+      {
+        "date": "2026-05-06",
+        "stocks_up_4pct": 44,
+        "stocks_down_4pct": 23,
+        "ratio_5day": 1.91,
+        "ratio_10day": 2.3
+      },
+      {
+        "date": "2026-05-07",
         "stocks_up_4pct": 34,
-        "stocks_down_4pct": 4,
-        "ratio_5day": 8.5,
-        "ratio_10day": 10.2
+        "stocks_down_4pct": 10,
+        "ratio_5day": 3.4,
+        "ratio_10day": 4.08
+      },
+      {
+        "date": "2026-05-08",
+        "stocks_up_4pct": 48,
+        "stocks_down_4pct": 19,
+        "ratio_5day": 2.53,
+        "ratio_10day": 3.03
+      },
+      {
+        "date": "2026-05-11",
+        "stocks_up_4pct": 18,
+        "stocks_down_4pct": 9,
+        "ratio_5day": 2,
+        "ratio_10day": 2.4
+      },
+      {
+        "date": "2026-05-12",
+        "stocks_up_4pct": 9,
+        "stocks_down_4pct": 13,
+        "ratio_5day": 0.69,
+        "ratio_10day": 0.83
+      },
+      {
+        "date": "2026-05-13",
+        "stocks_up_4pct": 44,
+        "stocks_down_4pct": 25,
+        "ratio_5day": 1.76,
+        "ratio_10day": 2.11
+      },
+      {
+        "date": "2026-05-14",
+        "stocks_up_4pct": 6,
+        "stocks_down_4pct": 19,
+        "ratio_5day": 0.32,
+        "ratio_10day": 0.38
+      },
+      {
+        "date": "2026-05-15",
+        "stocks_up_4pct": 15,
+        "stocks_down_4pct": 16,
+        "ratio_5day": 0.94,
+        "ratio_10day": 1.13
       },
       {
         "date": "2026-05-18",
-        "stocks_up_4pct": 28,
-        "stocks_down_4pct": 5,
-        "ratio_5day": 5.6,
-        "ratio_10day": 6.72
+        "stocks_up_4pct": 25,
+        "stocks_down_4pct": 26,
+        "ratio_5day": 0.96,
+        "ratio_10day": 1.15
       },
       {
         "date": "2026-05-19",
-        "stocks_up_4pct": 36,
-        "stocks_down_4pct": 24,
-        "ratio_5day": 1.5,
-        "ratio_10day": 1.8
+        "stocks_up_4pct": 13,
+        "stocks_down_4pct": 16,
+        "ratio_5day": 0.81,
+        "ratio_10day": 0.97
       },
       {
         "date": "2026-05-20",
-        "stocks_up_4pct": 29,
-        "stocks_down_4pct": 2,
-        "ratio_5day": 14.5,
-        "ratio_10day": 17.4
+        "stocks_up_4pct": 41,
+        "stocks_down_4pct": 20,
+        "ratio_5day": 2.05,
+        "ratio_10day": 2.46
       },
       {
         "date": "2026-05-21",
-        "stocks_up_4pct": 33,
-        "stocks_down_4pct": 14,
-        "ratio_5day": 2.36,
-        "ratio_10day": 2.83
+        "stocks_up_4pct": 39,
+        "stocks_down_4pct": 4,
+        "ratio_5day": 9.75,
+        "ratio_10day": 11.7
       },
       {
-        "date": "2026-05-24",
-        "stocks_up_4pct": 31,
-        "stocks_down_4pct": 7,
-        "ratio_5day": 4.43,
-        "ratio_10day": 5.31
+        "date": "2026-05-22",
+        "stocks_up_4pct": 19,
+        "stocks_down_4pct": 25,
+        "ratio_5day": 0.76,
+        "ratio_10day": 0.91
       },
       {
         "date": "2026-05-25",
-        "stocks_up_4pct": 22,
-        "stocks_down_4pct": 18,
-        "ratio_5day": 1.22,
-        "ratio_10day": 1.47
+        "stocks_up_4pct": 49,
+        "stocks_down_4pct": 3,
+        "ratio_5day": 16.33,
+        "ratio_10day": 19.6
       },
       {
         "date": "2026-05-26",
-        "stocks_up_4pct": 46,
-        "stocks_down_4pct": 2,
-        "ratio_5day": 23,
-        "ratio_10day": 27.6
+        "stocks_up_4pct": 21,
+        "stocks_down_4pct": 8,
+        "ratio_5day": 2.63,
+        "ratio_10day": 3.15
       },
       {
         "date": "2026-05-27",
-        "stocks_up_4pct": 48,
-        "stocks_down_4pct": 11,
-        "ratio_5day": 4.36,
-        "ratio_10day": 5.24
+        "stocks_up_4pct": 31,
+        "stocks_down_4pct": 6,
+        "ratio_5day": 5.17,
+        "ratio_10day": 6.2
+      },
+      {
+        "date": "2026-05-28",
+        "stocks_up_4pct": 25,
+        "stocks_down_4pct": 26,
+        "ratio_5day": 0.96,
+        "ratio_10day": 1.15
       }
     ],
     "benchmark_overlay": [
       {
-        "date": "2026-01-22",
-        "close": 2792.19
-      },
-      {
-        "date": "2026-01-25",
-        "close": 2790.21
+        "date": "2026-01-23",
+        "close": 2763.69
       },
       {
         "date": "2026-01-26",
-        "close": 2791.16
+        "close": 2758.75
       },
       {
         "date": "2026-01-27",
-        "close": 2776.82
+        "close": 2767.66
       },
       {
         "date": "2026-01-28",
-        "close": 2769.39
+        "close": 2757.43
       },
       {
         "date": "2026-01-29",
-        "close": 2764.2
+        "close": 2767.27
       },
       {
-        "date": "2026-02-01",
-        "close": 2750.96
+        "date": "2026-01-30",
+        "close": 2759.44
       },
       {
         "date": "2026-02-02",
-        "close": 2740.99
+        "close": 2751.79
       },
       {
         "date": "2026-02-03",
-        "close": 2728.98
+        "close": 2745.21
       },
       {
         "date": "2026-02-04",
-        "close": 2739.91
+        "close": 2734.8
       },
       {
         "date": "2026-02-05",
-        "close": 2729.27
+        "close": 2734.35
       },
       {
-        "date": "2026-02-08",
-        "close": 2733.51
+        "date": "2026-02-06",
+        "close": 2730.21
       },
       {
         "date": "2026-02-09",
-        "close": 2720.49
+        "close": 2732.93
       },
       {
         "date": "2026-02-10",
-        "close": 2709.96
+        "close": 2729.9
       },
       {
         "date": "2026-02-11",
-        "close": 2713.79
+        "close": 2721.11
       },
       {
         "date": "2026-02-12",
-        "close": 2712.51
+        "close": 2730.68
       },
       {
-        "date": "2026-02-15",
-        "close": 2727.95
+        "date": "2026-02-13",
+        "close": 2727.5
       },
       {
         "date": "2026-02-16",
-        "close": 2722.03
+        "close": 2720.03
       },
       {
         "date": "2026-02-17",
-        "close": 2736.18
+        "close": 2729.43
       },
       {
         "date": "2026-02-18",
-        "close": 2744.67
+        "close": 2719.27
       },
       {
         "date": "2026-02-19",
-        "close": 2757.06
+        "close": 2718.86
       },
       {
-        "date": "2026-02-22",
-        "close": 2756.73
+        "date": "2026-02-20",
+        "close": 2717.69
       },
       {
         "date": "2026-02-23",
-        "close": 2753.16
+        "close": 2729.5
       },
       {
         "date": "2026-02-24",
-        "close": 2739.16
+        "close": 2719.14
       },
       {
         "date": "2026-02-25",
-        "close": 2728.87
+        "close": 2716.7
       },
       {
         "date": "2026-02-26",
-        "close": 2715.05
+        "close": 2724.84
       },
       {
-        "date": "2026-03-01",
-        "close": 2725.38
+        "date": "2026-02-27",
+        "close": 2732.71
       },
       {
         "date": "2026-03-02",
-        "close": 2716.56
+        "close": 2730.18
       },
       {
         "date": "2026-03-03",
-        "close": 2728.12
+        "close": 2738.79
       },
       {
         "date": "2026-03-04",
-        "close": 2736.88
+        "close": 2750.33
       },
       {
         "date": "2026-03-05",
-        "close": 2728.24
+        "close": 2755.68
       },
       {
-        "date": "2026-03-08",
-        "close": 2733.85
+        "date": "2026-03-06",
+        "close": 2749.59
       },
       {
         "date": "2026-03-09",
-        "close": 2735.94
+        "close": 2737.04
       },
       {
         "date": "2026-03-10",
-        "close": 2730.89
+        "close": 2747.53
       },
       {
         "date": "2026-03-11",
-        "close": 2735.94
+        "close": 2738.14
       },
       {
         "date": "2026-03-12",
-        "close": 2749.16
+        "close": 2740.54
       },
       {
-        "date": "2026-03-15",
-        "close": 2738.65
+        "date": "2026-03-13",
+        "close": 2742.03
       },
       {
         "date": "2026-03-16",
-        "close": 2744.13
+        "close": 2728.54
       },
       {
         "date": "2026-03-17",
-        "close": 2733.15
+        "close": 2728.96
       },
       {
         "date": "2026-03-18",
-        "close": 2728
+        "close": 2722.91
       },
       {
         "date": "2026-03-19",
-        "close": 2724.36
+        "close": 2724.02
       },
       {
-        "date": "2026-03-22",
-        "close": 2717.94
+        "date": "2026-03-20",
+        "close": 2712.03
       },
       {
         "date": "2026-03-23",
-        "close": 2727.16
+        "close": 2710.15
       },
       {
         "date": "2026-03-24",
-        "close": 2726.43
+        "close": 2717.67
       },
       {
         "date": "2026-03-25",
-        "close": 2717.56
+        "close": 2714.37
       },
       {
         "date": "2026-03-26",
-        "close": 2714.95
+        "close": 2727.96
       },
       {
-        "date": "2026-03-29",
-        "close": 2712.56
+        "date": "2026-03-27",
+        "close": 2717.97
       },
       {
         "date": "2026-03-30",
-        "close": 2715.95
+        "close": 2716.39
       },
       {
         "date": "2026-03-31",
-        "close": 2721.34
+        "close": 2705.91
       },
       {
         "date": "2026-04-01",
-        "close": 2712.28
+        "close": 2693.57
       },
       {
         "date": "2026-04-02",
-        "close": 2722.9
+        "close": 2688.93
       },
       {
-        "date": "2026-04-05",
-        "close": 2719.77
+        "date": "2026-04-03",
+        "close": 2696.3
       },
       {
         "date": "2026-04-06",
-        "close": 2730.26
+        "close": 2702.29
       },
       {
         "date": "2026-04-07",
-        "close": 2740.77
+        "close": 2690.76
       },
       {
         "date": "2026-04-08",
-        "close": 2736.6
+        "close": 2677.76
       },
       {
         "date": "2026-04-09",
-        "close": 2745.26
+        "close": 2672.96
       },
       {
-        "date": "2026-04-12",
-        "close": 2732.21
+        "date": "2026-04-10",
+        "close": 2687.55
       },
       {
         "date": "2026-04-13",
-        "close": 2733.97
+        "close": 2682.57
       },
       {
         "date": "2026-04-14",
-        "close": 2723.24
+        "close": 2680.51
       },
       {
         "date": "2026-04-15",
-        "close": 2711.34
+        "close": 2679.13
       },
       {
         "date": "2026-04-16",
-        "close": 2725.93
+        "close": 2685.48
       },
       {
-        "date": "2026-04-19",
-        "close": 2726.74
+        "date": "2026-04-17",
+        "close": 2677.95
       },
       {
         "date": "2026-04-20",
-        "close": 2726.83
+        "close": 2667.25
       },
       {
         "date": "2026-04-21",
-        "close": 2739.03
+        "close": 2668.54
       },
       {
         "date": "2026-04-22",
-        "close": 2750.8
+        "close": 2662.48
       },
       {
         "date": "2026-04-23",
-        "close": 2742.98
+        "close": 2668.93
       },
       {
-        "date": "2026-04-26",
-        "close": 2735.28
+        "date": "2026-04-24",
+        "close": 2663.36
       },
       {
         "date": "2026-04-27",
-        "close": 2733.05
+        "close": 2670.23
       },
       {
         "date": "2026-04-28",
-        "close": 2727.28
+        "close": 2671.75
       },
       {
         "date": "2026-04-29",
-        "close": 2723.62
+        "close": 2665.24
       },
       {
         "date": "2026-04-30",
-        "close": 2723.91
+        "close": 2671.23
       },
       {
-        "date": "2026-05-03",
-        "close": 2717.68
+        "date": "2026-05-01",
+        "close": 2671.37
       },
       {
         "date": "2026-05-04",
-        "close": 2710.61
+        "close": 2661.68
       },
       {
         "date": "2026-05-05",
-        "close": 2709.39
+        "close": 2660.4
       },
       {
         "date": "2026-05-06",
-        "close": 2717.64
+        "close": 2658.21
       },
       {
         "date": "2026-05-07",
-        "close": 2716.91
+        "close": 2659.67
       },
       {
-        "date": "2026-05-10",
-        "close": 2704.22
+        "date": "2026-05-08",
+        "close": 2662.08
       },
       {
         "date": "2026-05-11",
-        "close": 2708.2
+        "close": 2669.68
       },
       {
         "date": "2026-05-12",
-        "close": 2718.7
+        "close": 2656.09
       },
       {
         "date": "2026-05-13",
-        "close": 2707.75
+        "close": 2669.51
       },
       {
         "date": "2026-05-14",
-        "close": 2694.05
+        "close": 2677.95
       },
       {
-        "date": "2026-05-17",
-        "close": 2698.94
+        "date": "2026-05-15",
+        "close": 2692.13
       },
       {
         "date": "2026-05-18",
-        "close": 2693.17
+        "close": 2705.49
       },
       {
         "date": "2026-05-19",
-        "close": 2691.21
+        "close": 2706.44
       },
       {
         "date": "2026-05-20",
-        "close": 2686.75
+        "close": 2720.87
       },
       {
         "date": "2026-05-21",
-        "close": 2684.42
+        "close": 2708.58
       },
       {
-        "date": "2026-05-24",
-        "close": 2687.29
+        "date": "2026-05-22",
+        "close": 2702.34
       },
       {
         "date": "2026-05-25",
-        "close": 2699.64
+        "close": 2697.21
       },
       {
         "date": "2026-05-26",
-        "close": 2691.21
+        "close": 2709.58
       },
       {
         "date": "2026-05-27",
-        "close": 2689.74
+        "close": 2697.12
+      },
+      {
+        "date": "2026-05-28",
+        "close": 2697.82
       }
     ],
     "benchmark_symbol": "^KS11",
     "history_90d": [
       {
-        "date": "2025-12-11",
-        "stocks_up_4pct": 27,
-        "stocks_down_4pct": 11,
-        "ratio_5day": 2.45,
-        "ratio_10day": 2.95
-      },
-      {
-        "date": "2025-12-14",
-        "stocks_up_4pct": 46,
-        "stocks_down_4pct": 16,
-        "ratio_5day": 2.88,
-        "ratio_10day": 3.45
+        "date": "2025-12-12",
+        "stocks_up_4pct": 20,
+        "stocks_down_4pct": 25,
+        "ratio_5day": 0.8,
+        "ratio_10day": 0.96
       },
       {
         "date": "2025-12-15",
-        "stocks_up_4pct": 28,
-        "stocks_down_4pct": 14,
-        "ratio_5day": 2,
-        "ratio_10day": 2.4
+        "stocks_up_4pct": 35,
+        "stocks_down_4pct": 5,
+        "ratio_5day": 7,
+        "ratio_10day": 8.4
       },
       {
         "date": "2025-12-16",
-        "stocks_up_4pct": 19,
-        "stocks_down_4pct": 24,
-        "ratio_5day": 0.79,
-        "ratio_10day": 0.95
+        "stocks_up_4pct": 31,
+        "stocks_down_4pct": 12,
+        "ratio_5day": 2.58,
+        "ratio_10day": 3.1
       },
       {
         "date": "2025-12-17",
-        "stocks_up_4pct": 20,
-        "stocks_down_4pct": 9,
-        "ratio_5day": 2.22,
-        "ratio_10day": 2.67
+        "stocks_up_4pct": 32,
+        "stocks_down_4pct": 20,
+        "ratio_5day": 1.6,
+        "ratio_10day": 1.92
       },
       {
         "date": "2025-12-18",
-        "stocks_up_4pct": 28,
-        "stocks_down_4pct": 14,
-        "ratio_5day": 2,
-        "ratio_10day": 2.4
+        "stocks_up_4pct": 30,
+        "stocks_down_4pct": 21,
+        "ratio_5day": 1.43,
+        "ratio_10day": 1.71
       },
       {
-        "date": "2025-12-21",
-        "stocks_up_4pct": 46,
-        "stocks_down_4pct": 21,
-        "ratio_5day": 2.19,
-        "ratio_10day": 2.63
+        "date": "2025-12-19",
+        "stocks_up_4pct": 5,
+        "stocks_down_4pct": 22,
+        "ratio_5day": 0.23,
+        "ratio_10day": 0.27
       },
       {
         "date": "2025-12-22",
-        "stocks_up_4pct": 26,
-        "stocks_down_4pct": 15,
-        "ratio_5day": 1.73,
-        "ratio_10day": 2.08
+        "stocks_up_4pct": 14,
+        "stocks_down_4pct": 19,
+        "ratio_5day": 0.74,
+        "ratio_10day": 0.88
       },
       {
         "date": "2025-12-23",
-        "stocks_up_4pct": 33,
-        "stocks_down_4pct": 3,
-        "ratio_5day": 11,
-        "ratio_10day": 13.2
+        "stocks_up_4pct": 5,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 0.29,
+        "ratio_10day": 0.35
       },
       {
         "date": "2025-12-24",
-        "stocks_up_4pct": 15,
-        "stocks_down_4pct": 3,
-        "ratio_5day": 5,
-        "ratio_10day": 6
+        "stocks_up_4pct": 48,
+        "stocks_down_4pct": 12,
+        "ratio_5day": 4,
+        "ratio_10day": 4.8
       },
       {
         "date": "2025-12-25",
-        "stocks_up_4pct": 31,
-        "stocks_down_4pct": 7,
-        "ratio_5day": 4.43,
-        "ratio_10day": 5.31
+        "stocks_up_4pct": 38,
+        "stocks_down_4pct": 20,
+        "ratio_5day": 1.9,
+        "ratio_10day": 2.28
       },
       {
-        "date": "2025-12-28",
-        "stocks_up_4pct": 27,
-        "stocks_down_4pct": 10,
-        "ratio_5day": 2.7,
-        "ratio_10day": 3.24
+        "date": "2025-12-26",
+        "stocks_up_4pct": 8,
+        "stocks_down_4pct": 9,
+        "ratio_5day": 0.89,
+        "ratio_10day": 1.07
       },
       {
         "date": "2025-12-29",
-        "stocks_up_4pct": 27,
-        "stocks_down_4pct": 9,
-        "ratio_5day": 3,
-        "ratio_10day": 3.6
+        "stocks_up_4pct": 17,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 1,
+        "ratio_10day": 1.2
       },
       {
         "date": "2025-12-30",
-        "stocks_up_4pct": 38,
-        "stocks_down_4pct": 14,
-        "ratio_5day": 2.71,
-        "ratio_10day": 3.26
-      },
-      {
-        "date": "2025-12-31",
-        "stocks_up_4pct": 34,
-        "stocks_down_4pct": 24,
-        "ratio_5day": 1.42,
-        "ratio_10day": 1.7
-      },
-      {
-        "date": "2026-01-01",
-        "stocks_up_4pct": 5,
-        "stocks_down_4pct": 12,
-        "ratio_5day": 0.42,
-        "ratio_10day": 0.5
-      },
-      {
-        "date": "2026-01-04",
-        "stocks_up_4pct": 17,
-        "stocks_down_4pct": 3,
-        "ratio_5day": 5.67,
-        "ratio_10day": 6.8
-      },
-      {
-        "date": "2026-01-05",
-        "stocks_up_4pct": 32,
-        "stocks_down_4pct": 17,
-        "ratio_5day": 1.88,
-        "ratio_10day": 2.26
-      },
-      {
-        "date": "2026-01-06",
-        "stocks_up_4pct": 33,
-        "stocks_down_4pct": 15,
-        "ratio_5day": 2.2,
-        "ratio_10day": 2.64
-      },
-      {
-        "date": "2026-01-07",
-        "stocks_up_4pct": 18,
-        "stocks_down_4pct": 19,
+        "stocks_up_4pct": 20,
+        "stocks_down_4pct": 21,
         "ratio_5day": 0.95,
         "ratio_10day": 1.14
       },
       {
-        "date": "2026-01-08",
-        "stocks_up_4pct": 16,
-        "stocks_down_4pct": 7,
-        "ratio_5day": 2.29,
-        "ratio_10day": 2.74
+        "date": "2025-12-31",
+        "stocks_up_4pct": 29,
+        "stocks_down_4pct": 4,
+        "ratio_5day": 7.25,
+        "ratio_10day": 8.7
       },
       {
-        "date": "2026-01-11",
-        "stocks_up_4pct": 47,
-        "stocks_down_4pct": 26,
-        "ratio_5day": 1.81,
-        "ratio_10day": 2.17
+        "date": "2026-01-01",
+        "stocks_up_4pct": 32,
+        "stocks_down_4pct": 21,
+        "ratio_5day": 1.52,
+        "ratio_10day": 1.83
       },
       {
-        "date": "2026-01-12",
-        "stocks_up_4pct": 46,
+        "date": "2026-01-02",
+        "stocks_up_4pct": 17,
+        "stocks_down_4pct": 18,
+        "ratio_5day": 0.94,
+        "ratio_10day": 1.13
+      },
+      {
+        "date": "2026-01-05",
+        "stocks_up_4pct": 22,
         "stocks_down_4pct": 8,
-        "ratio_5day": 5.75,
-        "ratio_10day": 6.9
+        "ratio_5day": 2.75,
+        "ratio_10day": 3.3
       },
       {
-        "date": "2026-01-13",
-        "stocks_up_4pct": 30,
-        "stocks_down_4pct": 2,
+        "date": "2026-01-06",
+        "stocks_up_4pct": 45,
+        "stocks_down_4pct": 3,
         "ratio_5day": 15,
         "ratio_10day": 18
       },
       {
-        "date": "2026-01-14",
-        "stocks_up_4pct": 45,
-        "stocks_down_4pct": 26,
-        "ratio_5day": 1.73,
-        "ratio_10day": 2.08
+        "date": "2026-01-07",
+        "stocks_up_4pct": 35,
+        "stocks_down_4pct": 14,
+        "ratio_5day": 2.5,
+        "ratio_10day": 3
       },
       {
-        "date": "2026-01-15",
-        "stocks_up_4pct": 46,
-        "stocks_down_4pct": 5,
-        "ratio_5day": 9.2,
-        "ratio_10day": 11.04
-      },
-      {
-        "date": "2026-01-18",
-        "stocks_up_4pct": 17,
-        "stocks_down_4pct": 13,
-        "ratio_5day": 1.31,
-        "ratio_10day": 1.57
-      },
-      {
-        "date": "2026-01-19",
-        "stocks_up_4pct": 27,
-        "stocks_down_4pct": 12,
-        "ratio_5day": 2.25,
-        "ratio_10day": 2.7
-      },
-      {
-        "date": "2026-01-20",
-        "stocks_up_4pct": 19,
-        "stocks_down_4pct": 20,
-        "ratio_5day": 0.95,
-        "ratio_10day": 1.14
-      },
-      {
-        "date": "2026-01-21",
-        "stocks_up_4pct": 28,
-        "stocks_down_4pct": 19,
-        "ratio_5day": 1.47,
-        "ratio_10day": 1.77
-      },
-      {
-        "date": "2026-01-22",
-        "stocks_up_4pct": 24,
-        "stocks_down_4pct": 18,
-        "ratio_5day": 1.33,
-        "ratio_10day": 1.6
-      },
-      {
-        "date": "2026-01-25",
-        "stocks_up_4pct": 18,
-        "stocks_down_4pct": 22,
-        "ratio_5day": 0.82,
-        "ratio_10day": 0.98
-      },
-      {
-        "date": "2026-01-26",
-        "stocks_up_4pct": 27,
-        "stocks_down_4pct": 23,
-        "ratio_5day": 1.17,
-        "ratio_10day": 1.41
-      },
-      {
-        "date": "2026-01-27",
-        "stocks_up_4pct": 28,
-        "stocks_down_4pct": 25,
-        "ratio_5day": 1.12,
-        "ratio_10day": 1.34
-      },
-      {
-        "date": "2026-01-28",
-        "stocks_up_4pct": 26,
-        "stocks_down_4pct": 20,
-        "ratio_5day": 1.3,
-        "ratio_10day": 1.56
-      },
-      {
-        "date": "2026-01-29",
-        "stocks_up_4pct": 8,
-        "stocks_down_4pct": 16,
-        "ratio_5day": 0.5,
-        "ratio_10day": 0.6
-      },
-      {
-        "date": "2026-02-01",
-        "stocks_up_4pct": 10,
-        "stocks_down_4pct": 6,
-        "ratio_5day": 1.67,
-        "ratio_10day": 2
-      },
-      {
-        "date": "2026-02-02",
+        "date": "2026-01-08",
         "stocks_up_4pct": 47,
-        "stocks_down_4pct": 11,
-        "ratio_5day": 4.27,
-        "ratio_10day": 5.13
-      },
-      {
-        "date": "2026-02-03",
-        "stocks_up_4pct": 29,
-        "stocks_down_4pct": 8,
-        "ratio_5day": 3.63,
-        "ratio_10day": 4.35
-      },
-      {
-        "date": "2026-02-04",
-        "stocks_up_4pct": 29,
-        "stocks_down_4pct": 19,
-        "ratio_5day": 1.53,
-        "ratio_10day": 1.83
-      },
-      {
-        "date": "2026-02-05",
-        "stocks_up_4pct": 35,
-        "stocks_down_4pct": 2,
-        "ratio_5day": 17.5,
-        "ratio_10day": 21
-      },
-      {
-        "date": "2026-02-08",
-        "stocks_up_4pct": 27,
-        "stocks_down_4pct": 2,
-        "ratio_5day": 13.5,
-        "ratio_10day": 16.2
-      },
-      {
-        "date": "2026-02-09",
-        "stocks_up_4pct": 41,
-        "stocks_down_4pct": 19,
-        "ratio_5day": 2.16,
-        "ratio_10day": 2.59
-      },
-      {
-        "date": "2026-02-10",
-        "stocks_up_4pct": 25,
-        "stocks_down_4pct": 10,
-        "ratio_5day": 2.5,
-        "ratio_10day": 3
-      },
-      {
-        "date": "2026-02-11",
-        "stocks_up_4pct": 8,
-        "stocks_down_4pct": 21,
-        "ratio_5day": 0.38,
-        "ratio_10day": 0.46
-      },
-      {
-        "date": "2026-02-12",
-        "stocks_up_4pct": 42,
-        "stocks_down_4pct": 2,
-        "ratio_5day": 21,
-        "ratio_10day": 25.2
-      },
-      {
-        "date": "2026-02-15",
-        "stocks_up_4pct": 37,
-        "stocks_down_4pct": 22,
-        "ratio_5day": 1.68,
-        "ratio_10day": 2.02
-      },
-      {
-        "date": "2026-02-16",
-        "stocks_up_4pct": 42,
-        "stocks_down_4pct": 13,
-        "ratio_5day": 3.23,
-        "ratio_10day": 3.88
-      },
-      {
-        "date": "2026-02-17",
-        "stocks_up_4pct": 13,
-        "stocks_down_4pct": 11,
-        "ratio_5day": 1.18,
-        "ratio_10day": 1.42
-      },
-      {
-        "date": "2026-02-18",
-        "stocks_up_4pct": 35,
         "stocks_down_4pct": 24,
-        "ratio_5day": 1.46,
-        "ratio_10day": 1.75
+        "ratio_5day": 1.96,
+        "ratio_10day": 2.35
       },
       {
-        "date": "2026-02-19",
-        "stocks_up_4pct": 30,
-        "stocks_down_4pct": 12,
-        "ratio_5day": 2.5,
-        "ratio_10day": 3
-      },
-      {
-        "date": "2026-02-22",
-        "stocks_up_4pct": 33,
-        "stocks_down_4pct": 17,
-        "ratio_5day": 1.94,
-        "ratio_10day": 2.33
-      },
-      {
-        "date": "2026-02-23",
-        "stocks_up_4pct": 17,
-        "stocks_down_4pct": 25,
-        "ratio_5day": 0.68,
-        "ratio_10day": 0.82
-      },
-      {
-        "date": "2026-02-24",
-        "stocks_up_4pct": 17,
-        "stocks_down_4pct": 13,
-        "ratio_5day": 1.31,
-        "ratio_10day": 1.57
-      },
-      {
-        "date": "2026-02-25",
-        "stocks_up_4pct": 38,
-        "stocks_down_4pct": 23,
-        "ratio_5day": 1.65,
-        "ratio_10day": 1.98
-      },
-      {
-        "date": "2026-02-26",
-        "stocks_up_4pct": 11,
-        "stocks_down_4pct": 7,
-        "ratio_5day": 1.57,
-        "ratio_10day": 1.89
-      },
-      {
-        "date": "2026-03-01",
-        "stocks_up_4pct": 25,
-        "stocks_down_4pct": 22,
-        "ratio_5day": 1.14,
-        "ratio_10day": 1.36
-      },
-      {
-        "date": "2026-03-02",
-        "stocks_up_4pct": 37,
-        "stocks_down_4pct": 4,
-        "ratio_5day": 9.25,
-        "ratio_10day": 11.1
-      },
-      {
-        "date": "2026-03-03",
-        "stocks_up_4pct": 28,
-        "stocks_down_4pct": 11,
-        "ratio_5day": 2.55,
-        "ratio_10day": 3.05
-      },
-      {
-        "date": "2026-03-04",
-        "stocks_up_4pct": 25,
+        "date": "2026-01-09",
+        "stocks_up_4pct": 9,
         "stocks_down_4pct": 10,
-        "ratio_5day": 2.5,
-        "ratio_10day": 3
+        "ratio_5day": 0.9,
+        "ratio_10day": 1.08
       },
       {
-        "date": "2026-03-05",
-        "stocks_up_4pct": 20,
-        "stocks_down_4pct": 22,
-        "ratio_5day": 0.91,
-        "ratio_10day": 1.09
-      },
-      {
-        "date": "2026-03-08",
-        "stocks_up_4pct": 43,
-        "stocks_down_4pct": 2,
-        "ratio_5day": 21.5,
-        "ratio_10day": 25.8
-      },
-      {
-        "date": "2026-03-09",
-        "stocks_up_4pct": 36,
-        "stocks_down_4pct": 23,
-        "ratio_5day": 1.57,
-        "ratio_10day": 1.88
-      },
-      {
-        "date": "2026-03-10",
-        "stocks_up_4pct": 41,
-        "stocks_down_4pct": 16,
-        "ratio_5day": 2.56,
-        "ratio_10day": 3.07
-      },
-      {
-        "date": "2026-03-11",
-        "stocks_up_4pct": 14,
-        "stocks_down_4pct": 4,
-        "ratio_5day": 3.5,
-        "ratio_10day": 4.2
-      },
-      {
-        "date": "2026-03-12",
-        "stocks_up_4pct": 7,
-        "stocks_down_4pct": 19,
-        "ratio_5day": 0.37,
-        "ratio_10day": 0.44
-      },
-      {
-        "date": "2026-03-15",
-        "stocks_up_4pct": 33,
-        "stocks_down_4pct": 15,
-        "ratio_5day": 2.2,
-        "ratio_10day": 2.64
-      },
-      {
-        "date": "2026-03-16",
-        "stocks_up_4pct": 38,
-        "stocks_down_4pct": 17,
-        "ratio_5day": 2.24,
-        "ratio_10day": 2.68
-      },
-      {
-        "date": "2026-03-17",
-        "stocks_up_4pct": 7,
-        "stocks_down_4pct": 15,
-        "ratio_5day": 0.47,
-        "ratio_10day": 0.56
-      },
-      {
-        "date": "2026-03-18",
-        "stocks_up_4pct": 29,
-        "stocks_down_4pct": 10,
-        "ratio_5day": 2.9,
-        "ratio_10day": 3.48
-      },
-      {
-        "date": "2026-03-19",
-        "stocks_up_4pct": 42,
-        "stocks_down_4pct": 26,
-        "ratio_5day": 1.62,
-        "ratio_10day": 1.94
-      },
-      {
-        "date": "2026-03-22",
-        "stocks_up_4pct": 14,
-        "stocks_down_4pct": 15,
-        "ratio_5day": 0.93,
-        "ratio_10day": 1.12
-      },
-      {
-        "date": "2026-03-23",
-        "stocks_up_4pct": 10,
-        "stocks_down_4pct": 8,
-        "ratio_5day": 1.25,
-        "ratio_10day": 1.5
-      },
-      {
-        "date": "2026-03-24",
-        "stocks_up_4pct": 24,
-        "stocks_down_4pct": 11,
-        "ratio_5day": 2.18,
-        "ratio_10day": 2.62
-      },
-      {
-        "date": "2026-03-25",
-        "stocks_up_4pct": 17,
-        "stocks_down_4pct": 11,
-        "ratio_5day": 1.55,
-        "ratio_10day": 1.85
-      },
-      {
-        "date": "2026-03-26",
+        "date": "2026-01-12",
         "stocks_up_4pct": 39,
         "stocks_down_4pct": 15,
         "ratio_5day": 2.6,
         "ratio_10day": 3.12
       },
       {
-        "date": "2026-03-29",
-        "stocks_up_4pct": 36,
-        "stocks_down_4pct": 11,
-        "ratio_5day": 3.27,
-        "ratio_10day": 3.93
-      },
-      {
-        "date": "2026-03-30",
-        "stocks_up_4pct": 41,
-        "stocks_down_4pct": 4,
-        "ratio_5day": 10.25,
-        "ratio_10day": 12.3
-      },
-      {
-        "date": "2026-03-31",
-        "stocks_up_4pct": 14,
-        "stocks_down_4pct": 26,
-        "ratio_5day": 0.54,
-        "ratio_10day": 0.65
-      },
-      {
-        "date": "2026-04-01",
-        "stocks_up_4pct": 20,
-        "stocks_down_4pct": 9,
-        "ratio_5day": 2.22,
-        "ratio_10day": 2.67
-      },
-      {
-        "date": "2026-04-02",
-        "stocks_up_4pct": 22,
-        "stocks_down_4pct": 24,
-        "ratio_5day": 0.92,
-        "ratio_10day": 1.1
-      },
-      {
-        "date": "2026-04-05",
-        "stocks_up_4pct": 37,
-        "stocks_down_4pct": 15,
-        "ratio_5day": 2.47,
-        "ratio_10day": 2.96
-      },
-      {
-        "date": "2026-04-06",
-        "stocks_up_4pct": 45,
-        "stocks_down_4pct": 23,
-        "ratio_5day": 1.96,
-        "ratio_10day": 2.35
-      },
-      {
-        "date": "2026-04-07",
-        "stocks_up_4pct": 11,
+        "date": "2026-01-13",
+        "stocks_up_4pct": 8,
         "stocks_down_4pct": 3,
-        "ratio_5day": 3.67,
-        "ratio_10day": 4.4
+        "ratio_5day": 2.67,
+        "ratio_10day": 3.2
       },
       {
-        "date": "2026-04-08",
-        "stocks_up_4pct": 26,
-        "stocks_down_4pct": 14,
-        "ratio_5day": 1.86,
-        "ratio_10day": 2.23
+        "date": "2026-01-14",
+        "stocks_up_4pct": 9,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 0.53,
+        "ratio_10day": 0.64
       },
       {
-        "date": "2026-04-09",
-        "stocks_up_4pct": 45,
+        "date": "2026-01-15",
+        "stocks_up_4pct": 10,
+        "stocks_down_4pct": 19,
+        "ratio_5day": 0.53,
+        "ratio_10day": 0.63
+      },
+      {
+        "date": "2026-01-16",
+        "stocks_up_4pct": 7,
         "stocks_down_4pct": 10,
-        "ratio_5day": 4.5,
-        "ratio_10day": 5.4
+        "ratio_5day": 0.7,
+        "ratio_10day": 0.84
       },
       {
-        "date": "2026-04-12",
-        "stocks_up_4pct": 16,
-        "stocks_down_4pct": 14,
-        "ratio_5day": 1.14,
-        "ratio_10day": 1.37
+        "date": "2026-01-19",
+        "stocks_up_4pct": 21,
+        "stocks_down_4pct": 3,
+        "ratio_5day": 7,
+        "ratio_10day": 8.4
       },
       {
-        "date": "2026-04-13",
+        "date": "2026-01-20",
+        "stocks_up_4pct": 8,
+        "stocks_down_4pct": 22,
+        "ratio_5day": 0.36,
+        "ratio_10day": 0.44
+      },
+      {
+        "date": "2026-01-21",
         "stocks_up_4pct": 30,
-        "stocks_down_4pct": 14,
-        "ratio_5day": 2.14,
-        "ratio_10day": 2.57
+        "stocks_down_4pct": 23,
+        "ratio_5day": 1.3,
+        "ratio_10day": 1.57
       },
       {
-        "date": "2026-04-14",
-        "stocks_up_4pct": 35,
-        "stocks_down_4pct": 20,
+        "date": "2026-01-22",
+        "stocks_up_4pct": 49,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 2.88,
+        "ratio_10day": 3.46
+      },
+      {
+        "date": "2026-01-23",
+        "stocks_up_4pct": 48,
+        "stocks_down_4pct": 7,
+        "ratio_5day": 6.86,
+        "ratio_10day": 8.23
+      },
+      {
+        "date": "2026-01-26",
+        "stocks_up_4pct": 16,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 0.94,
+        "ratio_10day": 1.13
+      },
+      {
+        "date": "2026-01-27",
+        "stocks_up_4pct": 37,
+        "stocks_down_4pct": 25,
+        "ratio_5day": 1.48,
+        "ratio_10day": 1.78
+      },
+      {
+        "date": "2026-01-28",
+        "stocks_up_4pct": 7,
+        "stocks_down_4pct": 4,
         "ratio_5day": 1.75,
         "ratio_10day": 2.1
       },
       {
-        "date": "2026-04-15",
-        "stocks_up_4pct": 17,
-        "stocks_down_4pct": 8,
-        "ratio_5day": 2.13,
-        "ratio_10day": 2.55
+        "date": "2026-01-29",
+        "stocks_up_4pct": 6,
+        "stocks_down_4pct": 21,
+        "ratio_5day": 0.29,
+        "ratio_10day": 0.34
       },
       {
-        "date": "2026-04-16",
-        "stocks_up_4pct": 19,
-        "stocks_down_4pct": 4,
+        "date": "2026-01-30",
+        "stocks_up_4pct": 25,
+        "stocks_down_4pct": 3,
+        "ratio_5day": 8.33,
+        "ratio_10day": 10
+      },
+      {
+        "date": "2026-02-02",
+        "stocks_up_4pct": 11,
+        "stocks_down_4pct": 13,
+        "ratio_5day": 0.85,
+        "ratio_10day": 1.02
+      },
+      {
+        "date": "2026-02-03",
+        "stocks_up_4pct": 8,
+        "stocks_down_4pct": 20,
+        "ratio_5day": 0.4,
+        "ratio_10day": 0.48
+      },
+      {
+        "date": "2026-02-04",
+        "stocks_up_4pct": 7,
+        "stocks_down_4pct": 12,
+        "ratio_5day": 0.58,
+        "ratio_10day": 0.7
+      },
+      {
+        "date": "2026-02-05",
+        "stocks_up_4pct": 16,
+        "stocks_down_4pct": 10,
+        "ratio_5day": 1.6,
+        "ratio_10day": 1.92
+      },
+      {
+        "date": "2026-02-06",
+        "stocks_up_4pct": 30,
+        "stocks_down_4pct": 21,
+        "ratio_5day": 1.43,
+        "ratio_10day": 1.71
+      },
+      {
+        "date": "2026-02-09",
+        "stocks_up_4pct": 18,
+        "stocks_down_4pct": 6,
+        "ratio_5day": 3,
+        "ratio_10day": 3.6
+      },
+      {
+        "date": "2026-02-10",
+        "stocks_up_4pct": 6,
+        "stocks_down_4pct": 23,
+        "ratio_5day": 0.26,
+        "ratio_10day": 0.31
+      },
+      {
+        "date": "2026-02-11",
+        "stocks_up_4pct": 29,
+        "stocks_down_4pct": 5,
+        "ratio_5day": 5.8,
+        "ratio_10day": 6.96
+      },
+      {
+        "date": "2026-02-12",
+        "stocks_up_4pct": 38,
+        "stocks_down_4pct": 8,
         "ratio_5day": 4.75,
         "ratio_10day": 5.7
       },
       {
-        "date": "2026-04-19",
-        "stocks_up_4pct": 47,
-        "stocks_down_4pct": 23,
-        "ratio_5day": 2.04,
-        "ratio_10day": 2.45
-      },
-      {
-        "date": "2026-04-20",
-        "stocks_up_4pct": 19,
-        "stocks_down_4pct": 3,
-        "ratio_5day": 6.33,
-        "ratio_10day": 7.6
-      },
-      {
-        "date": "2026-04-21",
-        "stocks_up_4pct": 16,
-        "stocks_down_4pct": 12,
-        "ratio_5day": 1.33,
-        "ratio_10day": 1.6
-      },
-      {
-        "date": "2026-04-22",
-        "stocks_up_4pct": 28,
+        "date": "2026-02-13",
+        "stocks_up_4pct": 11,
         "stocks_down_4pct": 5,
-        "ratio_5day": 5.6,
-        "ratio_10day": 6.72
-      },
-      {
-        "date": "2026-04-23",
-        "stocks_up_4pct": 32,
-        "stocks_down_4pct": 22,
-        "ratio_5day": 1.45,
-        "ratio_10day": 1.75
-      },
-      {
-        "date": "2026-04-26",
-        "stocks_up_4pct": 34,
-        "stocks_down_4pct": 13,
-        "ratio_5day": 2.62,
-        "ratio_10day": 3.14
-      },
-      {
-        "date": "2026-04-27",
-        "stocks_up_4pct": 9,
-        "stocks_down_4pct": 20,
-        "ratio_5day": 0.45,
-        "ratio_10day": 0.54
-      },
-      {
-        "date": "2026-04-28",
-        "stocks_up_4pct": 30,
-        "stocks_down_4pct": 26,
-        "ratio_5day": 1.15,
-        "ratio_10day": 1.38
-      },
-      {
-        "date": "2026-04-29",
-        "stocks_up_4pct": 45,
-        "stocks_down_4pct": 8,
-        "ratio_5day": 5.63,
-        "ratio_10day": 6.75
-      },
-      {
-        "date": "2026-04-30",
-        "stocks_up_4pct": 17,
-        "stocks_down_4pct": 16,
-        "ratio_5day": 1.06,
-        "ratio_10day": 1.27
-      },
-      {
-        "date": "2026-05-03",
-        "stocks_up_4pct": 10,
-        "stocks_down_4pct": 2,
-        "ratio_5day": 5,
-        "ratio_10day": 6
-      },
-      {
-        "date": "2026-05-04",
-        "stocks_up_4pct": 37,
-        "stocks_down_4pct": 14,
-        "ratio_5day": 2.64,
-        "ratio_10day": 3.17
-      },
-      {
-        "date": "2026-05-05",
-        "stocks_up_4pct": 33,
-        "stocks_down_4pct": 15,
         "ratio_5day": 2.2,
         "ratio_10day": 2.64
       },
       {
-        "date": "2026-05-06",
-        "stocks_up_4pct": 13,
-        "stocks_down_4pct": 20,
-        "ratio_5day": 0.65,
-        "ratio_10day": 0.78
-      },
-      {
-        "date": "2026-05-07",
-        "stocks_up_4pct": 22,
-        "stocks_down_4pct": 6,
-        "ratio_5day": 3.67,
-        "ratio_10day": 4.4
-      },
-      {
-        "date": "2026-05-10",
-        "stocks_up_4pct": 42,
+        "date": "2026-02-16",
+        "stocks_up_4pct": 39,
         "stocks_down_4pct": 3,
-        "ratio_5day": 14,
-        "ratio_10day": 16.8
+        "ratio_5day": 13,
+        "ratio_10day": 15.6
       },
       {
-        "date": "2026-05-11",
-        "stocks_up_4pct": 22,
+        "date": "2026-02-17",
+        "stocks_up_4pct": 37,
+        "stocks_down_4pct": 16,
+        "ratio_5day": 2.31,
+        "ratio_10day": 2.77
+      },
+      {
+        "date": "2026-02-18",
+        "stocks_up_4pct": 30,
+        "stocks_down_4pct": 2,
+        "ratio_5day": 15,
+        "ratio_10day": 18
+      },
+      {
+        "date": "2026-02-19",
+        "stocks_up_4pct": 34,
+        "stocks_down_4pct": 8,
+        "ratio_5day": 4.25,
+        "ratio_10day": 5.1
+      },
+      {
+        "date": "2026-02-20",
+        "stocks_up_4pct": 30,
+        "stocks_down_4pct": 15,
+        "ratio_5day": 2,
+        "ratio_10day": 2.4
+      },
+      {
+        "date": "2026-02-23",
+        "stocks_up_4pct": 27,
         "stocks_down_4pct": 21,
-        "ratio_5day": 1.05,
-        "ratio_10day": 1.26
+        "ratio_5day": 1.29,
+        "ratio_10day": 1.54
       },
       {
-        "date": "2026-05-12",
-        "stocks_up_4pct": 28,
-        "stocks_down_4pct": 26,
-        "ratio_5day": 1.08,
-        "ratio_10day": 1.29
+        "date": "2026-02-24",
+        "stocks_up_4pct": 16,
+        "stocks_down_4pct": 24,
+        "ratio_5day": 0.67,
+        "ratio_10day": 0.8
       },
       {
-        "date": "2026-05-13",
-        "stocks_up_4pct": 24,
-        "stocks_down_4pct": 4,
+        "date": "2026-02-25",
+        "stocks_up_4pct": 23,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 1.35,
+        "ratio_10day": 1.62
+      },
+      {
+        "date": "2026-02-26",
+        "stocks_up_4pct": 39,
+        "stocks_down_4pct": 15,
+        "ratio_5day": 2.6,
+        "ratio_10day": 3.12
+      },
+      {
+        "date": "2026-02-27",
+        "stocks_up_4pct": 25,
+        "stocks_down_4pct": 19,
+        "ratio_5day": 1.32,
+        "ratio_10day": 1.58
+      },
+      {
+        "date": "2026-03-02",
+        "stocks_up_4pct": 22,
+        "stocks_down_4pct": 16,
+        "ratio_5day": 1.38,
+        "ratio_10day": 1.65
+      },
+      {
+        "date": "2026-03-03",
+        "stocks_up_4pct": 18,
+        "stocks_down_4pct": 8,
+        "ratio_5day": 2.25,
+        "ratio_10day": 2.7
+      },
+      {
+        "date": "2026-03-04",
+        "stocks_up_4pct": 19,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 1.12,
+        "ratio_10day": 1.34
+      },
+      {
+        "date": "2026-03-05",
+        "stocks_up_4pct": 40,
+        "stocks_down_4pct": 15,
+        "ratio_5day": 2.67,
+        "ratio_10day": 3.2
+      },
+      {
+        "date": "2026-03-06",
+        "stocks_up_4pct": 40,
+        "stocks_down_4pct": 10,
+        "ratio_5day": 4,
+        "ratio_10day": 4.8
+      },
+      {
+        "date": "2026-03-09",
+        "stocks_up_4pct": 42,
+        "stocks_down_4pct": 7,
         "ratio_5day": 6,
         "ratio_10day": 7.2
       },
       {
-        "date": "2026-05-14",
+        "date": "2026-03-10",
+        "stocks_up_4pct": 24,
+        "stocks_down_4pct": 18,
+        "ratio_5day": 1.33,
+        "ratio_10day": 1.6
+      },
+      {
+        "date": "2026-03-11",
+        "stocks_up_4pct": 7,
+        "stocks_down_4pct": 11,
+        "ratio_5day": 0.64,
+        "ratio_10day": 0.76
+      },
+      {
+        "date": "2026-03-12",
+        "stocks_up_4pct": 26,
+        "stocks_down_4pct": 3,
+        "ratio_5day": 8.67,
+        "ratio_10day": 10.4
+      },
+      {
+        "date": "2026-03-13",
+        "stocks_up_4pct": 47,
+        "stocks_down_4pct": 16,
+        "ratio_5day": 2.94,
+        "ratio_10day": 3.52
+      },
+      {
+        "date": "2026-03-16",
+        "stocks_up_4pct": 8,
+        "stocks_down_4pct": 6,
+        "ratio_5day": 1.33,
+        "ratio_10day": 1.6
+      },
+      {
+        "date": "2026-03-17",
+        "stocks_up_4pct": 38,
+        "stocks_down_4pct": 19,
+        "ratio_5day": 2,
+        "ratio_10day": 2.4
+      },
+      {
+        "date": "2026-03-18",
+        "stocks_up_4pct": 9,
+        "stocks_down_4pct": 14,
+        "ratio_5day": 0.64,
+        "ratio_10day": 0.77
+      },
+      {
+        "date": "2026-03-19",
+        "stocks_up_4pct": 12,
+        "stocks_down_4pct": 4,
+        "ratio_5day": 3,
+        "ratio_10day": 3.6
+      },
+      {
+        "date": "2026-03-20",
+        "stocks_up_4pct": 12,
+        "stocks_down_4pct": 14,
+        "ratio_5day": 0.86,
+        "ratio_10day": 1.03
+      },
+      {
+        "date": "2026-03-23",
+        "stocks_up_4pct": 12,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 0.71,
+        "ratio_10day": 0.85
+      },
+      {
+        "date": "2026-03-24",
+        "stocks_up_4pct": 26,
+        "stocks_down_4pct": 22,
+        "ratio_5day": 1.18,
+        "ratio_10day": 1.42
+      },
+      {
+        "date": "2026-03-25",
+        "stocks_up_4pct": 24,
+        "stocks_down_4pct": 19,
+        "ratio_5day": 1.26,
+        "ratio_10day": 1.52
+      },
+      {
+        "date": "2026-03-26",
+        "stocks_up_4pct": 43,
+        "stocks_down_4pct": 4,
+        "ratio_5day": 10.75,
+        "ratio_10day": 12.9
+      },
+      {
+        "date": "2026-03-27",
+        "stocks_up_4pct": 34,
+        "stocks_down_4pct": 3,
+        "ratio_5day": 11.33,
+        "ratio_10day": 13.6
+      },
+      {
+        "date": "2026-03-30",
+        "stocks_up_4pct": 32,
+        "stocks_down_4pct": 23,
+        "ratio_5day": 1.39,
+        "ratio_10day": 1.67
+      },
+      {
+        "date": "2026-03-31",
+        "stocks_up_4pct": 11,
+        "stocks_down_4pct": 19,
+        "ratio_5day": 0.58,
+        "ratio_10day": 0.69
+      },
+      {
+        "date": "2026-04-01",
+        "stocks_up_4pct": 29,
+        "stocks_down_4pct": 11,
+        "ratio_5day": 2.64,
+        "ratio_10day": 3.16
+      },
+      {
+        "date": "2026-04-02",
+        "stocks_up_4pct": 38,
+        "stocks_down_4pct": 2,
+        "ratio_5day": 19,
+        "ratio_10day": 22.8
+      },
+      {
+        "date": "2026-04-03",
+        "stocks_up_4pct": 23,
+        "stocks_down_4pct": 6,
+        "ratio_5day": 3.83,
+        "ratio_10day": 4.6
+      },
+      {
+        "date": "2026-04-06",
+        "stocks_up_4pct": 35,
+        "stocks_down_4pct": 25,
+        "ratio_5day": 1.4,
+        "ratio_10day": 1.68
+      },
+      {
+        "date": "2026-04-07",
+        "stocks_up_4pct": 39,
+        "stocks_down_4pct": 24,
+        "ratio_5day": 1.63,
+        "ratio_10day": 1.95
+      },
+      {
+        "date": "2026-04-08",
+        "stocks_up_4pct": 40,
+        "stocks_down_4pct": 4,
+        "ratio_5day": 10,
+        "ratio_10day": 12
+      },
+      {
+        "date": "2026-04-09",
+        "stocks_up_4pct": 27,
+        "stocks_down_4pct": 20,
+        "ratio_5day": 1.35,
+        "ratio_10day": 1.62
+      },
+      {
+        "date": "2026-04-10",
+        "stocks_up_4pct": 30,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 1.76,
+        "ratio_10day": 2.12
+      },
+      {
+        "date": "2026-04-13",
+        "stocks_up_4pct": 10,
+        "stocks_down_4pct": 18,
+        "ratio_5day": 0.56,
+        "ratio_10day": 0.67
+      },
+      {
+        "date": "2026-04-14",
+        "stocks_up_4pct": 29,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 1.71,
+        "ratio_10day": 2.05
+      },
+      {
+        "date": "2026-04-15",
+        "stocks_up_4pct": 5,
+        "stocks_down_4pct": 10,
+        "ratio_5day": 0.5,
+        "ratio_10day": 0.6
+      },
+      {
+        "date": "2026-04-16",
+        "stocks_up_4pct": 25,
+        "stocks_down_4pct": 13,
+        "ratio_5day": 1.92,
+        "ratio_10day": 2.31
+      },
+      {
+        "date": "2026-04-17",
+        "stocks_up_4pct": 46,
+        "stocks_down_4pct": 4,
+        "ratio_5day": 11.5,
+        "ratio_10day": 13.8
+      },
+      {
+        "date": "2026-04-20",
+        "stocks_up_4pct": 36,
+        "stocks_down_4pct": 22,
+        "ratio_5day": 1.64,
+        "ratio_10day": 1.96
+      },
+      {
+        "date": "2026-04-21",
+        "stocks_up_4pct": 21,
+        "stocks_down_4pct": 11,
+        "ratio_5day": 1.91,
+        "ratio_10day": 2.29
+      },
+      {
+        "date": "2026-04-22",
+        "stocks_up_4pct": 31,
+        "stocks_down_4pct": 4,
+        "ratio_5day": 7.75,
+        "ratio_10day": 9.3
+      },
+      {
+        "date": "2026-04-23",
+        "stocks_up_4pct": 8,
+        "stocks_down_4pct": 17,
+        "ratio_5day": 0.47,
+        "ratio_10day": 0.56
+      },
+      {
+        "date": "2026-04-24",
+        "stocks_up_4pct": 15,
+        "stocks_down_4pct": 4,
+        "ratio_5day": 3.75,
+        "ratio_10day": 4.5
+      },
+      {
+        "date": "2026-04-27",
+        "stocks_up_4pct": 37,
+        "stocks_down_4pct": 10,
+        "ratio_5day": 3.7,
+        "ratio_10day": 4.44
+      },
+      {
+        "date": "2026-04-28",
+        "stocks_up_4pct": 29,
+        "stocks_down_4pct": 18,
+        "ratio_5day": 1.61,
+        "ratio_10day": 1.93
+      },
+      {
+        "date": "2026-04-29",
+        "stocks_up_4pct": 48,
+        "stocks_down_4pct": 18,
+        "ratio_5day": 2.67,
+        "ratio_10day": 3.2
+      },
+      {
+        "date": "2026-04-30",
+        "stocks_up_4pct": 47,
+        "stocks_down_4pct": 5,
+        "ratio_5day": 9.4,
+        "ratio_10day": 11.28
+      },
+      {
+        "date": "2026-05-01",
         "stocks_up_4pct": 49,
         "stocks_down_4pct": 18,
         "ratio_5day": 2.72,
         "ratio_10day": 3.27
       },
       {
-        "date": "2026-05-17",
+        "date": "2026-05-04",
+        "stocks_up_4pct": 28,
+        "stocks_down_4pct": 12,
+        "ratio_5day": 2.33,
+        "ratio_10day": 2.8
+      },
+      {
+        "date": "2026-05-05",
+        "stocks_up_4pct": 30,
+        "stocks_down_4pct": 24,
+        "ratio_5day": 1.25,
+        "ratio_10day": 1.5
+      },
+      {
+        "date": "2026-05-06",
+        "stocks_up_4pct": 44,
+        "stocks_down_4pct": 23,
+        "ratio_5day": 1.91,
+        "ratio_10day": 2.3
+      },
+      {
+        "date": "2026-05-07",
         "stocks_up_4pct": 34,
-        "stocks_down_4pct": 4,
-        "ratio_5day": 8.5,
-        "ratio_10day": 10.2
+        "stocks_down_4pct": 10,
+        "ratio_5day": 3.4,
+        "ratio_10day": 4.08
+      },
+      {
+        "date": "2026-05-08",
+        "stocks_up_4pct": 48,
+        "stocks_down_4pct": 19,
+        "ratio_5day": 2.53,
+        "ratio_10day": 3.03
+      },
+      {
+        "date": "2026-05-11",
+        "stocks_up_4pct": 18,
+        "stocks_down_4pct": 9,
+        "ratio_5day": 2,
+        "ratio_10day": 2.4
+      },
+      {
+        "date": "2026-05-12",
+        "stocks_up_4pct": 9,
+        "stocks_down_4pct": 13,
+        "ratio_5day": 0.69,
+        "ratio_10day": 0.83
+      },
+      {
+        "date": "2026-05-13",
+        "stocks_up_4pct": 44,
+        "stocks_down_4pct": 25,
+        "ratio_5day": 1.76,
+        "ratio_10day": 2.11
+      },
+      {
+        "date": "2026-05-14",
+        "stocks_up_4pct": 6,
+        "stocks_down_4pct": 19,
+        "ratio_5day": 0.32,
+        "ratio_10day": 0.38
+      },
+      {
+        "date": "2026-05-15",
+        "stocks_up_4pct": 15,
+        "stocks_down_4pct": 16,
+        "ratio_5day": 0.94,
+        "ratio_10day": 1.13
       },
       {
         "date": "2026-05-18",
-        "stocks_up_4pct": 28,
-        "stocks_down_4pct": 5,
-        "ratio_5day": 5.6,
-        "ratio_10day": 6.72
+        "stocks_up_4pct": 25,
+        "stocks_down_4pct": 26,
+        "ratio_5day": 0.96,
+        "ratio_10day": 1.15
       },
       {
         "date": "2026-05-19",
-        "stocks_up_4pct": 36,
-        "stocks_down_4pct": 24,
-        "ratio_5day": 1.5,
-        "ratio_10day": 1.8
+        "stocks_up_4pct": 13,
+        "stocks_down_4pct": 16,
+        "ratio_5day": 0.81,
+        "ratio_10day": 0.97
       },
       {
         "date": "2026-05-20",
-        "stocks_up_4pct": 29,
-        "stocks_down_4pct": 2,
-        "ratio_5day": 14.5,
-        "ratio_10day": 17.4
+        "stocks_up_4pct": 41,
+        "stocks_down_4pct": 20,
+        "ratio_5day": 2.05,
+        "ratio_10day": 2.46
       },
       {
         "date": "2026-05-21",
-        "stocks_up_4pct": 33,
-        "stocks_down_4pct": 14,
-        "ratio_5day": 2.36,
-        "ratio_10day": 2.83
+        "stocks_up_4pct": 39,
+        "stocks_down_4pct": 4,
+        "ratio_5day": 9.75,
+        "ratio_10day": 11.7
       },
       {
-        "date": "2026-05-24",
-        "stocks_up_4pct": 31,
-        "stocks_down_4pct": 7,
-        "ratio_5day": 4.43,
-        "ratio_10day": 5.31
+        "date": "2026-05-22",
+        "stocks_up_4pct": 19,
+        "stocks_down_4pct": 25,
+        "ratio_5day": 0.76,
+        "ratio_10day": 0.91
       },
       {
         "date": "2026-05-25",
-        "stocks_up_4pct": 22,
-        "stocks_down_4pct": 18,
-        "ratio_5day": 1.22,
-        "ratio_10day": 1.47
+        "stocks_up_4pct": 49,
+        "stocks_down_4pct": 3,
+        "ratio_5day": 16.33,
+        "ratio_10day": 19.6
       },
       {
         "date": "2026-05-26",
-        "stocks_up_4pct": 46,
-        "stocks_down_4pct": 2,
-        "ratio_5day": 23,
-        "ratio_10day": 27.6
+        "stocks_up_4pct": 21,
+        "stocks_down_4pct": 8,
+        "ratio_5day": 2.63,
+        "ratio_10day": 3.15
       },
       {
         "date": "2026-05-27",
-        "stocks_up_4pct": 48,
-        "stocks_down_4pct": 11,
-        "ratio_5day": 4.36,
-        "ratio_10day": 5.24
+        "stocks_up_4pct": 31,
+        "stocks_down_4pct": 6,
+        "ratio_5day": 5.17,
+        "ratio_10day": 6.2
+      },
+      {
+        "date": "2026-05-28",
+        "stocks_up_4pct": 25,
+        "stocks_down_4pct": 26,
+        "ratio_5day": 0.96,
+        "ratio_10day": 1.15
       }
     ],
     "group_attribution": {
       "available": true,
       "history": [
         {
-          "date": "2026-05-27",
-          "stocks_up_4pct": 48,
-          "stocks_down_4pct": 11,
+          "date": "2026-05-28",
+          "stocks_up_4pct": 25,
+          "stocks_down_4pct": 26,
           "groups": [
             {
               "group": "AI 반도체",
+              "up_count": 2,
+              "down_count": 0,
+              "net": 2,
+              "up_stocks": [
+                {
+                  "symbol": "005930.KS",
+                  "name": "삼성전자",
+                  "pct_change": 6.43,
+                  "close": 81793
+                },
+                {
+                  "symbol": "000660.KS",
+                  "name": "SK하이닉스",
+                  "pct_change": 4.66,
+                  "close": 202510
+                }
+              ],
+              "down_stocks": []
+            },
+            {
+              "group": "자동차",
+              "up_count": 3,
+              "down_count": 0,
+              "net": 3,
+              "up_stocks": [
+                {
+                  "symbol": "005380.KS",
+                  "name": "현대차",
+                  "pct_change": 4.22,
+                  "close": 273040
+                },
+                {
+                  "symbol": "000270.KS",
+                  "name": "기아",
+                  "pct_change": 5.28,
+                  "close": 144197
+                },
+                {
+                  "symbol": "012330.KS",
+                  "name": "현대모비스",
+                  "pct_change": 4.91,
+                  "close": 227833
+                }
+              ],
+              "down_stocks": []
+            },
+            {
+              "group": "금융",
+              "up_count": 1,
+              "down_count": 1,
+              "net": 0,
+              "up_stocks": [
+                {
+                  "symbol": "105560.KS",
+                  "name": "KB금융",
+                  "pct_change": 4.39,
+                  "close": 89783
+                }
+              ],
+              "down_stocks": [
+                {
+                  "symbol": "105560.KS",
+                  "name": "KB금융",
+                  "pct_change": -4.78,
+                  "close": 89783
+                }
+              ]
+            },
+            {
+              "group": "바이오 헬스케어",
+              "up_count": 0,
+              "down_count": 0,
+              "net": 0,
+              "up_stocks": [],
+              "down_stocks": []
+            },
+            {
+              "group": "인터넷",
               "up_count": 0,
               "down_count": 1,
               "net": -1,
               "up_stocks": [],
               "down_stocks": [
                 {
-                  "symbol": "005930.KS",
-                  "name": "삼성전자",
-                  "pct_change": -5.95,
-                  "close": 88877
+                  "symbol": "035420.KS",
+                  "name": "NAVER",
+                  "pct_change": -5.15,
+                  "close": 156308
                 }
               ]
             },
             {
-              "group": "자동차",
-              "up_count": 1,
+              "group": "이차전지",
+              "up_count": 3,
               "down_count": 1,
-              "net": 0,
+              "net": 2,
               "up_stocks": [
                 {
-                  "symbol": "005380.KS",
-                  "name": "현대차",
-                  "pct_change": 6.76,
-                  "close": 301027
+                  "symbol": "247540.KQ",
+                  "name": "에코프로비엠",
+                  "pct_change": 6.56,
+                  "close": 186471
+                },
+                {
+                  "symbol": "005490.KS",
+                  "name": "POSCO홀딩스",
+                  "pct_change": 6.59,
+                  "close": 374663
+                },
+                {
+                  "symbol": "006400.KS",
+                  "name": "삼성SDI",
+                  "pct_change": 6.89,
+                  "close": 327460
                 }
               ],
               "down_stocks": [
                 {
-                  "symbol": "005380.KS",
-                  "name": "현대차",
-                  "pct_change": -4.04,
-                  "close": 301027
+                  "symbol": "247540.KQ",
+                  "name": "에코프로비엠",
+                  "pct_change": -6.82,
+                  "close": 186471
                 }
               ]
+            }
+          ]
+        },
+        {
+          "date": "2026-05-27",
+          "stocks_up_4pct": 31,
+          "stocks_down_4pct": 6,
+          "groups": [
+            {
+              "group": "AI 반도체",
+              "up_count": 2,
+              "down_count": 0,
+              "net": 2,
+              "up_stocks": [
+                {
+                  "symbol": "005930.KS",
+                  "name": "삼성전자",
+                  "pct_change": 4.6,
+                  "close": 83010
+                },
+                {
+                  "symbol": "000660.KS",
+                  "name": "SK하이닉스",
+                  "pct_change": 6.65,
+                  "close": 201304
+                }
+              ],
+              "down_stocks": []
+            },
+            {
+              "group": "자동차",
+              "up_count": 3,
+              "down_count": 0,
+              "net": 3,
+              "up_stocks": [
+                {
+                  "symbol": "005380.KS",
+                  "name": "현대차",
+                  "pct_change": 4.34,
+                  "close": 274076
+                },
+                {
+                  "symbol": "000270.KS",
+                  "name": "기아",
+                  "pct_change": 6.81,
+                  "close": 145735
+                },
+                {
+                  "symbol": "012330.KS",
+                  "name": "현대모비스",
+                  "pct_change": 5.6,
+                  "close": 224952
+                }
+              ],
+              "down_stocks": []
             },
             {
               "group": "금융",
@@ -2109,63 +2254,50 @@
                 {
                   "symbol": "105560.KS",
                   "name": "KB금융",
-                  "pct_change": 6.81,
-                  "close": 87468
+                  "pct_change": 6.53,
+                  "close": 88165
                 },
                 {
                   "symbol": "055550.KS",
                   "name": "신한지주",
-                  "pct_change": 4.04,
-                  "close": 53166
+                  "pct_change": 4.94,
+                  "close": 55035
                 },
                 {
                   "symbol": "032830.KS",
                   "name": "삼성생명",
-                  "pct_change": 5.62,
-                  "close": 92440
+                  "pct_change": 5.53,
+                  "close": 97623
                 }
               ],
               "down_stocks": [
                 {
                   "symbol": "105560.KS",
                   "name": "KB금융",
-                  "pct_change": -4.05,
-                  "close": 87468
+                  "pct_change": -6.9,
+                  "close": 88165
                 }
               ]
             },
             {
               "group": "바이오 헬스케어",
+              "up_count": 0,
+              "down_count": 0,
+              "net": 0,
+              "up_stocks": [],
+              "down_stocks": []
+            },
+            {
+              "group": "인터넷",
               "up_count": 1,
               "down_count": 0,
               "net": 1,
               "up_stocks": [
                 {
-                  "symbol": "068270.KS",
-                  "name": "셀트리온",
-                  "pct_change": 5.67,
-                  "close": 200609
-                }
-              ],
-              "down_stocks": []
-            },
-            {
-              "group": "인터넷",
-              "up_count": 2,
-              "down_count": 0,
-              "net": 2,
-              "up_stocks": [
-                {
                   "symbol": "035420.KS",
                   "name": "NAVER",
-                  "pct_change": 6.03,
-                  "close": 212709
-                },
-                {
-                  "symbol": "035720.KS",
-                  "name": "카카오",
-                  "pct_change": 6.44,
-                  "close": 49232
+                  "pct_change": 4.98,
+                  "close": 157598
                 }
               ],
               "down_stocks": []
@@ -2179,16 +2311,16 @@
                 {
                   "symbol": "247540.KQ",
                   "name": "에코프로비엠",
-                  "pct_change": 4.26,
-                  "close": 202212
+                  "pct_change": 4.08,
+                  "close": 184391
                 }
               ],
               "down_stocks": [
                 {
                   "symbol": "247540.KQ",
                   "name": "에코프로비엠",
-                  "pct_change": -5.05,
-                  "close": 202212
+                  "pct_change": -6.85,
+                  "close": 184391
                 }
               ]
             }
@@ -2196,153 +2328,122 @@
         },
         {
           "date": "2026-05-26",
-          "stocks_up_4pct": 46,
-          "stocks_down_4pct": 2,
+          "stocks_up_4pct": 21,
+          "stocks_down_4pct": 8,
           "groups": [
             {
               "group": "AI 반도체",
               "up_count": 0,
-              "down_count": 0,
-              "net": 0,
-              "up_stocks": [],
-              "down_stocks": []
-            },
-            {
-              "group": "자동차",
-              "up_count": 2,
               "down_count": 1,
-              "net": 1,
-              "up_stocks": [
-                {
-                  "symbol": "005380.KS",
-                  "name": "현대차",
-                  "pct_change": 4.42,
-                  "close": 297208
-                },
-                {
-                  "symbol": "000270.KS",
-                  "name": "기아",
-                  "pct_change": 4.23,
-                  "close": 128028
-                }
-              ],
+              "net": -1,
+              "up_stocks": [],
               "down_stocks": [
                 {
-                  "symbol": "005380.KS",
-                  "name": "현대차",
-                  "pct_change": -6.2,
-                  "close": 297208
+                  "symbol": "005930.KS",
+                  "name": "삼성전자",
+                  "pct_change": -6.63,
+                  "close": 82778
                 }
               ]
             },
             {
-              "group": "금융",
-              "up_count": 3,
-              "down_count": 1,
+              "group": "자동차",
+              "up_count": 2,
+              "down_count": 0,
               "net": 2,
               "up_stocks": [
                 {
-                  "symbol": "105560.KS",
-                  "name": "KB금융",
-                  "pct_change": 4.13,
-                  "close": 87221
+                  "symbol": "005380.KS",
+                  "name": "현대차",
+                  "pct_change": 5.39,
+                  "close": 272996
                 },
                 {
-                  "symbol": "055550.KS",
-                  "name": "신한지주",
-                  "pct_change": 5.03,
-                  "close": 52514
-                },
-                {
-                  "symbol": "032830.KS",
-                  "name": "삼성생명",
-                  "pct_change": 6.26,
-                  "close": 90679
+                  "symbol": "000270.KS",
+                  "name": "기아",
+                  "pct_change": 5.93,
+                  "close": 143130
                 }
               ],
+              "down_stocks": []
+            },
+            {
+              "group": "금융",
+              "up_count": 0,
+              "down_count": 1,
+              "net": -1,
+              "up_stocks": [],
               "down_stocks": [
                 {
                   "symbol": "105560.KS",
                   "name": "KB금융",
-                  "pct_change": -4.54,
-                  "close": 87221
+                  "pct_change": -6.66,
+                  "close": 88665
                 }
               ]
             },
             {
               "group": "바이오 헬스케어",
               "up_count": 1,
-              "down_count": 1,
-              "net": 0,
-              "up_stocks": [
-                {
-                  "symbol": "068270.KS",
-                  "name": "셀트리온",
-                  "pct_change": 6.89,
-                  "close": 200627
-                }
-              ],
-              "down_stocks": [
-                {
-                  "symbol": "068270.KS",
-                  "name": "셀트리온",
-                  "pct_change": -4.49,
-                  "close": 200627
-                }
-              ]
-            },
-            {
-              "group": "인터넷",
-              "up_count": 2,
               "down_count": 0,
-              "net": 2,
+              "net": 1,
               "up_stocks": [
                 {
-                  "symbol": "035420.KS",
-                  "name": "NAVER",
-                  "pct_change": 4.78,
-                  "close": 215383
-                },
-                {
-                  "symbol": "035720.KS",
-                  "name": "카카오",
-                  "pct_change": 5.55,
-                  "close": 49600
+                  "symbol": "068270.KS",
+                  "name": "셀트리온",
+                  "pct_change": 5.27,
+                  "close": 211824
                 }
               ],
               "down_stocks": []
             },
             {
-              "group": "이차전지",
-              "up_count": 3,
+              "group": "인터넷",
+              "up_count": 1,
               "down_count": 1,
-              "net": 2,
+              "net": 0,
+              "up_stocks": [
+                {
+                  "symbol": "035420.KS",
+                  "name": "NAVER",
+                  "pct_change": 5.98,
+                  "close": 156599
+                }
+              ],
+              "down_stocks": [
+                {
+                  "symbol": "035420.KS",
+                  "name": "NAVER",
+                  "pct_change": -6.42,
+                  "close": 156599
+                }
+              ]
+            },
+            {
+              "group": "이차전지",
+              "up_count": 2,
+              "down_count": 1,
+              "net": 1,
               "up_stocks": [
                 {
                   "symbol": "247540.KQ",
                   "name": "에코프로비엠",
-                  "pct_change": 4.35,
-                  "close": 200851
+                  "pct_change": 6.23,
+                  "close": 186591
                 },
                 {
                   "symbol": "005490.KS",
                   "name": "POSCO홀딩스",
-                  "pct_change": 6.7,
-                  "close": 345881
-                },
-                {
-                  "symbol": "006400.KS",
-                  "name": "삼성SDI",
-                  "pct_change": 5.64,
-                  "close": 310535
+                  "pct_change": 5.44,
+                  "close": 375941
                 }
               ],
               "down_stocks": [
                 {
                   "symbol": "247540.KQ",
                   "name": "에코프로비엠",
-                  "pct_change": -4.37,
-                  "close": 200851
+                  "pct_change": -4.12,
+                  "close": 186591
                 }
               ]
             }
@@ -2350,186 +2451,57 @@
         },
         {
           "date": "2026-05-25",
-          "stocks_up_4pct": 22,
-          "stocks_down_4pct": 18,
+          "stocks_up_4pct": 49,
+          "stocks_down_4pct": 3,
           "groups": [
             {
               "group": "AI 반도체",
-              "up_count": 2,
-              "down_count": 1,
+              "up_count": 1,
+              "down_count": 0,
               "net": 1,
               "up_stocks": [
                 {
                   "symbol": "005930.KS",
                   "name": "삼성전자",
-                  "pct_change": 5.04,
-                  "close": 89213
-                },
-                {
-                  "symbol": "000660.KS",
-                  "name": "SK하이닉스",
-                  "pct_change": 5.72,
-                  "close": 209021
+                  "pct_change": 6.42,
+                  "close": 81447
                 }
               ],
-              "down_stocks": [
-                {
-                  "symbol": "005930.KS",
-                  "name": "삼성전자",
-                  "pct_change": -4.37,
-                  "close": 89213
-                }
-              ]
+              "down_stocks": []
             },
             {
               "group": "자동차",
-              "up_count": 2,
-              "down_count": 0,
+              "up_count": 3,
+              "down_count": 1,
               "net": 2,
               "up_stocks": [
                 {
                   "symbol": "005380.KS",
                   "name": "현대차",
-                  "pct_change": 6.9,
-                  "close": 293170
+                  "pct_change": 6.41,
+                  "close": 268790
                 },
                 {
                   "symbol": "000270.KS",
                   "name": "기아",
-                  "pct_change": 4.26,
-                  "close": 127117
-                }
-              ],
-              "down_stocks": []
-            },
-            {
-              "group": "금융",
-              "up_count": 2,
-              "down_count": 0,
-              "net": 2,
-              "up_stocks": [
-                {
-                  "symbol": "105560.KS",
-                  "name": "KB금융",
-                  "pct_change": 4.19,
-                  "close": 85731
+                  "pct_change": 5.18,
+                  "close": 145439
                 },
                 {
-                  "symbol": "055550.KS",
-                  "name": "신한지주",
-                  "pct_change": 4.35,
-                  "close": 52965
-                }
-              ],
-              "down_stocks": []
-            },
-            {
-              "group": "바이오 헬스케어",
-              "up_count": 1,
-              "down_count": 1,
-              "net": 0,
-              "up_stocks": [
-                {
-                  "symbol": "068270.KS",
-                  "name": "셀트리온",
-                  "pct_change": 6.11,
-                  "close": 202470
+                  "symbol": "012330.KS",
+                  "name": "현대모비스",
+                  "pct_change": 6.17,
+                  "close": 226806
                 }
               ],
               "down_stocks": [
                 {
-                  "symbol": "068270.KS",
-                  "name": "셀트리온",
-                  "pct_change": -4.85,
-                  "close": 202470
+                  "symbol": "005380.KS",
+                  "name": "현대차",
+                  "pct_change": -5.69,
+                  "close": 268790
                 }
               ]
-            },
-            {
-              "group": "인터넷",
-              "up_count": 1,
-              "down_count": 1,
-              "net": 0,
-              "up_stocks": [
-                {
-                  "symbol": "035420.KS",
-                  "name": "NAVER",
-                  "pct_change": 6.63,
-                  "close": 211901
-                }
-              ],
-              "down_stocks": [
-                {
-                  "symbol": "035420.KS",
-                  "name": "NAVER",
-                  "pct_change": -6.14,
-                  "close": 211901
-                }
-              ]
-            },
-            {
-              "group": "이차전지",
-              "up_count": 2,
-              "down_count": 1,
-              "net": 1,
-              "up_stocks": [
-                {
-                  "symbol": "247540.KQ",
-                  "name": "에코프로비엠",
-                  "pct_change": 4.29,
-                  "close": 204529
-                },
-                {
-                  "symbol": "005490.KS",
-                  "name": "POSCO홀딩스",
-                  "pct_change": 4.2,
-                  "close": 347763
-                }
-              ],
-              "down_stocks": [
-                {
-                  "symbol": "247540.KQ",
-                  "name": "에코프로비엠",
-                  "pct_change": -4.34,
-                  "close": 204529
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "date": "2026-05-24",
-          "stocks_up_4pct": 31,
-          "stocks_down_4pct": 7,
-          "groups": [
-            {
-              "group": "AI 반도체",
-              "up_count": 2,
-              "down_count": 0,
-              "net": 2,
-              "up_stocks": [
-                {
-                  "symbol": "005930.KS",
-                  "name": "삼성전자",
-                  "pct_change": 6.34,
-                  "close": 89035
-                },
-                {
-                  "symbol": "000660.KS",
-                  "name": "SK하이닉스",
-                  "pct_change": 6.04,
-                  "close": 207258
-                }
-              ],
-              "down_stocks": []
-            },
-            {
-              "group": "자동차",
-              "up_count": 0,
-              "down_count": 0,
-              "net": 0,
-              "up_stocks": [],
-              "down_stocks": []
             },
             {
               "group": "금융",
@@ -2540,30 +2512,150 @@
                 {
                   "symbol": "105560.KS",
                   "name": "KB금융",
-                  "pct_change": 5.49,
-                  "close": 85672
+                  "pct_change": 5.38,
+                  "close": 88471
                 },
                 {
                   "symbol": "055550.KS",
                   "name": "신한지주",
-                  "pct_change": 4.77,
-                  "close": 53412
+                  "pct_change": 5.75,
+                  "close": 53365
                 },
                 {
                   "symbol": "032830.KS",
                   "name": "삼성생명",
-                  "pct_change": 6.07,
-                  "close": 93011
+                  "pct_change": 6.01,
+                  "close": 96672
                 }
               ],
               "down_stocks": [
                 {
                   "symbol": "105560.KS",
                   "name": "KB금융",
-                  "pct_change": -6.85,
-                  "close": 85672
+                  "pct_change": -4.23,
+                  "close": 88471
                 }
               ]
+            },
+            {
+              "group": "바이오 헬스케어",
+              "up_count": 0,
+              "down_count": 1,
+              "net": -1,
+              "up_stocks": [],
+              "down_stocks": [
+                {
+                  "symbol": "068270.KS",
+                  "name": "셀트리온",
+                  "pct_change": -4.21,
+                  "close": 214195
+                }
+              ]
+            },
+            {
+              "group": "인터넷",
+              "up_count": 0,
+              "down_count": 1,
+              "net": -1,
+              "up_stocks": [],
+              "down_stocks": [
+                {
+                  "symbol": "035420.KS",
+                  "name": "NAVER",
+                  "pct_change": -6.91,
+                  "close": 158849
+                }
+              ]
+            },
+            {
+              "group": "이차전지",
+              "up_count": 2,
+              "down_count": 0,
+              "net": 2,
+              "up_stocks": [
+                {
+                  "symbol": "247540.KQ",
+                  "name": "에코프로비엠",
+                  "pct_change": 5.92,
+                  "close": 185348
+                },
+                {
+                  "symbol": "005490.KS",
+                  "name": "POSCO홀딩스",
+                  "pct_change": 6.21,
+                  "close": 370636
+                }
+              ],
+              "down_stocks": []
+            }
+          ]
+        },
+        {
+          "date": "2026-05-22",
+          "stocks_up_4pct": 19,
+          "stocks_down_4pct": 25,
+          "groups": [
+            {
+              "group": "AI 반도체",
+              "up_count": 0,
+              "down_count": 0,
+              "net": 0,
+              "up_stocks": [],
+              "down_stocks": []
+            },
+            {
+              "group": "자동차",
+              "up_count": 3,
+              "down_count": 0,
+              "net": 3,
+              "up_stocks": [
+                {
+                  "symbol": "005380.KS",
+                  "name": "현대차",
+                  "pct_change": 4.18,
+                  "close": 266710
+                },
+                {
+                  "symbol": "000270.KS",
+                  "name": "기아",
+                  "pct_change": 4.31,
+                  "close": 145030
+                },
+                {
+                  "symbol": "012330.KS",
+                  "name": "현대모비스",
+                  "pct_change": 5.77,
+                  "close": 228801
+                }
+              ],
+              "down_stocks": []
+            },
+            {
+              "group": "금융",
+              "up_count": 3,
+              "down_count": 0,
+              "net": 3,
+              "up_stocks": [
+                {
+                  "symbol": "105560.KS",
+                  "name": "KB금융",
+                  "pct_change": 4.45,
+                  "close": 89074
+                },
+                {
+                  "symbol": "055550.KS",
+                  "name": "신한지주",
+                  "pct_change": 6.73,
+                  "close": 52458
+                },
+                {
+                  "symbol": "032830.KS",
+                  "name": "삼성생명",
+                  "pct_change": 4.29,
+                  "close": 96458
+                }
+              ],
+              "down_stocks": []
             },
             {
               "group": "바이오 헬스케어",
@@ -2574,251 +2666,269 @@
                 {
                   "symbol": "068270.KS",
                   "name": "셀트리온",
-                  "pct_change": 6.15,
-                  "close": 198683
+                  "pct_change": 6.42,
+                  "close": 212515
                 }
               ],
               "down_stocks": [
                 {
                   "symbol": "068270.KS",
                   "name": "셀트리온",
-                  "pct_change": -4.95,
-                  "close": 198683
+                  "pct_change": -4.59,
+                  "close": 212515
                 }
               ]
             },
             {
               "group": "인터넷",
+              "up_count": 0,
+              "down_count": 1,
+              "net": -1,
+              "up_stocks": [],
+              "down_stocks": [
+                {
+                  "symbol": "035420.KS",
+                  "name": "NAVER",
+                  "pct_change": -4.07,
+                  "close": 161470
+                }
+              ]
+            },
+            {
+              "group": "이차전지",
               "up_count": 2,
               "down_count": 0,
               "net": 2,
               "up_stocks": [
                 {
-                  "symbol": "035420.KS",
-                  "name": "NAVER",
-                  "pct_change": 5.5,
-                  "close": 215281
-                },
-                {
-                  "symbol": "035720.KS",
-                  "name": "카카오",
-                  "pct_change": 4.69,
-                  "close": 49145
-                }
-              ],
-              "down_stocks": []
-            },
-            {
-              "group": "이차전지",
-              "up_count": 2,
-              "down_count": 1,
-              "net": 1,
-              "up_stocks": [
-                {
                   "symbol": "247540.KQ",
                   "name": "에코프로비엠",
-                  "pct_change": 4.73,
-                  "close": 207606
+                  "pct_change": 5.19,
+                  "close": 182256
                 },
                 {
                   "symbol": "005490.KS",
                   "name": "POSCO홀딩스",
-                  "pct_change": 4.11,
-                  "close": 343143
+                  "pct_change": 6.27,
+                  "close": 369693
                 }
               ],
-              "down_stocks": [
-                {
-                  "symbol": "247540.KQ",
-                  "name": "에코프로비엠",
-                  "pct_change": -4.41,
-                  "close": 207606
-                }
-              ]
+              "down_stocks": []
             }
           ]
         },
         {
           "date": "2026-05-21",
-          "stocks_up_4pct": 33,
-          "stocks_down_4pct": 14,
+          "stocks_up_4pct": 39,
+          "stocks_down_4pct": 4,
           "groups": [
             {
               "group": "AI 반도체",
               "up_count": 2,
-              "down_count": 0,
-              "net": 2,
+              "down_count": 1,
+              "net": 1,
               "up_stocks": [
                 {
                   "symbol": "005930.KS",
                   "name": "삼성전자",
-                  "pct_change": 6.9,
-                  "close": 88349
+                  "pct_change": 4.85,
+                  "close": 82318
                 },
                 {
                   "symbol": "000660.KS",
                   "name": "SK하이닉스",
-                  "pct_change": 6.59,
-                  "close": 208537
+                  "pct_change": 5.51,
+                  "close": 202140
                 }
               ],
-              "down_stocks": []
+              "down_stocks": [
+                {
+                  "symbol": "005930.KS",
+                  "name": "삼성전자",
+                  "pct_change": -6.91,
+                  "close": 82318
+                }
+              ]
             },
             {
               "group": "자동차",
-              "up_count": 1,
-              "down_count": 0,
-              "net": 1,
-              "up_stocks": [
-                {
-                  "symbol": "005380.KS",
-                  "name": "현대차",
-                  "pct_change": 5.07,
-                  "close": 297765
-                }
-              ],
-              "down_stocks": []
-            },
-            {
-              "group": "금융",
-              "up_count": 2,
-              "down_count": 0,
-              "net": 2,
-              "up_stocks": [
-                {
-                  "symbol": "105560.KS",
-                  "name": "KB금융",
-                  "pct_change": 6.36,
-                  "close": 84626
-                },
-                {
-                  "symbol": "055550.KS",
-                  "name": "신한지주",
-                  "pct_change": 4.47,
-                  "close": 54092
-                }
-              ],
-              "down_stocks": []
-            },
-            {
-              "group": "바이오 헬스케어",
               "up_count": 0,
               "down_count": 1,
               "net": -1,
               "up_stocks": [],
               "down_stocks": [
                 {
-                  "symbol": "068270.KS",
-                  "name": "셀트리온",
-                  "pct_change": -6.33,
-                  "close": 201115
+                  "symbol": "005380.KS",
+                  "name": "현대차",
+                  "pct_change": -5.93,
+                  "close": 264687
                 }
               ]
             },
             {
-              "group": "인터넷",
-              "up_count": 2,
+              "group": "금융",
+              "up_count": 3,
               "down_count": 0,
-              "net": 2,
+              "net": 3,
+              "up_stocks": [
+                {
+                  "symbol": "105560.KS",
+                  "name": "KB금융",
+                  "pct_change": 5.4,
+                  "close": 89335
+                },
+                {
+                  "symbol": "055550.KS",
+                  "name": "신한지주",
+                  "pct_change": 5.17,
+                  "close": 52944
+                },
+                {
+                  "symbol": "032830.KS",
+                  "name": "삼성생명",
+                  "pct_change": 5.67,
+                  "close": 95331
+                }
+              ],
+              "down_stocks": []
+            },
+            {
+              "group": "바이오 헬스케어",
+              "up_count": 1,
+              "down_count": 0,
+              "net": 1,
+              "up_stocks": [
+                {
+                  "symbol": "068270.KS",
+                  "name": "셀트리온",
+                  "pct_change": 5.26,
+                  "close": 214882
+                }
+              ],
+              "down_stocks": []
+            },
+            {
+              "group": "인터넷",
+              "up_count": 1,
+              "down_count": 0,
+              "net": 1,
               "up_stocks": [
                 {
                   "symbol": "035420.KS",
                   "name": "NAVER",
-                  "pct_change": 4.7,
-                  "close": 212130
-                },
-                {
-                  "symbol": "035720.KS",
-                  "name": "카카오",
-                  "pct_change": 5.12,
-                  "close": 49301
+                  "pct_change": 4.59,
+                  "close": 159819
                 }
               ],
               "down_stocks": []
             },
             {
               "group": "이차전지",
-              "up_count": 1,
-              "down_count": 1,
-              "net": 0,
+              "up_count": 3,
+              "down_count": 0,
+              "net": 3,
               "up_stocks": [
                 {
                   "symbol": "247540.KQ",
                   "name": "에코프로비엠",
-                  "pct_change": 4.64,
-                  "close": 207781
+                  "pct_change": 6.28,
+                  "close": 185156
+                },
+                {
+                  "symbol": "005490.KS",
+                  "name": "POSCO홀딩스",
+                  "pct_change": 6.77,
+                  "close": 367168
+                },
+                {
+                  "symbol": "006400.KS",
+                  "name": "삼성SDI",
+                  "pct_change": 4.16,
+                  "close": 327732
                 }
               ],
-              "down_stocks": [
-                {
-                  "symbol": "247540.KQ",
-                  "name": "에코프로비엠",
-                  "pct_change": -4.65,
-                  "close": 207781
-                }
-              ]
+              "down_stocks": []
             }
           ]
         },
         {
           "date": "2026-05-20",
-          "stocks_up_4pct": 29,
-          "stocks_down_4pct": 2,
+          "stocks_up_4pct": 41,
+          "stocks_down_4pct": 20,
           "groups": [
             {
               "group": "AI 반도체",
-              "up_count": 2,
+              "up_count": 1,
               "down_count": 1,
-              "net": 1,
+              "net": 0,
               "up_stocks": [
                 {
                   "symbol": "005930.KS",
                   "name": "삼성전자",
-                  "pct_change": 4.25,
-                  "close": 89030
-                },
-                {
-                  "symbol": "000660.KS",
-                  "name": "SK하이닉스",
-                  "pct_change": 5.85,
-                  "close": 207574
+                  "pct_change": 6.32,
+                  "close": 82430
                 }
               ],
               "down_stocks": [
                 {
                   "symbol": "005930.KS",
                   "name": "삼성전자",
-                  "pct_change": -5.98,
-                  "close": 89030
+                  "pct_change": -5.18,
+                  "close": 82430
                 }
               ]
             },
             {
               "group": "자동차",
-              "up_count": 1,
-              "down_count": 0,
+              "up_count": 2,
+              "down_count": 1,
               "net": 1,
               "up_stocks": [
                 {
                   "symbol": "005380.KS",
                   "name": "현대차",
-                  "pct_change": 4.61,
-                  "close": 294835
+                  "pct_change": 4.25,
+                  "close": 261844
+                },
+                {
+                  "symbol": "000270.KS",
+                  "name": "기아",
+                  "pct_change": 4.4,
+                  "close": 142673
                 }
               ],
-              "down_stocks": []
+              "down_stocks": [
+                {
+                  "symbol": "005380.KS",
+                  "name": "현대차",
+                  "pct_change": -4.93,
+                  "close": 261844
+                }
+              ]
             },
             {
               "group": "금융",
-              "up_count": 1,
+              "up_count": 3,
               "down_count": 0,
-              "net": 1,
+              "net": 3,
               "up_stocks": [
                 {
                   "symbol": "105560.KS",
                   "name": "KB금융",
-                  "pct_change": 5.88,
-                  "close": 83166
+                  "pct_change": 5.9,
+                  "close": 89509
+                },
+                {
+                  "symbol": "055550.KS",
+                  "name": "신한지주",
+                  "pct_change": 4.72,
+                  "close": 53386
+                },
+                {
+                  "symbol": "032830.KS",
+                  "name": "삼성생명",
+                  "pct_change": 5.29,
+                  "close": 94549
                 }
               ],
               "down_stocks": []
@@ -2832,16 +2942,16 @@
                 {
                   "symbol": "068270.KS",
                   "name": "셀트리온",
-                  "pct_change": 5.52,
-                  "close": 202672
+                  "pct_change": 6.19,
+                  "close": 213750
                 }
               ],
               "down_stocks": [
                 {
                   "symbol": "068270.KS",
                   "name": "셀트리온",
-                  "pct_change": -5.13,
-                  "close": 202672
+                  "pct_change": -4.31,
+                  "close": 213750
                 }
               ]
             },
@@ -2854,230 +2964,220 @@
                 {
                   "symbol": "035420.KS",
                   "name": "NAVER",
-                  "pct_change": 4.34,
-                  "close": 214050
+                  "pct_change": 5.28,
+                  "close": 160883
                 },
                 {
                   "symbol": "035720.KS",
                   "name": "카카오",
-                  "pct_change": 5.07,
-                  "close": 49564
+                  "pct_change": 5.61,
+                  "close": 39543
                 }
               ],
               "down_stocks": [
                 {
                   "symbol": "035420.KS",
                   "name": "NAVER",
-                  "pct_change": -5.5,
-                  "close": 214050
+                  "pct_change": -4.48,
+                  "close": 160883
                 }
               ]
             },
             {
               "group": "이차전지",
-              "up_count": 2,
-              "down_count": 1,
-              "net": 1,
+              "up_count": 3,
+              "down_count": 0,
+              "net": 3,
               "up_stocks": [
                 {
                   "symbol": "247540.KQ",
                   "name": "에코프로비엠",
-                  "pct_change": 5.07,
-                  "close": 210864
+                  "pct_change": 4.97,
+                  "close": 182500
                 },
                 {
                   "symbol": "005490.KS",
                   "name": "POSCO홀딩스",
-                  "pct_change": 6.44,
-                  "close": 347999
+                  "pct_change": 4.87,
+                  "close": 366976
+                },
+                {
+                  "symbol": "006400.KS",
+                  "name": "삼성SDI",
+                  "pct_change": 4.1,
+                  "close": 328002
                 }
               ],
-              "down_stocks": [
-                {
-                  "symbol": "247540.KQ",
-                  "name": "에코프로비엠",
-                  "pct_change": -5.38,
-                  "close": 210864
-                }
-              ]
+              "down_stocks": []
             }
           ]
         },
         {
           "date": "2026-05-19",
-          "stocks_up_4pct": 36,
-          "stocks_down_4pct": 24,
+          "stocks_up_4pct": 13,
+          "stocks_down_4pct": 16,
           "groups": [
             {
               "group": "AI 반도체",
-              "up_count": 2,
-              "down_count": 1,
+              "up_count": 1,
+              "down_count": 0,
               "net": 1,
               "up_stocks": [
                 {
                   "symbol": "005930.KS",
                   "name": "삼성전자",
-                  "pct_change": 6.82,
-                  "close": 89282
-                },
-                {
-                  "symbol": "000660.KS",
-                  "name": "SK하이닉스",
-                  "pct_change": 6.78,
-                  "close": 209328
-                }
-              ],
-              "down_stocks": [
-                {
-                  "symbol": "005930.KS",
-                  "name": "삼성전자",
-                  "pct_change": -6.06,
-                  "close": 89282
-                }
-              ]
-            },
-            {
-              "group": "자동차",
-              "up_count": 3,
-              "down_count": 0,
-              "net": 3,
-              "up_stocks": [
-                {
-                  "symbol": "005380.KS",
-                  "name": "현대차",
-                  "pct_change": 6.66,
-                  "close": 292539
-                },
-                {
-                  "symbol": "000270.KS",
-                  "name": "기아",
-                  "pct_change": 6.88,
-                  "close": 130273
-                },
-                {
-                  "symbol": "012330.KS",
-                  "name": "현대모비스",
-                  "pct_change": 6.56,
-                  "close": 179633
+                  "pct_change": 5.86,
+                  "close": 82295
                 }
               ],
               "down_stocks": []
             },
             {
-              "group": "금융",
-              "up_count": 1,
+              "group": "자동차",
+              "up_count": 3,
               "down_count": 1,
-              "net": 0,
+              "net": 2,
               "up_stocks": [
                 {
-                  "symbol": "105560.KS",
-                  "name": "KB금융",
-                  "pct_change": 4.42,
-                  "close": 82922
+                  "symbol": "005380.KS",
+                  "name": "현대차",
+                  "pct_change": 5.95,
+                  "close": 265968
+                },
+                {
+                  "symbol": "000270.KS",
+                  "name": "기아",
+                  "pct_change": 6.66,
+                  "close": 142238
+                },
+                {
+                  "symbol": "012330.KS",
+                  "name": "현대모비스",
+                  "pct_change": 6.6,
+                  "close": 227187
                 }
               ],
               "down_stocks": [
                 {
-                  "symbol": "105560.KS",
-                  "name": "KB금융",
-                  "pct_change": -6.17,
-                  "close": 82922
+                  "symbol": "005380.KS",
+                  "name": "현대차",
+                  "pct_change": -5.11,
+                  "close": 265968
                 }
               ]
+            },
+            {
+              "group": "금융",
+              "up_count": 3,
+              "down_count": 0,
+              "net": 3,
+              "up_stocks": [
+                {
+                  "symbol": "105560.KS",
+                  "name": "KB금융",
+                  "pct_change": 6.74,
+                  "close": 90576
+                },
+                {
+                  "symbol": "055550.KS",
+                  "name": "신한지주",
+                  "pct_change": 6.11,
+                  "close": 53192
+                },
+                {
+                  "symbol": "032830.KS",
+                  "name": "삼성생명",
+                  "pct_change": 4.29,
+                  "close": 94435
+                }
+              ],
+              "down_stocks": []
             },
             {
               "group": "바이오 헬스케어",
               "up_count": 1,
-              "down_count": 1,
-              "net": 0,
+              "down_count": 0,
+              "net": 1,
               "up_stocks": [
                 {
                   "symbol": "068270.KS",
                   "name": "셀트리온",
-                  "pct_change": 4.94,
-                  "close": 204448
+                  "pct_change": 6.12,
+                  "close": 216920
                 }
               ],
-              "down_stocks": [
-                {
-                  "symbol": "068270.KS",
-                  "name": "셀트리온",
-                  "pct_change": -5.76,
-                  "close": 204448
-                }
-              ]
+              "down_stocks": []
             },
             {
               "group": "인터넷",
-              "up_count": 0,
-              "down_count": 1,
-              "net": -1,
-              "up_stocks": [],
-              "down_stocks": [
-                {
-                  "symbol": "035420.KS",
-                  "name": "NAVER",
-                  "pct_change": -4.11,
-                  "close": 210805
-                }
-              ]
-            },
-            {
-              "group": "이차전지",
               "up_count": 2,
               "down_count": 1,
               "net": 1,
               "up_stocks": [
                 {
-                  "symbol": "247540.KQ",
-                  "name": "에코프로비엠",
-                  "pct_change": 4.13,
-                  "close": 207355
+                  "symbol": "035420.KS",
+                  "name": "NAVER",
+                  "pct_change": 5.63,
+                  "close": 163315
                 },
                 {
-                  "symbol": "005490.KS",
-                  "name": "POSCO홀딩스",
-                  "pct_change": 5.96,
-                  "close": 346516
+                  "symbol": "035720.KS",
+                  "name": "카카오",
+                  "pct_change": 5.08,
+                  "close": 39493
                 }
               ],
               "down_stocks": [
                 {
-                  "symbol": "247540.KQ",
-                  "name": "에코프로비엠",
-                  "pct_change": -4.06,
-                  "close": 207355
+                  "symbol": "035420.KS",
+                  "name": "NAVER",
+                  "pct_change": -6.54,
+                  "close": 163315
                 }
               ]
+            },
+            {
+              "group": "이차전지",
+              "up_count": 1,
+              "down_count": 0,
+              "net": 1,
+              "up_stocks": [
+                {
+                  "symbol": "247540.KQ",
+                  "name": "에코프로비엠",
+                  "pct_change": 6.02,
+                  "close": 182291
+                }
+              ],
+              "down_stocks": []
             }
           ]
         },
         {
           "date": "2026-05-18",
-          "stocks_up_4pct": 28,
-          "stocks_down_4pct": 5,
+          "stocks_up_4pct": 25,
+          "stocks_down_4pct": 26,
           "groups": [
             {
               "group": "AI 반도체",
-              "up_count": 1,
-              "down_count": 1,
-              "net": 0,
+              "up_count": 2,
+              "down_count": 0,
+              "net": 2,
               "up_stocks": [
                 {
                   "symbol": "005930.KS",
                   "name": "삼성전자",
-                  "pct_change": 6.26,
-                  "close": 89359
+                  "pct_change": 5.52,
+                  "close": 80732
+                },
+                {
+                  "symbol": "000660.KS",
+                  "name": "SK하이닉스",
+                  "pct_change": 5.13,
+                  "close": 204583
                 }
               ],
-              "down_stocks": [
-                {
-                  "symbol": "005930.KS",
-                  "name": "삼성전자",
-                  "pct_change": -5.71,
-                  "close": 89359
-                }
-              ]
+              "down_stocks": []
             },
             {
               "group": "자동차",
@@ -3088,16 +3188,16 @@
                 {
                   "symbol": "005380.KS",
                   "name": "현대차",
-                  "pct_change": 6.97,
-                  "close": 291176
+                  "pct_change": 4.22,
+                  "close": 264426
                 }
               ],
               "down_stocks": [
                 {
                   "symbol": "005380.KS",
                   "name": "현대차",
-                  "pct_change": -6.12,
-                  "close": 291176
+                  "pct_change": -4.03,
+                  "close": 264426
                 }
               ]
             },
@@ -3110,8 +3210,8 @@
                 {
                   "symbol": "105560.KS",
                   "name": "KB금융",
-                  "pct_change": 4.09,
-                  "close": 81548
+                  "pct_change": 5.49,
+                  "close": 91825
                 }
               ],
               "down_stocks": []
@@ -3125,185 +3225,83 @@
                 {
                   "symbol": "068270.KS",
                   "name": "셀트리온",
-                  "pct_change": 6.67,
-                  "close": 205920
+                  "pct_change": 5.85,
+                  "close": 216931
                 }
               ],
               "down_stocks": []
             },
             {
               "group": "인터넷",
-              "up_count": 0,
-              "down_count": 0,
+              "up_count": 1,
+              "down_count": 1,
               "net": 0,
-              "up_stocks": [],
-              "down_stocks": []
+              "up_stocks": [
+                {
+                  "symbol": "035420.KS",
+                  "name": "NAVER",
+                  "pct_change": 5.91,
+                  "close": 161782
+                }
+              ],
+              "down_stocks": [
+                {
+                  "symbol": "035420.KS",
+                  "name": "NAVER",
+                  "pct_change": -4.03,
+                  "close": 161782
+                }
+              ]
             },
             {
               "group": "이차전지",
-              "up_count": 0,
+              "up_count": 1,
               "down_count": 1,
-              "net": -1,
-              "up_stocks": [],
+              "net": 0,
+              "up_stocks": [
+                {
+                  "symbol": "247540.KQ",
+                  "name": "에코프로비엠",
+                  "pct_change": 4.4,
+                  "close": 179614
+                }
+              ],
               "down_stocks": [
                 {
                   "symbol": "247540.KQ",
                   "name": "에코프로비엠",
-                  "pct_change": -5.85,
-                  "close": 204950
+                  "pct_change": -4.5,
+                  "close": 179614
                 }
               ]
             }
           ]
         },
         {
-          "date": "2026-05-17",
-          "stocks_up_4pct": 34,
-          "stocks_down_4pct": 4,
+          "date": "2026-05-15",
+          "stocks_up_4pct": 15,
+          "stocks_down_4pct": 16,
           "groups": [
             {
               "group": "AI 반도체",
-              "up_count": 1,
-              "down_count": 0,
-              "net": 1,
-              "up_stocks": [
-                {
-                  "symbol": "005930.KS",
-                  "name": "삼성전자",
-                  "pct_change": 6.73,
-                  "close": 90267
-                }
-              ],
-              "down_stocks": []
-            },
-            {
-              "group": "자동차",
-              "up_count": 3,
-              "down_count": 0,
-              "net": 3,
-              "up_stocks": [
-                {
-                  "symbol": "005380.KS",
-                  "name": "현대차",
-                  "pct_change": 5.89,
-                  "close": 295319
-                },
-                {
-                  "symbol": "000270.KS",
-                  "name": "기아",
-                  "pct_change": 5.38,
-                  "close": 130099
-                },
-                {
-                  "symbol": "012330.KS",
-                  "name": "현대모비스",
-                  "pct_change": 6.03,
-                  "close": 179465
-                }
-              ],
-              "down_stocks": []
-            },
-            {
-              "group": "금융",
-              "up_count": 1,
-              "down_count": 1,
-              "net": 0,
-              "up_stocks": [
-                {
-                  "symbol": "105560.KS",
-                  "name": "KB금융",
-                  "pct_change": 5.03,
-                  "close": 81695
-                }
-              ],
-              "down_stocks": [
-                {
-                  "symbol": "105560.KS",
-                  "name": "KB금융",
-                  "pct_change": -6.92,
-                  "close": 81695
-                }
-              ]
-            },
-            {
-              "group": "바이오 헬스케어",
-              "up_count": 1,
-              "down_count": 0,
-              "net": 1,
-              "up_stocks": [
-                {
-                  "symbol": "068270.KS",
-                  "name": "셀트리온",
-                  "pct_change": 4.96,
-                  "close": 206813
-                }
-              ],
-              "down_stocks": []
-            },
-            {
-              "group": "인터넷",
-              "up_count": 0,
-              "down_count": 1,
-              "net": -1,
-              "up_stocks": [],
-              "down_stocks": [
-                {
-                  "symbol": "035420.KS",
-                  "name": "NAVER",
-                  "pct_change": -6.48,
-                  "close": 207701
-                }
-              ]
-            },
-            {
-              "group": "이차전지",
               "up_count": 2,
-              "down_count": 1,
-              "net": 1,
+              "down_count": 0,
+              "net": 2,
               "up_stocks": [
-                {
-                  "symbol": "247540.KQ",
-                  "name": "에코프로비엠",
-                  "pct_change": 4.21,
-                  "close": 206419
-                },
-                {
-                  "symbol": "005490.KS",
-                  "name": "POSCO홀딩스",
-                  "pct_change": 5.07,
-                  "close": 343600
-                }
-              ],
-              "down_stocks": [
-                {
-                  "symbol": "247540.KQ",
-                  "name": "에코프로비엠",
-                  "pct_change": -6.92,
-                  "close": 206419
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "date": "2026-05-14",
-          "stocks_up_4pct": 49,
-          "stocks_down_4pct": 18,
-          "groups": [
-            {
-              "group": "AI 반도체",
-              "up_count": 0,
-              "down_count": 1,
-              "net": -1,
-              "up_stocks": [],
-              "down_stocks": [
                 {
                   "symbol": "005930.KS",
                   "name": "삼성전자",
-                  "pct_change": -6.14,
-                  "close": 91645
+                  "pct_change": 5.47,
+                  "close": 79726
+                },
+                {
+                  "symbol": "000660.KS",
+                  "name": "SK하이닉스",
+                  "pct_change": 4.12,
+                  "close": 201374
                 }
-              ]
+              ],
+              "down_stocks": []
             },
             {
               "group": "자동차",
@@ -3314,98 +3312,90 @@
                 {
                   "symbol": "005380.KS",
                   "name": "현대차",
-                  "pct_change": 4.46,
-                  "close": 289638
+                  "pct_change": 6.72,
+                  "close": 260511
                 }
               ],
               "down_stocks": [
                 {
                   "symbol": "005380.KS",
                   "name": "현대차",
-                  "pct_change": -6.95,
-                  "close": 289638
+                  "pct_change": -4.68,
+                  "close": 260511
                 }
               ]
             },
             {
               "group": "금융",
               "up_count": 1,
-              "down_count": 1,
-              "net": 0,
+              "down_count": 0,
+              "net": 1,
               "up_stocks": [
                 {
                   "symbol": "105560.KS",
                   "name": "KB금융",
-                  "pct_change": 5.61,
-                  "close": 82026
+                  "pct_change": 4.66,
+                  "close": 90223
                 }
               ],
-              "down_stocks": [
-                {
-                  "symbol": "105560.KS",
-                  "name": "KB금융",
-                  "pct_change": -6.72,
-                  "close": 82026
-                }
-              ]
+              "down_stocks": []
             },
             {
               "group": "바이오 헬스케어",
-              "up_count": 0,
-              "down_count": 1,
-              "net": -1,
-              "up_stocks": [],
-              "down_stocks": [
+              "up_count": 1,
+              "down_count": 0,
+              "net": 1,
+              "up_stocks": [
                 {
                   "symbol": "068270.KS",
                   "name": "셀트리온",
-                  "pct_change": -6.44,
-                  "close": 207374
+                  "pct_change": 4.1,
+                  "close": 214657
                 }
-              ]
+              ],
+              "down_stocks": []
             },
             {
               "group": "인터넷",
               "up_count": 2,
-              "down_count": 1,
-              "net": 1,
+              "down_count": 0,
+              "net": 2,
               "up_stocks": [
                 {
                   "symbol": "035420.KS",
                   "name": "NAVER",
-                  "pct_change": 4.86,
-                  "close": 209809
+                  "pct_change": 5.64,
+                  "close": 161382
                 },
                 {
                   "symbol": "035720.KS",
                   "name": "카카오",
-                  "pct_change": 5.28,
-                  "close": 50727
+                  "pct_change": 4.14,
+                  "close": 39588
                 }
               ],
-              "down_stocks": [
-                {
-                  "symbol": "035420.KS",
-                  "name": "NAVER",
-                  "pct_change": -4.47,
-                  "close": 209809
-                }
-              ]
+              "down_stocks": []
             },
             {
               "group": "이차전지",
-              "up_count": 0,
-              "down_count": 1,
-              "net": -1,
-              "up_stocks": [],
-              "down_stocks": [
+              "up_count": 2,
+              "down_count": 0,
+              "net": 2,
+              "up_stocks": [
                 {
                   "symbol": "247540.KQ",
                   "name": "에코프로비엠",
-                  "pct_change": -4.24,
-                  "close": 208435
+                  "pct_change": 4.85,
+                  "close": 177495
+                },
+                {
+                  "symbol": "005490.KS",
+                  "name": "POSCO홀딩스",
+                  "pct_change": 4.15,
+                  "close": 369160
                 }
-              ]
+              ],
+              "down_stocks": []
             }
           ]
         }

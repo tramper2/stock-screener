@@ -1,270 +1,270 @@
 {
-  "generated_at": "2026-05-27T23:59:53.814Z",
-  "as_of_date": "2026-05-27",
+  "generated_at": "2026-05-28T00:06:56.504Z",
+  "as_of_date": "2026-05-28",
   "market": "KR",
   "market_display_name": "한국 (KOSPI/KOSDAQ)",
   "freshness": {
-    "scan_as_of_date": "2026-05-27",
+    "scan_as_of_date": "2026-05-28",
     "scan_run_id": 1,
-    "breadth_latest_date": "2026-05-27",
-    "groups_latest_date": "2026-05-27"
+    "breadth_latest_date": "2026-05-28",
+    "groups_latest_date": "2026-05-28"
   },
   "key_markets": [
     {
       "symbol": "^KS11",
       "display_name": "KOSPI 종합지수",
-      "latest_close": 2689.74,
-      "change_1d": -0.05,
+      "latest_close": 2697.82,
+      "change_1d": 0.03,
       "currency": "KRW",
       "history": [
         {
-          "date": "2026-04-16",
-          "close": 2725.93
-        },
-        {
-          "date": "2026-04-19",
-          "close": 2726.74
+          "date": "2026-04-17",
+          "close": 2677.95
         },
         {
           "date": "2026-04-20",
-          "close": 2726.83
+          "close": 2667.25
         },
         {
           "date": "2026-04-21",
-          "close": 2739.03
+          "close": 2668.54
         },
         {
           "date": "2026-04-22",
-          "close": 2750.8
+          "close": 2662.48
         },
         {
           "date": "2026-04-23",
-          "close": 2742.98
+          "close": 2668.93
         },
         {
-          "date": "2026-04-26",
-          "close": 2735.28
+          "date": "2026-04-24",
+          "close": 2663.36
         },
         {
           "date": "2026-04-27",
-          "close": 2733.05
+          "close": 2670.23
         },
         {
           "date": "2026-04-28",
-          "close": 2727.28
+          "close": 2671.75
         },
         {
           "date": "2026-04-29",
-          "close": 2723.62
+          "close": 2665.24
         },
         {
           "date": "2026-04-30",
-          "close": 2723.91
+          "close": 2671.23
         },
         {
-          "date": "2026-05-03",
-          "close": 2717.68
+          "date": "2026-05-01",
+          "close": 2671.37
         },
         {
           "date": "2026-05-04",
-          "close": 2710.61
+          "close": 2661.68
         },
         {
           "date": "2026-05-05",
-          "close": 2709.39
+          "close": 2660.4
         },
         {
           "date": "2026-05-06",
-          "close": 2717.64
+          "close": 2658.21
         },
         {
           "date": "2026-05-07",
-          "close": 2716.91
+          "close": 2659.67
         },
         {
-          "date": "2026-05-10",
-          "close": 2704.22
+          "date": "2026-05-08",
+          "close": 2662.08
         },
         {
           "date": "2026-05-11",
-          "close": 2708.2
+          "close": 2669.68
         },
         {
           "date": "2026-05-12",
-          "close": 2718.7
+          "close": 2656.09
         },
         {
           "date": "2026-05-13",
-          "close": 2707.75
+          "close": 2669.51
         },
         {
           "date": "2026-05-14",
-          "close": 2694.05
+          "close": 2677.95
         },
         {
-          "date": "2026-05-17",
-          "close": 2698.94
+          "date": "2026-05-15",
+          "close": 2692.13
         },
         {
           "date": "2026-05-18",
-          "close": 2693.17
+          "close": 2705.49
         },
         {
           "date": "2026-05-19",
-          "close": 2691.21
+          "close": 2706.44
         },
         {
           "date": "2026-05-20",
-          "close": 2686.75
+          "close": 2720.87
         },
         {
           "date": "2026-05-21",
-          "close": 2684.42
+          "close": 2708.58
         },
         {
-          "date": "2026-05-24",
-          "close": 2687.29
+          "date": "2026-05-22",
+          "close": 2702.34
         },
         {
           "date": "2026-05-25",
-          "close": 2699.64
+          "close": 2697.21
         },
         {
           "date": "2026-05-26",
-          "close": 2691.21
+          "close": 2709.58
         },
         {
           "date": "2026-05-27",
-          "close": 2689.74
+          "close": 2697.12
+        },
+        {
+          "date": "2026-05-28",
+          "close": 2697.82
         }
       ]
     },
     {
       "symbol": "069500.KS",
       "display_name": "KODEX 200 (ETF)",
-      "latest_close": 40346,
-      "change_1d": -0.05,
+      "latest_close": 40467,
+      "change_1d": 0.03,
       "currency": "KRW",
       "history": [
         {
-          "date": "2026-04-16",
-          "close": 40889
-        },
-        {
-          "date": "2026-04-19",
-          "close": 40901
+          "date": "2026-04-17",
+          "close": 40169
         },
         {
           "date": "2026-04-20",
-          "close": 40902
+          "close": 40009
         },
         {
           "date": "2026-04-21",
-          "close": 41085
+          "close": 40028
         },
         {
           "date": "2026-04-22",
-          "close": 41262
+          "close": 39937
         },
         {
           "date": "2026-04-23",
-          "close": 41145
+          "close": 40034
         },
         {
-          "date": "2026-04-26",
-          "close": 41029
+          "date": "2026-04-24",
+          "close": 39950
         },
         {
           "date": "2026-04-27",
-          "close": 40996
+          "close": 40053
         },
         {
           "date": "2026-04-28",
-          "close": 40909
+          "close": 40076
         },
         {
           "date": "2026-04-29",
-          "close": 40854
+          "close": 39979
         },
         {
           "date": "2026-04-30",
-          "close": 40859
+          "close": 40068
         },
         {
-          "date": "2026-05-03",
-          "close": 40765
+          "date": "2026-05-01",
+          "close": 40071
         },
         {
           "date": "2026-05-04",
-          "close": 40659
+          "close": 39925
         },
         {
           "date": "2026-05-05",
-          "close": 40641
+          "close": 39906
         },
         {
           "date": "2026-05-06",
-          "close": 40765
+          "close": 39873
         },
         {
           "date": "2026-05-07",
-          "close": 40754
+          "close": 39895
         },
         {
-          "date": "2026-05-10",
-          "close": 40563
+          "date": "2026-05-08",
+          "close": 39931
         },
         {
           "date": "2026-05-11",
-          "close": 40623
+          "close": 40045
         },
         {
           "date": "2026-05-12",
-          "close": 40781
+          "close": 39841
         },
         {
           "date": "2026-05-13",
-          "close": 40616
+          "close": 40043
         },
         {
           "date": "2026-05-14",
-          "close": 40411
+          "close": 40169
         },
         {
-          "date": "2026-05-17",
-          "close": 40484
+          "date": "2026-05-15",
+          "close": 40382
         },
         {
           "date": "2026-05-18",
-          "close": 40398
+          "close": 40582
         },
         {
           "date": "2026-05-19",
-          "close": 40368
+          "close": 40597
         },
         {
           "date": "2026-05-20",
-          "close": 40301
+          "close": 40813
         },
         {
           "date": "2026-05-21",
-          "close": 40266
+          "close": 40629
         },
         {
-          "date": "2026-05-24",
-          "close": 40309
+          "date": "2026-05-22",
+          "close": 40535
         },
         {
           "date": "2026-05-25",
-          "close": 40495
+          "close": 40458
         },
         {
           "date": "2026-05-26",
-          "close": 40368
+          "close": 40644
         },
         {
           "date": "2026-05-27",
-          "close": 40346
+          "close": 40457
+        },
+        {
+          "date": "2026-05-28",
+          "close": 40467
         }
       ]
     }
@@ -275,7 +275,7 @@
         "symbol": "000660.KS",
         "company_name": "SK하이닉스",
         "composite_score": 96.8,
-        "current_price": 203578,
+        "current_price": 202510,
         "rating": "Strong Buy",
         "currency": "KRW"
       },
@@ -283,7 +283,7 @@
         "symbol": "005930.KS",
         "company_name": "삼성전자",
         "composite_score": 92,
-        "current_price": 88877,
+        "current_price": 81793,
         "rating": "Strong Buy",
         "currency": "KRW"
       },
@@ -291,7 +291,7 @@
         "symbol": "000270.KS",
         "company_name": "기아",
         "composite_score": 90.4,
-        "current_price": 128988,
+        "current_price": 144197,
         "rating": "Strong Buy",
         "currency": "KRW"
       },
@@ -299,7 +299,7 @@
         "symbol": "005380.KS",
         "company_name": "현대차",
         "composite_score": 89.6,
-        "current_price": 301027,
+        "current_price": 273040,
         "rating": "Strong Buy",
         "currency": "KRW"
       },
@@ -307,7 +307,7 @@
         "symbol": "105560.KS",
         "company_name": "KB금융",
         "composite_score": 89.2,
-        "current_price": 87468,
+        "current_price": 89783,
         "rating": "Strong Buy",
         "currency": "KRW"
       }
