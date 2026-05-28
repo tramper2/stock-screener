@@ -1,0 +1,366 @@
+{
+  "generated_at": "2026-05-27T23:59:53.814Z",
+  "as_of_date": "2026-05-27",
+  "market": "KR",
+  "market_display_name": "한국 (KOSPI/KOSDAQ)",
+  "freshness": {
+    "scan_as_of_date": "2026-05-27",
+    "scan_run_id": 1,
+    "breadth_latest_date": "2026-05-27",
+    "groups_latest_date": "2026-05-27"
+  },
+  "key_markets": [
+    {
+      "symbol": "^KS11",
+      "display_name": "KOSPI 종합지수",
+      "latest_close": 2689.74,
+      "change_1d": -0.05,
+      "currency": "KRW",
+      "history": [
+        {
+          "date": "2026-04-16",
+          "close": 2725.93
+        },
+        {
+          "date": "2026-04-19",
+          "close": 2726.74
+        },
+        {
+          "date": "2026-04-20",
+          "close": 2726.83
+        },
+        {
+          "date": "2026-04-21",
+          "close": 2739.03
+        },
+        {
+          "date": "2026-04-22",
+          "close": 2750.8
+        },
+        {
+          "date": "2026-04-23",
+          "close": 2742.98
+        },
+        {
+          "date": "2026-04-26",
+          "close": 2735.28
+        },
+        {
+          "date": "2026-04-27",
+          "close": 2733.05
+        },
+        {
+          "date": "2026-04-28",
+          "close": 2727.28
+        },
+        {
+          "date": "2026-04-29",
+          "close": 2723.62
+        },
+        {
+          "date": "2026-04-30",
+          "close": 2723.91
+        },
+        {
+          "date": "2026-05-03",
+          "close": 2717.68
+        },
+        {
+          "date": "2026-05-04",
+          "close": 2710.61
+        },
+        {
+          "date": "2026-05-05",
+          "close": 2709.39
+        },
+        {
+          "date": "2026-05-06",
+          "close": 2717.64
+        },
+        {
+          "date": "2026-05-07",
+          "close": 2716.91
+        },
+        {
+          "date": "2026-05-10",
+          "close": 2704.22
+        },
+        {
+          "date": "2026-05-11",
+          "close": 2708.2
+        },
+        {
+          "date": "2026-05-12",
+          "close": 2718.7
+        },
+        {
+          "date": "2026-05-13",
+          "close": 2707.75
+        },
+        {
+          "date": "2026-05-14",
+          "close": 2694.05
+        },
+        {
+          "date": "2026-05-17",
+          "close": 2698.94
+        },
+        {
+          "date": "2026-05-18",
+          "close": 2693.17
+        },
+        {
+          "date": "2026-05-19",
+          "close": 2691.21
+        },
+        {
+          "date": "2026-05-20",
+          "close": 2686.75
+        },
+        {
+          "date": "2026-05-21",
+          "close": 2684.42
+        },
+        {
+          "date": "2026-05-24",
+          "close": 2687.29
+        },
+        {
+          "date": "2026-05-25",
+          "close": 2699.64
+        },
+        {
+          "date": "2026-05-26",
+          "close": 2691.21
+        },
+        {
+          "date": "2026-05-27",
+          "close": 2689.74
+        }
+      ]
+    },
+    {
+      "symbol": "069500.KS",
+      "display_name": "KODEX 200 (ETF)",
+      "latest_close": 40346,
+      "change_1d": -0.05,
+      "currency": "KRW",
+      "history": [
+        {
+          "date": "2026-04-16",
+          "close": 40889
+        },
+        {
+          "date": "2026-04-19",
+          "close": 40901
+        },
+        {
+          "date": "2026-04-20",
+          "close": 40902
+        },
+        {
+          "date": "2026-04-21",
+          "close": 41085
+        },
+        {
+          "date": "2026-04-22",
+          "close": 41262
+        },
+        {
+          "date": "2026-04-23",
+          "close": 41145
+        },
+        {
+          "date": "2026-04-26",
+          "close": 41029
+        },
+        {
+          "date": "2026-04-27",
+          "close": 40996
+        },
+        {
+          "date": "2026-04-28",
+          "close": 40909
+        },
+        {
+          "date": "2026-04-29",
+          "close": 40854
+        },
+        {
+          "date": "2026-04-30",
+          "close": 40859
+        },
+        {
+          "date": "2026-05-03",
+          "close": 40765
+        },
+        {
+          "date": "2026-05-04",
+          "close": 40659
+        },
+        {
+          "date": "2026-05-05",
+          "close": 40641
+        },
+        {
+          "date": "2026-05-06",
+          "close": 40765
+        },
+        {
+          "date": "2026-05-07",
+          "close": 40754
+        },
+        {
+          "date": "2026-05-10",
+          "close": 40563
+        },
+        {
+          "date": "2026-05-11",
+          "close": 40623
+        },
+        {
+          "date": "2026-05-12",
+          "close": 40781
+        },
+        {
+          "date": "2026-05-13",
+          "close": 40616
+        },
+        {
+          "date": "2026-05-14",
+          "close": 40411
+        },
+        {
+          "date": "2026-05-17",
+          "close": 40484
+        },
+        {
+          "date": "2026-05-18",
+          "close": 40398
+        },
+        {
+          "date": "2026-05-19",
+          "close": 40368
+        },
+        {
+          "date": "2026-05-20",
+          "close": 40301
+        },
+        {
+          "date": "2026-05-21",
+          "close": 40266
+        },
+        {
+          "date": "2026-05-24",
+          "close": 40309
+        },
+        {
+          "date": "2026-05-25",
+          "close": 40495
+        },
+        {
+          "date": "2026-05-26",
+          "close": 40368
+        },
+        {
+          "date": "2026-05-27",
+          "close": 40346
+        }
+      ]
+    }
+  ],
+  "scan_summary": {
+    "top_results": [
+      {
+        "symbol": "000660.KS",
+        "company_name": "SK하이닉스",
+        "composite_score": 96.8,
+        "current_price": 203578,
+        "rating": "Strong Buy",
+        "currency": "KRW"
+      },
+      {
+        "symbol": "005930.KS",
+        "company_name": "삼성전자",
+        "composite_score": 92,
+        "current_price": 88877,
+        "rating": "Strong Buy",
+        "currency": "KRW"
+      },
+      {
+        "symbol": "000270.KS",
+        "company_name": "기아",
+        "composite_score": 90.4,
+        "current_price": 128988,
+        "rating": "Strong Buy",
+        "currency": "KRW"
+      },
+      {
+        "symbol": "005380.KS",
+        "company_name": "현대차",
+        "composite_score": 89.6,
+        "current_price": 301027,
+        "rating": "Strong Buy",
+        "currency": "KRW"
+      },
+      {
+        "symbol": "105560.KS",
+        "company_name": "KB금융",
+        "composite_score": 89.2,
+        "current_price": 87468,
+        "rating": "Strong Buy",
+        "currency": "KRW"
+      }
+    ]
+  },
+  "top_groups": [
+    {
+      "rank": 1,
+      "industry_group": "AI 반도체",
+      "rank_change_1w": 1,
+      "rank_change_1m": 3,
+      "top_symbol": "000660.KS",
+      "top_symbol_name": "SK하이닉스"
+    },
+    {
+      "rank": 2,
+      "industry_group": "자동차",
+      "rank_change_1w": 1,
+      "rank_change_1m": 3,
+      "top_symbol": "000270.KS",
+      "top_symbol_name": "기아"
+    },
+    {
+      "rank": 4,
+      "industry_group": "금융",
+      "rank_change_1w": 3,
+      "rank_change_1m": 5,
+      "top_symbol": "105560.KS",
+      "top_symbol_name": "KB금융"
+    },
+    {
+      "rank": 8,
+      "industry_group": "바이오 헬스케어",
+      "rank_change_1w": -2,
+      "rank_change_1m": 0,
+      "top_symbol": "068270.KS",
+      "top_symbol_name": "셀트리온"
+    },
+    {
+      "rank": 15,
+      "industry_group": "인터넷",
+      "rank_change_1w": -3,
+      "rank_change_1m": -1,
+      "top_symbol": "035420.KS",
+      "top_symbol_name": "NAVER"
+    },
+    {
+      "rank": 45,
+      "industry_group": "이차전지",
+      "rank_change_1w": -5,
+      "rank_change_1m": -3,
+      "top_symbol": "247540.KQ",
+      "top_symbol_name": "에코프로비엠"
+    }
+  ]
+}

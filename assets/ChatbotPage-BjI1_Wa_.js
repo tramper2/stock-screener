@@ -1,0 +1,1 @@
+import{j as t,B as o}from"./mui-vendor-Chwhla4Y.js";import{ao as r}from"./index-C7TPTwrv.js";import"./react-vendor-CRVd-TOC.js";import"./query-vendor-ck-5enrF.js";import"./charts-vendor-EtPkOZ60.js";function p(){return t.jsx(o,{sx:{py:1,height:"100%"},children:t.jsx(r,{mode:"page"})})}export{p as default};

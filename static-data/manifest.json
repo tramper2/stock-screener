@@ -1,0 +1,39 @@
+{
+  "schema_version": "static-site-v2",
+  "generated_at": "2026-05-27T23:59:53.816Z",
+  "as_of_date": "2026-05-27",
+  "default_market": "KR",
+  "supported_markets": [
+    "KR"
+  ],
+  "features": {
+    "scan": true,
+    "breadth": true,
+    "groups": true
+  },
+  "markets": {
+    "KR": {
+      "display_name": "한국 (KOSPI/KOSDAQ)",
+      "pages": {
+        "home": {
+          "path": "markets/kr/home.json"
+        },
+        "scan": {
+          "path": "markets/kr/scan/manifest.json"
+        },
+        "breadth": {
+          "path": "markets/kr/breadth.json"
+        },
+        "groups": {
+          "path": "markets/kr/groups.json"
+        }
+      },
+      "assets": {
+        "charts": {
+          "path": "markets/kr/charts/index.json"
+        }
+      }
+    }
+  },
+  "warnings": []
+}
